@@ -3,7 +3,7 @@ import qrRedirectsConfig from '@config/qr-redirects-config';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: process.env.NEXTJS_OUTPUT || 'standalone',
+  output: 'export',
   images: {
     unoptimized: false, // Set to true for export
     remotePatterns: process.env.WSAF_ASSETS_BASE_URL

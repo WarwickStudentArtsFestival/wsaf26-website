@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 import { revalidatePath, revalidateTag } from 'next/cache';
 
+export const runtime = 'edge';
+
 // Purge cache for any pages which use schedule.json
 async function handle(): Promise<NextResponse> {
   await (revalidateTag as any)('pretalx-schedule');
