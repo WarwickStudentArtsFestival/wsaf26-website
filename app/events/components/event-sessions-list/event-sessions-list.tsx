@@ -1,0 +1,124 @@
+'use client';
+import React, { useMemo, useState } from 'react';
+import OptionsSidebar from './options/options-sidebar';
+import { EventSession } from '@/lib/events';
+import { EventSessionsListContext } from '@/app/events/components/event-sessions-list/event-sessions-list-context';
+import useEventSessionsFilters from '@/app/events/components/event-sessions-list/event-sessions-filters';
+import DatetimeSlider from '@/app/events/components/event-sessions-list/options/datetime-slider';
+import { FaFilter } from 'react-icons/fa';
+import ListView from '@/app/events/components/event-sessions-list/list-view/list-view';
+import TimelineView from '@/app/events/components/event-sessions-list/timeline-view/timeline-view';
+import EventPopup from '@/app/events/components/event-sessions-list/event-popup';
+import FeedbackCallout from '@/app/components/feedback-callout';
+import mainConfig from '@config/main-config';
+
+export default function EventSessionsList({
+  eventSessions,
+  context,
+  disableVenues = false,
+  sortByTime = false,
+}: {
+  eventSessions: EventSession[];
+  context: EventSessionsListContext;
+  disableVenues?: boolean;
+  sortByTime?: boolean;
+}) {
+  const {
+    isEventSessionInFilter,
+    selectedFilterValues,
+    sortAndGroupEventSessions,
+    setFilter,
+    selectedFilters,
+    resetFilters,
+    randomOrderSeed,
+  } = useEventSessionsFilters(context, sortByTime);
+
+  const { sessionCount: filteredSessionCount, sessionGroups } = useMemo(() => {
+    const filteredSessions = eventSessions.filter(isEventSessionInFilter);
+    return sortAndGroupEventSessions(filteredSessions, context.venues);
+  }, [
+    eventSessions,
+    context.venues,
+    isEventSessionInFilter,
+    sortAndGroupEventSessions,
+    randomOrderSeed,
+  ]);
+
+  const [showMobileSidebar, setShowMobileSidebar] = useState(false);
+
+  return (
+    <>
+      <div className="flex flex-row px-2 sm:px-4 relative">
+        <aside className="sticky top-24 h-[calc(100vh-15rem)] w-0 lg:w-auto z-30 my-4">
+          <div
+            className={`max-h-full transition-all duration-150 ease-in-out relative -left-80 lg:left-0 -ml-4 lg:ml-0 ${showMobileSidebar ? 'left-0' : '-left-80'}`}
+          >
+            <button
+              className="lg:hidden top-24 -z-10 left-72 w-20 h-12 pl-8 absolute bg-white border border-slate-300 flex text-black justify-center items-center rounded-md cursor-pointer"
+              onClick={() => setShowMobileSidebar((prev) => !prev)}
+            >
+              <FaFilter />
+            </button>
+            <div className="relative border border-slate-300 rounded-md bg-white w-80 pb-2 lg:pb-0 pl-2 sm:pl-0 mr-4">
+              <OptionsSidebar
+                filteredCount={filteredSessionCount}
+                totalCount={eventSessions.length}
+                context={context}
+                selectedFilters={selectedFilters}
+                selectedFilterValues={selectedFilterValues}
+                setFilter={setFilter}
+                handleReset={resetFilters}
+                disableVenues={disableVenues}
+              />
+            </div>
+          </div>
+        </aside>
+
+        {showMobileSidebar && (
+          <div
+            className="lg:hidden fixed left-0 right-0 bottom-0 top-0 bg-black/5 z-20"
+            onClick={() => setShowMobileSidebar(false)}
+          ></div>
+        )}
+
+        <div className="w-64 grow flex flex-col">
+          {mainConfig.feedback.banner && <FeedbackCallout />}
+
+          {selectedFilters.view === 'list' && (
+            <DatetimeSlider
+              fromIndex={selectedFilterValues.dateFrom}
+              toIndex={selectedFilterValues.dateTo}
+              onChange={setFilter}
+              eventCount={filteredSessionCount}
+            />
+          )}
+
+          {selectedFilters.view === 'timeline' ? (
+            <TimelineView
+              sessionGroups={sessionGroups}
+              venueInfo={context.venueInfo}
+              resetFilters={resetFilters}
+              sessionCount={eventSessions.length}
+              selectEvent={(slug: string) => setFilter({ selectedEvent: slug })}
+            />
+          ) : (
+            <ListView
+              filteredSessionCount={filteredSessionCount}
+              sessionCount={eventSessions.length}
+              resetFilters={resetFilters}
+              sessionGroups={sessionGroups}
+              selectEvent={(slug: string) => setFilter({ selectedEvent: slug })}
+            />
+          )}
+        </div>
+      </div>
+
+      {selectedFilters.selectedEvent && (
+        <EventPopup
+          selectedEventSlug={selectedFilters.selectedEvent}
+          onClose={() => setFilter({ selectedEvent: undefined })}
+        />
+      )}
+    </>
+  );
+}
