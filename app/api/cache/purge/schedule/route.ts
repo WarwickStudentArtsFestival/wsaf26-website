@@ -3,11 +3,11 @@ import { revalidatePath, revalidateTag } from 'next/cache';
 
 // Purge cache for any pages which use schedule.json
 async function handle(): Promise<NextResponse> {
-  revalidateTag('pretalx-schedule');
-  revalidatePath('/events');
-  revalidatePath('/events/[slug]', 'page');
-  revalidatePath('/venues');
-  revalidatePath('/venues/[slug]', 'page');
+  await (revalidateTag as any)('pretalx-schedule');
+  await revalidatePath('/events');
+  await revalidatePath('/events/[slug]', 'page');
+  await revalidatePath('/venues');
+  await revalidatePath('/venues/[slug]', 'page');
 
   console.log('Purging cache for /events and /venues pages');
 
