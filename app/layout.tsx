@@ -15,6 +15,10 @@ const lexend = Lexend({
   variable: '--font-lexend',
 });
 
+const metadataBase = process.env.BASE_URL
+  ? new URL(process.env.BASE_URL)
+  : undefined;
+
 export const metadata: Metadata = {
   title: {
     default: `Warwick Student Arts Festival ${mainConfig.dates.year}`,
@@ -31,13 +35,7 @@ export const metadata: Metadata = {
     'Warwick Arts',
     'Festival',
   ],
-  icons: {
-    icon: [
-      { url: '/icon.png' },
-      { url: '/apple-icon.png', rel: 'apple-touch-icon' },
-    ],
-  },
-  metadataBase: new URL(process.env.BASE_URL || 'http://localhost:3000'),
+  metadataBase,
 };
 
 export const viewport: Viewport = {
@@ -50,22 +48,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <LayoutClient>
-      <html lang="en">
-        <head>
-          <link rel="icon" href="/icon.png" type="image/png" />
-          <link rel="apple-touch-icon" href="/apple-icon.png" />
-        </head>
-        {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
-          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID} />
-        )}
-        <body className={`${lexend.className} flex flex-col min-h-screen`}>
+    <html lang="en">
+      <head>
+        <link rel="icon" href="/icon.png" sizes="any" />
+        <link rel="shortcut icon" href="/icon.png" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
+      </head>
+      <body className={`${lexend.className} flex flex-col min-h-screen`}>
+        <LayoutClient>
+          {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
+            <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID} />
+          )}
           <Header />
           {children}
           <Footer />
           {mainConfig.feedback.popup && <FeedbackPopup />}
-        </body>
-      </html>
-    </LayoutClient>
+        </LayoutClient>
+      </body>
+    </html>
   );
 }
