@@ -44,7 +44,7 @@ const mainConfig: MainConfig = {
   },
   githubUrl: 'https://github.com/WarwickStudentArtsFestival/wsaf26-website',
   defaultMetaDescription:
-    'Warwick Student Arts Festival (WSAF) is a fully student-run showcase and celebration of the arts at Warwick, taking place in Week 7-8 of Term 3 (Fri 12th - Mon 15th June).\\n\\nSubmissions for events are opening soon!',
+    'Warwick Student Arts Festival (WSAF) is a fully student-run showcase and celebration of the arts at Warwick, taking place in Term 3 (June).\\n\\nSubmissions for events are opening soon!',
 };
 
 export default mainConfig;
