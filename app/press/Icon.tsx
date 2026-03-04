@@ -1,9 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 
 interface IconProps {
-  src: string | StaticImport;
+  src: any;
   alt: string;
 }
 

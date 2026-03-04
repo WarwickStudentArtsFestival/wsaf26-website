@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+# vinext
+/dist/
+
 # production
 /build
 

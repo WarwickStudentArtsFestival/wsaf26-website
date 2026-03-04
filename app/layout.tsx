@@ -31,6 +31,12 @@ export const metadata: Metadata = {
     'Warwick Arts',
     'Festival',
   ],
+  icons: {
+    icon: [
+      { url: '/icon.png' },
+      { url: '/apple-icon.png', rel: 'apple-touch-icon' },
+    ],
+  },
   metadataBase: new URL(process.env.BASE_URL || 'http://localhost:3000'),
 };
 
@@ -46,6 +52,10 @@ export default function RootLayout({
   return (
     <LayoutClient>
       <html lang="en">
+        <head>
+          <link rel="icon" href="/icon.png" type="image/png" />
+          <link rel="apple-touch-icon" href="/apple-icon.png" />
+        </head>
         {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
           <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID} />
         )}
