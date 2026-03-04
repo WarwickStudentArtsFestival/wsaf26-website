@@ -1,24 +1,34 @@
-import nextConfig from '@/next.config';
 import { notFound } from 'next/navigation';
 import PageHeader from '@/app/components/page-header';
 import HighlightedHeading from '@/app/components/highlighted-heading';
+import qrRedirectsConfig from '@config/qr-redirects-config';
 import React from 'react';
 
 export const dynamicParams = false;
 export const dynamic = 'force-static';
 
-async function getRedirects() {
-  if (!nextConfig.redirects) return [];
-  const redirects = await nextConfig.redirects();
+function getRedirects() {
+  return qrRedirectsConfig.redirects.map((redirect) => {
+    const destination = new URL(redirect.destination);
+    if (redirect.campaign) {
+      destination.searchParams.set('utm_campaign', redirect.campaign);
+    }
+    if (redirect.medium) {
+      destination.searchParams.set('utm_medium', redirect.medium);
+    }
+    if (redirect.source) {
+      destination.searchParams.set('utm_source', redirect.source);
+    }
 
-  return redirects.map(({ source, destination }) => ({
-    path: source.slice(1),
-    destination,
-  }));
+    return {
+      path: redirect.shortlink.slice(1),
+      destination: destination.toString(),
+    };
+  });
 }
 
-export async function generateStaticParams() {
-  const redirects = await getRedirects();
+export function generateStaticParams() {
+  const redirects = getRedirects();
 
   return redirects.map(({ path }) => ({ slug: path.split('/') }));
 }
@@ -29,7 +39,7 @@ export default async function Redirect(props: {
   const params = await props.params;
 
   const { slug } = params;
-  const path = slug[0];
+  const path = slug.join('/');
 
   const redirects = await getRedirects();
   if (!redirects) return notFound();
