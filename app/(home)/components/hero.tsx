@@ -50,9 +50,12 @@ export default function Hero() {
       <div className="absolute top-0 bottom-32 w-full border-b-yellow border-b-8 z-0">
         <Image
           src={HeroImage}
-          alt="WSAF 2024 Ceilidh"
+          alt="WSAF 2025 Aeriel Shot of the Piazza"
+          fill
+          width={1920}
           placeholder="blur"
-          className="object-cover w-full h-full"
+          quality={100}
+          className="object-cover"
           priority
         />
       </div>

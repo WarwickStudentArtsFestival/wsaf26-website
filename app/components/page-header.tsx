@@ -12,6 +12,9 @@ export default function PageHeader({ borderClass }: { borderClass?: string }) {
         <Image
           src={HeroImage}
           alt="Aerial shot of the Warwick University piazza"
+          fill
+          width={1920}
+          quality={100}
           placeholder="blur"
           className="absolute h-full object-cover"
           priority
