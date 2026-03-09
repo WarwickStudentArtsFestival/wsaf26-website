@@ -9,6 +9,7 @@ import EchoVaughan from '@/assets/team/echo-vaughan.jpg';
 import WillowBrown from '@/assets/team/willow-brown.jpg';
 import AshKayembe from '@/assets/team/ash-kayembe.jpg';
 import LillianDove from '@/assets/team/lillian-dove.jpg';
+import EllieWilliams from '@/assets/team/ellie-williams.jpg';
 
 const execConfig: TeamConfig = {
   team: [
@@ -92,7 +93,7 @@ const execConfig: TeamConfig = {
       roles: ['Volunteer Coordinator'],
       course: 'Maths and Physics',
       year: '4th Year',
-      //image
+      image: EllieWilliams,
     }
   ],
 };
