@@ -10,6 +10,7 @@ import WillowBrown from '@/assets/team/willow-brown.jpg';
 import AshKayembe from '@/assets/team/ash-kayembe.jpg';
 import LillianDove from '@/assets/team/lillian-dove.jpg';
 import EllieWilliams from '@/assets/team/ellie-williams.jpg';
+import TaraFahey from '@/assets/team/tara-fahey.png';
 
 const execConfig: TeamConfig = {
   team: [
@@ -67,9 +68,9 @@ const execConfig: TeamConfig = {
     {
       name: 'Tara Fahey',
       roles: ['Secretary'],
-      course: 'Computer Science',
+      course: 'Mathematics and Computer Science',
       year: '2nd Year',
-      //image
+      image: TaraFahey,
     },
 
     {
