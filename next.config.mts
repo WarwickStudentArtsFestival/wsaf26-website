@@ -5,7 +5,7 @@ import qrRedirectsConfig from '@config/qr-redirects-config';
 const nextConfig = {
   output: 'export',
   images: {
-    unoptimized: false, // Set to true for export
+    unoptimized: true,
     remotePatterns: process.env.WSAF_ASSETS_BASE_URL
       ? [
           {
