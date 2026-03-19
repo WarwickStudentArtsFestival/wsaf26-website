@@ -25,7 +25,7 @@ export default function Hero() {
                 Warwick Student Arts Festival
               </span>
             </h1>
-            {/* <span className="text-xs 2xs:text-md lg:text-lg pb-2 px-4 block bg-teal text-yellow font-bold">
+            <span className="text-xs 2xs:text-md lg:text-lg pb-2 px-4 block bg-teal text-yellow font-bold">
               <time dateTime={mainConfig.dates.startDateIso}>
                 {mainConfig.dates.startDate}
               </time>{' '}
@@ -33,7 +33,7 @@ export default function Hero() {
               <time dateTime={mainConfig.dates.endDateIso}>
                 {mainConfig.dates.endDate} {mainConfig.dates.month}
               </time>
-            </span> */}
+            </span>
           </div>
         </div>
 

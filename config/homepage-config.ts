@@ -7,7 +7,7 @@ const homepageConfig: HomepageConfig = {
 
   about: {
     countdown: {
-      enabled: false,
+      enabled: true,
       title: 'Countdown',
       subtitle: 'WSAF Begins Friday Week 7 (12th June)',
       countdownDateIso: '2026-06-12T09:00Z', // 10am BST on Friday 12th June

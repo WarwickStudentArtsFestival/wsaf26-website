@@ -64,7 +64,7 @@ export default function About() {
           celebration of the arts at Warwick.
         </span>
         <br />
-        Join us in June for our free festival of
+        Join us from the 12th-15th June for our free festival of
         performances, exhibitions, workshops and more.
       </div>
 

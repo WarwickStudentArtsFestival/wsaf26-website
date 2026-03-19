@@ -41,10 +41,10 @@ export default function PageHeader({ borderClass }: { borderClass?: string }) {
                   Warwick Student Arts Festival
                 </span>
               </h2>
-              {/* <span className="bg-teal text-xs sm:text-sm pb-1 px-2 sm:px-3 -mt-1 sm:-mt-2 block bg-primary text-yellow font-semibold">
-                <time dateTime="2024-06-08T10:00:00.000">Fri 13th</time> -{' '}
-                <time dateTime="2024-06-10T22:00:00.000">Mon 16th June</time>
-              </span> */}
+              <span className="bg-teal text-xs sm:text-sm pb-1 px-2 sm:px-3 -mt-1 sm:-mt-2 block bg-primary text-yellow font-semibold">
+                <time dateTime="2026-06-12T10:00:00.000">Fri 12th</time> -{' '}
+                <time dateTime="2026-06-15T22:00:00.000">Mon 15th June</time>
+              </span>
             </div>
           </Link>
         </div>

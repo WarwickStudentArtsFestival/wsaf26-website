@@ -25,7 +25,7 @@ const mainConfig: MainConfig = {
   socials: {
     instagram: 'wsaf26',
     discordInvite: 'https://discord.gg/TuFwJX4GKM',
-    youtubeHandle: 'wsaf26',
+    youtubeHandle: 'wsaf25',
   },
   submissions: {
     open: false,
@@ -44,7 +44,7 @@ const mainConfig: MainConfig = {
   },
   githubUrl: 'https://github.com/WarwickStudentArtsFestival/wsaf26-website',
   defaultMetaDescription:
-    'Warwick Student Arts Festival (WSAF) is a fully student-run showcase and celebration of the arts at Warwick, taking place in Term 3 (June).\\n\\nSubmissions for events are opening soon!',
+    'Warwick Student Arts Festival (WSAF) is a fully student-run showcase and celebration of the arts at Warwick, taking place in Term 3 Week 7 (12th-15th June).\\n\\nSubmissions for events are opening soon!',
 };
 
 export default mainConfig;
