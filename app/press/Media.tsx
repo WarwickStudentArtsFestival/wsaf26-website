@@ -29,7 +29,7 @@ export default function Media() {
       <p className="mt-6 mb-2 max-w-7xl mx-auto">
         Photos from last year can be found on the{' '}
         <a
-          href="https://gallery.warwickdrama.org.uk/index.php?/category/87"
+          href="https://gallery.warwickdrama.org.uk/index.php?/category/90"
           target="_blank"
           rel="noopener noreferrer"
           className="text-teal"
@@ -51,7 +51,7 @@ export default function Media() {
       </p>
 
       <a
-        href="https://gallery.warwickdrama.org.uk/index.php?/category/87"
+        href="https://gallery.warwickdrama.org.uk/index.php?/category/90"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block hover:scale-[101%] transition duration-100"
