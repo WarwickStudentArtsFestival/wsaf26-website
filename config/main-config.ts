@@ -19,7 +19,7 @@ const mainConfig: MainConfig = {
       crewPage: false,
 
       crewSignup: false,
-      submissionsPortal: false,
+      submissionsPortal: true,
     },
   },
   socials: {
@@ -28,8 +28,8 @@ const mainConfig: MainConfig = {
     youtubeHandle: 'wsaf25',
   },
   submissions: {
-    open: false,
-    closingDate: 'Friday Week 2 (2nd May)',
+    open: true,
+    closingDate: 'Friday Week 2 (8th May)',
     submitUrl: 'https://submit.wsaf.org.uk/2026/cfp',
   },
   crew: {

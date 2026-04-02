@@ -11,7 +11,7 @@ export default function About() {
   const cards = [
     {
       image: Performers,
-      imageAlt: 'Performing at WSAF 2024',
+      imageAlt: 'Performing at WSAF 2025',
       title: 'Performers and Exhibitors',
       description: [
         "An arts festival could not take place without art! We're looking for your performances, creations and talents.",
@@ -25,7 +25,7 @@ export default function About() {
     },
     {
       image: Crew,
-      imageAlt: 'WSAF 2024 crew debrief',
+      imageAlt: 'WSAF 2025 crew debrief',
       title: 'Crew',
       description: [
         'WSAF is a fully student-run event, made by students for students. We need your help to make this possible!',
@@ -37,7 +37,7 @@ export default function About() {
     },
     {
       image: Guests,
-      imageAlt: 'WSAF 2024 art gallery',
+      imageAlt: 'WSAF 2025 knitting and crochet workshop',
       title: 'Guests',
       description: [
         "Don't want to perform or help out? You can still come on the day!",

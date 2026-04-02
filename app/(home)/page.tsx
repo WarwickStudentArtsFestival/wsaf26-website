@@ -11,6 +11,7 @@ import homepageConfig from '@config/homepage-config';
 import eventsConfig from '@config/events-config';
 import HighlightCountdown from '@/app/(home)/components/highlight-countdown';
 import CallToAction from '@/app/(home)/components/call-to-action';
+import KeyDates from './components/key-dates';
 
 // export const dynamic = 'force-dynamic';
 
@@ -25,6 +26,7 @@ export default function Home() {
       </section>
 
       <About />
+      <KeyDates />
 
       {homepageConfig.eventPreview.enabled && eventsConfig.enabled && (
         <EventPreview />

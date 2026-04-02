@@ -42,15 +42,15 @@ const homepageConfig: HomepageConfig = {
   keyDates: [
     {
       name: 'Submissions Open',
-      date: 'Mon 10th March',
-      dateTime: '2026-03-10',
+      date: 'Thursday 2nd April',
+      dateTime: '2026-04-02',
       description: 'WSAF performance submissions open.',
-      warwickWeek: 'Term 2 Week 10',
+      warwickWeek: 'Easter Vacation',
     },
     {
       name: 'Submissions Close',
-      date: 'Friday 2nd May',
-      dateTime: '2026-05-02',
+      date: 'Friday 8th May',
+      dateTime: '2026-05-08',
       description:
         'Submission form closes and the schedule and logistics are finalised.',
       warwickWeek: 'Term 3, Week 2',
@@ -61,7 +61,7 @@ const homepageConfig: HomepageConfig = {
       dateTime: '2026-06-12',
       description:
         'The festival itself - a 4 day showcase and celebration of all aspects of the arts.',
-      warwickWeek: 'Term 3, Week 8/9',
+      warwickWeek: 'Term 3, Week 7/8',
     },
   ],
 };

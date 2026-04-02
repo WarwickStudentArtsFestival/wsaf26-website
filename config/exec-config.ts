@@ -9,7 +9,7 @@ import EchoVaughan from '@/assets/team/echo-vaughan.jpg';
 import WillowBrown from '@/assets/team/willow-brown.jpg';
 import AshKayembe from '@/assets/team/ash-kayembe.jpg';
 import LillianDove from '@/assets/team/lillian-dove.jpg';
-import EllieWilliams from '@/assets/team/ellie-williams.jpg';
+import EllieWilliams from '@/assets/team/ellie-williams.png';
 import TaraFahey from '@/assets/team/tara-fahey.png';
 
 const execConfig: TeamConfig = {

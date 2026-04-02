@@ -7,10 +7,10 @@ import SpokenWord from '@/assets/perform/spoken-word.jpg';
 
 const performConfig: PerformConfig = {
   // Whether to say that submissions are closed
-  closed: true,
+  closed: false,
 
   // Whether to show a link to the submission portal
-  showSubmissionLink: false,
+  showSubmissionLink: true,
 
   performanceTypes: [
     {

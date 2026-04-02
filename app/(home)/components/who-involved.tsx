@@ -8,7 +8,7 @@ import CrewGroupPicture from '@/assets/home/wsaf-crew-group-picture.jpg';
 import Image from 'next/image';
 import homepageConfig from '@config/homepage-config';
 
-export default function KeyDates() {
+export default function WhoInvolved() {
   return (
     <section className="py-8">
       <HighlightedHeading text="Who is WSAF?" />
@@ -40,6 +40,9 @@ export default function KeyDates() {
       <ExecInvolved/>
       <h2 className="text-teal text-xl pt-2 sm:text-2xl font-semibold">
         Organisers
+      </h2>
+      <h2 className="text-teal text-xl pt-2 sm:text-2xl font-semibold">
+        Volunteers
       </h2>
       <br />
       <PeopleInvolved />

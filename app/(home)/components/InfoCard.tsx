@@ -28,7 +28,9 @@ export default function InfoCard({
     <div className="flex flex-col h-full">
       {' '}
       <div>
-        <Image src={image} alt={imageAlt} className="object-contain w-full" />
+        <div className="w-full h-48 overflow-hidden flex items-center justify-center bg-slate-100">
+          <Image src={image} alt={imageAlt} className="object-cover w-full h-full" />
+        </div>
         <div className="p-4">
           <h3 className="text-teal text-2xl font-semibold">{title}</h3>
           {description.map((paragraph, index) => (

@@ -2,13 +2,14 @@ import { notFound } from 'next/navigation';
 import PageHeader from '@/app/components/page-header';
 import HighlightedHeading from '@/app/components/highlighted-heading';
 import qrRedirectsConfig from '@config/qr-redirects-config';
+import mainConfig from '@config/main-config';
 import React from 'react';
 
 export const dynamicParams = false;
 export const dynamic = 'force-static';
 
 function getRedirects() {
-  return qrRedirectsConfig.redirects.map((redirect) => {
+  const redirects = qrRedirectsConfig.redirects.map((redirect) => {
     const destination = new URL(redirect.destination);
     if (redirect.campaign) {
       destination.searchParams.set('utm_campaign', redirect.campaign);
@@ -25,6 +26,39 @@ function getRedirects() {
       destination: destination.toString(),
     };
   });
+
+  redirects.push(
+    {
+      path: 'youtube',
+      destination: `https://www.youtube.com/@${mainConfig.socials.youtubeHandle}`,
+    },
+    {
+      path: 'stream',
+      destination: `https://www.youtube.com/@${mainConfig.socials.youtubeHandle}`,
+    },
+    {
+      path: 'feedback',
+      destination: mainConfig.feedback.url,
+    },
+    {
+      path: 'volunteer',
+      destination: mainConfig.crew.signupUrl,
+    },
+    {
+      path: 'schedule',
+      destination: '/events?timeline=',
+    },
+    {
+      path: 'submit',
+      destination: mainConfig.submissions.submitUrl,
+    },
+    {
+      path: 'performers-portal',
+      destination: mainConfig.submissions.submitUrl,
+    },
+  );
+
+  return redirects;
 }
 
 export function generateStaticParams() {
