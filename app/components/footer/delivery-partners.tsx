@@ -23,7 +23,7 @@ export default function DeliveryPartners() {
           />
         </a>
         <a
-          href="https://warwicktv.notion.site/Press-Kit-33e772b4d3fe80c9b7e9d3d18fe487db"
+          href="https://www.instagram.com/warwick_tv/"
           target="_blank"
           className="group"
         >
