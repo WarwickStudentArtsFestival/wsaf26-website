@@ -8,7 +8,7 @@ export default function PeopleInvolved({}) {
 
   return (
     <div className="mb-4 w-full mx-auto xl:px-16">
-      <div className="flex flex-wrap gap-2 px-2 text-white justify-center">
+      <div className="flex flex-wrap gap-2 px-2 text-white justify-center max-w-[83rem] mx-auto">
         {sortedOrganisers.map((person) => (
           <IdCard
             key={person.name}
