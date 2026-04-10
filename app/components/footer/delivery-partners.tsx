@@ -4,6 +4,7 @@ import MtwLogo from '@/assets/delivery-partners/mtw-white-small.png';
 import BandsocLogo from '@/assets/delivery-partners/bandsoc-small.jpg';
 import SuLogo from '@/assets/delivery-partners/warwick-su.svg';
 import UwcsLogo from '@/assets/delivery-partners/uwcs.svg';
+import WacaLogo from '@/assets/delivery-partners/waca.png';
 
 export default function DeliveryPartners() {
   return (
@@ -20,13 +21,20 @@ export default function DeliveryPartners() {
             className="w-8 group-hover:scale-105"
           />
         </a>
-        <a href="https://uwcs.co.uk/" target="_blank" className="group">
+        {/* <a href="https://uwcs.co.uk/" target="_blank" className="group">
           <Image
             src={UwcsLogo}
             alt="University of Warwick Computing Society Logo"
             className="w-20 group-hover:scale-105"
           />
-        </a>
+        </a> */}
+        <a href="https://www.warwicksu.com/societies-sports/societies/45864/" target="_blank" className="group">
+          <Image
+            src={WacaLogo}
+            alt="Warwick A Cappella Society Logo"
+            className="w-20 group-hover:scale-105"
+          />
+        </a> 
         <a
           href="https://www.instagram.com/musictheatrewarwick"
           target="_blank"

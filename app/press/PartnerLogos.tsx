@@ -4,22 +4,28 @@ import MtwWhiteLogo from '@/assets/press/mtw-white.png';
 import TechCrewLogo from '@/assets/press/techcrew-logo-light-medium.png';
 import WarwickSuLogo from '@/assets/press/warwick-su.png';
 import UwcsLogo from '@/assets/press/uwcs.png';
+import WacaLogo from '@/assets/press/waca.png';
 import { LogoDownload } from '@/app/press/LogoDownload';
 
 export function PartnerLogos() {
   return (
     <div className="mt-2 mb-6 flex flex-wrap gap-6 mx-auto max-w-3xl px-4 justify-center">
-      {/* <LogoDownload
+      <LogoDownload
         image={TechCrewLogo}
         name="Tech Crew (click to see all versions)"
         size="w-18 max-w-32"
         href="https://wwtc.uk/brand"
       />
-      <LogoDownload
+      {/* <LogoDownload
         image={UwcsLogo}
         name="University of Warwick Computing Society"
         size="w-32 max-w-48"
         style="bg-slate-400 p-2"
+      /> */}
+      <LogoDownload
+        image={WacaLogo}
+        name="Warwick A Cappella Society"
+        size="w-18 max-w-32"
       />
       <LogoDownload
         image={BandsocLogo}
@@ -36,7 +42,7 @@ export function PartnerLogos() {
         name="Music Theatre Warwick (White)"
         size="w-24 max-w-48"
         style="bg-slate-400 p-2"
-      /> */}
+      />
       <LogoDownload
         image={WarwickSuLogo}
         name="Warwick SU (click to see all versions)"

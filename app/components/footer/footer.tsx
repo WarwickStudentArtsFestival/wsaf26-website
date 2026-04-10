@@ -71,9 +71,9 @@ export default function Footer() {
               </ul>
             </FooterSection>
 
-            {/* <FooterSection title="Delivery Partners">
+            <FooterSection title="Delivery Partners">
               <DeliveryPartners />
-            </FooterSection> */}
+            </FooterSection>
           </div>
         </div>
 
