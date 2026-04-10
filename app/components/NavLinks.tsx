@@ -35,7 +35,7 @@ export default function NavLinks({ onClick }: Props) {
   const isActive = (href: string) => pathname === href;
 
   return (
-    <ul className="flex flex-col sm:flex-row z-65 flex-1 gap-4 md:gap-8 font-semibold uppercase">
+    <ul className="flex flex-col sm:flex-row sm:items-center z-65 flex-1 gap-2 sm:gap-0 md:gap-2 lg:gap-6 font-semibold uppercase">
       {navItems.map(({ shortLabel, longLabel, href }) => {
         const active = isActive(href);
         return (
@@ -43,7 +43,7 @@ export default function NavLinks({ onClick }: Props) {
             <Link
               href={href}
               onClick={onClick}
-              className={`block p-2 align-center underline-offset-4 hover:underline ${
+              className={`flex h-full items-center justify-center px-0.5 py-2 md:px-1.5 lg:px-2 underline-offset-4 hover:underline leading-tight sm:max-w-24 md:max-w-28 lg:max-w-none sm:text-center whitespace-normal ${
                 active ? 'text-yellow-400' : 'text-white'
               }`}
               title={longLabel ?? shortLabel}

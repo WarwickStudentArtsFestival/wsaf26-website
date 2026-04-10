@@ -28,7 +28,7 @@ export default function FeedbackPopup() {
 
   return (
     <div
-      className="fixed z-100 bottom-0 right-0 top-0 left-0 bg-black/50 p-4 pt-20"
+      className="fixed z-[100] bottom-0 right-0 top-0 left-0 bg-black/50 p-4 pt-20"
       onClick={closeFeedback}
     >
       <div

@@ -22,7 +22,7 @@ export default function Header() {
       </div>
 
       {/* Centered nav links (desktop only) */}
-      <div className="hidden sm:flex absolute left-1/2 transform -translate-x-1/2">
+      <div className="hidden sm:flex absolute left-[44%] md:left-[46%] xl:left-1/2 transform -translate-x-1/2">
         <nav className="flex gap-4">
           <NavLinks />
         </nav>
@@ -95,7 +95,7 @@ export default function Header() {
         </button>
       </div>
       {mobileMenuOpen && (
-        <div className="sm:hidden absolute top-16 z-100 left-0 right-0 bg-teal border-b border-b-white p-4">
+        <div className="sm:hidden absolute top-16 z-[100] left-0 right-0 bg-teal border-b border-b-white p-4">
           <nav
             className="flex flex-col gap-6 items-start w-full"
             role="navigation"
