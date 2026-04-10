@@ -5,6 +5,7 @@ import TechCrewLogo from '@/assets/press/techcrew-logo-light-medium.png';
 import WarwickSuLogo from '@/assets/press/warwick-su.png';
 import UwcsLogo from '@/assets/press/uwcs.png';
 import WacaLogo from '@/assets/press/waca.png';
+import WTVLogo from '@/assets/press/wtv.svg';
 import { LogoDownload } from '@/app/press/LogoDownload';
 
 export function PartnerLogos() {
@@ -15,6 +16,12 @@ export function PartnerLogos() {
         name="Tech Crew (click to see all versions)"
         size="w-18 max-w-32"
         href="https://wwtc.uk/brand"
+      />
+      <LogoDownload
+        image={WTVLogo}
+        name="Warwick TV (click to see all versions)"
+        size="w-18 max-w-32"
+        href="https://warwicktv.notion.site/Press-Kit-33e772b4d3fe80c9b7e9d3d18fe487db"
       />
       {/* <LogoDownload
         image={UwcsLogo}

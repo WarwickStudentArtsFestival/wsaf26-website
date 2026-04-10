@@ -4,6 +4,7 @@ import MtwLogo from '@/assets/delivery-partners/mtw-white-small.png';
 import BandsocLogo from '@/assets/delivery-partners/bandsoc-small.jpg';
 import SuLogo from '@/assets/delivery-partners/warwick-su.svg';
 import UwcsLogo from '@/assets/delivery-partners/uwcs.svg';
+import WTVLogo from '@/assets/delivery-partners/wtv.svg';
 import WacaLogo from '@/assets/delivery-partners/waca.png';
 
 export default function DeliveryPartners() {
@@ -19,6 +20,17 @@ export default function DeliveryPartners() {
             src={WarwickTechCrewLogo}
             alt="Warwick Tech Crew Logo"
             className="w-8 group-hover:scale-105"
+          />
+        </a>
+        <a
+          href="https://warwicktv.notion.site/Press-Kit-33e772b4d3fe80c9b7e9d3d18fe487db"
+          target="_blank"
+          className="group"
+        >
+          <img
+            src={WTVLogo}
+            alt="Warwick TV Logo"
+            className="w-16 group-hover:scale-105"
           />
         </a>
         {/* <a href="https://uwcs.co.uk/" target="_blank" className="group">
