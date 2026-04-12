@@ -6,6 +6,7 @@ import SuLogo from '@/assets/delivery-partners/warwick-su.svg';
 import UwcsLogo from '@/assets/delivery-partners/uwcs.svg';
 import WTVLogo from '@/assets/delivery-partners/wtv.svg';
 import WacaLogo from '@/assets/delivery-partners/waca.png';
+import BsideLogo from '@/assets/delivery-partners/bside.png';
 
 export default function DeliveryPartners() {
   return (
@@ -44,9 +45,10 @@ export default function DeliveryPartners() {
           <Image
             src={WacaLogo}
             alt="Warwick A Cappella Society Logo"
-            className="w-20 group-hover:scale-105"
+            className="w-18 group-hover:scale-105"
           />
         </a> 
+      </div>
         <a
           href="https://www.instagram.com/musictheatrewarwick"
           target="_blank"
@@ -58,8 +60,18 @@ export default function DeliveryPartners() {
             className="w-16 group-hover:scale-105"
           />
         </a>
-      </div>
       <div className="items-center flex flex-wrap gap-1.5">
+        <a
+          href="https://www.instagram.com/bside_collective_warwick/"
+          target="_blank"
+          className="group"
+        >
+          <Image
+            src={BsideLogo}
+            alt="Bside Logo"
+            className="w-12 group-hover:scale-105"
+          />
+        </a>
         <a
           href="https://www.instagram.com/warwickbandsoc"
           target="_blank"

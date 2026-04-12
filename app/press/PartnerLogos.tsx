@@ -6,6 +6,7 @@ import WarwickSuLogo from '@/assets/press/warwick-su.png';
 import UwcsLogo from '@/assets/press/uwcs.png';
 import WacaLogo from '@/assets/press/waca.png';
 import WTVLogo from '@/assets/press/wtv.svg';
+import BsideLogo from '@/assets/press/bside.png';
 import { LogoDownload } from '@/app/press/LogoDownload';
 
 export function PartnerLogos() {
@@ -32,6 +33,11 @@ export function PartnerLogos() {
       <LogoDownload
         image={WacaLogo}
         name="Warwick A Cappella Society"
+        size="w-18 max-w-32"
+      />
+      <LogoDownload
+        image={BsideLogo}
+        name="B-side Collective Warwick"
         size="w-18 max-w-32"
       />
       <LogoDownload
