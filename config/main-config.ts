@@ -25,7 +25,7 @@ const mainConfig: MainConfig = {
   socials: {
     instagram: 'wsaf26',
     discordInvite: 'https://discord.gg/TuFwJX4GKM',
-    youtubeHandle: 'wsaf25',
+    youtubeHandle: 'wsaf26',
   },
   submissions: {
     open: true,
