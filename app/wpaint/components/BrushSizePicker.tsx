@@ -27,7 +27,9 @@ const BrushSizePicker: React.FC<BrushSizePickerProps> = ({
           onChange={(e) => onBrushSizeChange(Number(e.target.value))}
           className="w-42"
         />
-        <span className="ml-2 w-20 text-xl text-black">{Math.round(brushSize / 2)}%</span>
+        <span className="ml-2 w-20 text-xl text-black">
+          {Math.round(brushSize / 2)}%
+        </span>
       </div>
     </div>
   );

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
 import { FiSend } from 'react-icons/fi';
 import ActionButton from './ActionButton';
 import { sendToDiscord } from '../lib/sendToDiscord';
@@ -50,13 +49,16 @@ const SubmissionModal: React.FC<SubmissionModalProps> = ({
             </h2>
 
             {previewDataUrl && (
-              <Image
+              <img
                 src={previewDataUrl}
                 alt="Canvas Preview"
                 className="w-full aspect-video object-contain rounded border border-[#4f1d75]"
-                width={640}
-                height={360}
               />
+            )}
+            {!previewDataUrl && (
+              <p className="text-sm text-[#ff0054]">
+                Could not load preview. Please try again.
+              </p>
             )}
 
             <div className="space-y-2 text-black">

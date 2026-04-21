@@ -24,12 +24,12 @@ export default function Footer() {
               Celebrating student creativity at the University of Warwick
             </p>
 
-            {/* <div className="text-left">
+            <div className="text-left">
               <Link
                 href="/wpaint"
-                className="inline-flex items-center gap-2 hover:underline uppercase text-black bg-yellow px-2 py-1 mt-2"
+                className="inline-flex items-center gap-1 hover:underline uppercase text-black bg-yellow px-2 py-1 mt-2"
               >
-                <div className="font-bold">W-Paint</div>
+                <div className="font-bold">W-Paint 2.0</div>
                 <Image
                   src={PaintBrush}
                   alt="Paint brush icon"
@@ -37,7 +37,7 @@ export default function Footer() {
                   height={25}
                 />
               </Link>
-            </div> */}
+            </div>
           </FooterSection>
 
           <FooterSection title="Quick Links">

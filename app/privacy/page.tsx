@@ -71,11 +71,11 @@ export default function Privacy() {
           </a>{' '}
           to amend or delete this data.
         </p>
-        <h1 className="text-teal text-2xl font-semibold mb-2">W-Paint</h1>
+        <h1 className="text-teal text-2xl font-semibold mb-2">W-Paint 2.0</h1>
         <p className="mb-8">
           When you click &quot;Submit to WSAF&quot; button in the{' '}
           <Link className="text-yellow" href="/wpaint">
-            W-Paint
+            W-Paint 2.0
           </Link>{' '}
           app, your artwork (including the canvas image, your caption, and the
           name you enter) is sent to a Discord channel accessible to organisers.

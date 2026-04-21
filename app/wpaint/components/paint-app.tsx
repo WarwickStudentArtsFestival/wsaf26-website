@@ -7,13 +7,41 @@ import TextInput from './TextInput';
 import Canvas, { CanvasRef } from './Canvas';
 import ColourPicker from './ColourPicker';
 import BrushSizePicker from './BrushSizePicker';
+import BrushTypePicker, { BrushType } from './BrushTypePicker';
 import Paintbrush from '@/assets/icons/paintbrush.png';
+import Mask from '@/assets/icons/mask.png';
+import Trumpet from '@/assets/icons/trumpet.png';
+import Microphone from '@/assets/icons/microphone.png';
+import Shoes from '@/assets/icons/ballet_shoes.png';
 import Gallery from './Gallery';
 import NextImage from 'next/image';
 import { FiRotateCcw, FiSave, FiX } from 'react-icons/fi';
 import ActionButton from './ActionButton';
 import { saveImage } from '../lib/saveImage';
 import SubmissionModal from './SubmissionModal';
+import StampPicker, { StampOption, StampType } from './StampPicker';
+
+const resolveImageSrc = (image: unknown): string | null => {
+  if (!image) return null;
+  if (typeof image === 'string') return image;
+
+  if (typeof image === 'object') {
+    const asRecord = image as Record<string, unknown>;
+    if (typeof asRecord.src === 'string') return asRecord.src;
+
+    const defaultExport = asRecord.default;
+    if (typeof defaultExport === 'string') return defaultExport;
+    if (
+      defaultExport &&
+      typeof defaultExport === 'object' &&
+      typeof (defaultExport as Record<string, unknown>).src === 'string'
+    ) {
+      return (defaultExport as Record<string, string>).src;
+    }
+  }
+
+  return null;
+};
 
 const saveCanvasState = () => {
   const canvas = document.querySelector('canvas') as HTMLCanvasElement;
@@ -39,10 +67,20 @@ const loadCanvasState = () => {
 };
 
 const PaintApp = () => {
+  const stampOptions: StampOption[] = [
+    { type: 'mask', label: 'Mask stamp', icon: Mask },
+    { type: 'trumpet', label: 'Trumpet stamp', icon: Trumpet },
+    { type: 'microphone', label: 'Microphone stamp', icon: Microphone },
+    { type: 'paintbrush', label: 'Paintbrush stamp', icon: Paintbrush },
+    { type: 'shoes', label: 'Shoes stamp', icon: Shoes },
+  ];
+
   const [brushSettings, setBrushSettings] = useState({
     color: '#4f1d75',
     size: 40,
+    type: 'solid' as BrushType,
   });
+  const [selectedStamp, setSelectedStamp] = useState<StampType | null>(null);
   const [form, setForm] = useState({ caption: '', author: '' });
   const [mouse, setMouse] = useState({
     inside: false,
@@ -52,6 +90,11 @@ const PaintApp = () => {
 
   const canvasRef = useRef<CanvasRef>(null);
   const canvasWrapperRef = useRef<HTMLDivElement>(null);
+
+  const selectedStampIcon = stampOptions.find(
+    (stamp) => stamp.type === selectedStamp,
+  )?.icon;
+  const selectedStampSrc = resolveImageSrc(selectedStampIcon);
 
   const clearCanvas = () => {
     const canvas = document.querySelector('canvas') as HTMLCanvasElement;
@@ -153,38 +196,58 @@ const PaintApp = () => {
         className={`text-center relative ${mouse.inside ? 'cursor-none' : 'cursor-default'}`}
       >
         <PageHeader />
-        <HighlightedHeading text="W-Paint" />
+        <HighlightedHeading text="W-Paint 2.0!" />
         <h1 className="text-teal text-2xl font-semibold mb-2">
           Create your own W-Artwork!
         </h1>
 
         <div>
-          <ColourPicker
-            currentColor={brushSettings.color}
-            onColorChange={(color) =>
-              setBrushSettings((prev) => ({ ...prev, color }))
-            }
-          />
-          <BrushSizePicker
-            brushSize={brushSettings.size}
-            onBrushSizeChange={(size) =>
-              setBrushSettings((prev) => ({ ...prev, size }))
-            }
-          />
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            <ColourPicker
+              currentColor={brushSettings.color}
+              onColorChange={(color) =>
+                setBrushSettings((prev) => ({ ...prev, color }))
+              }
+            />
+            <BrushTypePicker
+              brushType={selectedStamp ? null : brushSettings.type}
+              onBrushTypeChange={(type) => {
+                setSelectedStamp(null);
+                setBrushSettings((prev) => ({ ...prev, type }));
+              }}
+            />
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            <BrushSizePicker
+              brushSize={brushSettings.size}
+              onBrushSizeChange={(size) =>
+                setBrushSettings((prev) => ({ ...prev, size }))
+              }
+            />
+            <StampPicker
+              stampOptions={stampOptions}
+              selectedStamp={selectedStamp}
+              onSelectStamp={setSelectedStamp}
+            />
+          </div>
         </div>
 
-        <div
-          ref={canvasWrapperRef}
-          onMouseEnter={() => setMouse((prev) => ({ ...prev, inside: true }))}
-          onMouseLeave={() => setMouse((prev) => ({ ...prev, inside: false }))}
-          className="border border-black mt-5 mx-auto aspect-video w-full sm:w-1/2"
-        >
-          <Canvas
-            ref={canvasRef}
-            color={brushSettings.color}
-            brushSize={brushSettings.size}
-            onDraw={saveCanvasState}
-          />
+        <div className="mt-5 mx-auto w-full sm:w-3/4">
+          <div
+            ref={canvasWrapperRef}
+            onMouseEnter={() => setMouse((prev) => ({ ...prev, inside: true }))}
+            onMouseLeave={() => setMouse((prev) => ({ ...prev, inside: false }))}
+            className="border border-black aspect-video w-full"
+          >
+            <Canvas
+              ref={canvasRef}
+              color={brushSettings.color}
+              brushSize={brushSettings.size}
+              brushType={brushSettings.type}
+              stampSrc={selectedStampSrc}
+              onDraw={saveCanvasState}
+            />
+          </div>
         </div>
 
         <TextInput
@@ -217,7 +280,7 @@ const PaintApp = () => {
             text="Undo"
             bgColor="bg-[#ff5400]"
           />
-          {/* <SubmissionModal
+          <SubmissionModal
             caption={form.caption}
             author={form.author}
             setCaption={(newCaption: string) =>
@@ -226,7 +289,7 @@ const PaintApp = () => {
             setAuthor={(newAuthor: string) =>
               setForm((prev) => ({ ...prev, author: newAuthor }))
             }
-          /> */}
+          />
         </div>
 
         <NextImage
