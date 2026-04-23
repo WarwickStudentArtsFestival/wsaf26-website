@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from 'next';
 import { Lexend } from 'next/font/google';
-import './globals.css';
 import Footer from '@/app/components/footer/footer';
 import React from 'react';
 import { GoogleAnalytics } from '@next/third-parties/google';
@@ -18,6 +17,30 @@ const lexend = Lexend({
 const metadataBase = process.env.BASE_URL
   ? new URL(process.env.BASE_URL)
   : undefined;
+
+function resolveGoogleAnalyticsId(): string | null {
+  try {
+    const rawValue =
+      process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
+
+    if (typeof rawValue !== 'string') {
+      return null;
+    }
+
+    const analyticsId = rawValue.trim();
+    if (!analyticsId) {
+      return null;
+    }
+    
+    const isValidGaId = /^G-[A-Z0-9]+$/i.test(analyticsId);
+
+    return isValidGaId ? analyticsId : null;
+  } catch {
+    return null;
+  }
+}
+
+const googleAnalyticsId = resolveGoogleAnalyticsId();
 
 export const metadata: Metadata = {
   title: {
@@ -58,9 +81,7 @@ export default function RootLayout({
       </head>
       <body className={`${lexend.className} flex flex-col min-h-screen`}>
         <LayoutClient>
-          {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
-            <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID} />
-          )}
+          {googleAnalyticsId && <GoogleAnalytics gaId={googleAnalyticsId} />}
           <Header />
           {children}
           <Footer />
