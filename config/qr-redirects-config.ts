@@ -17,6 +17,13 @@ const qrRedirectsConfig: QrRedirectsConfig = {
       medium: 'print',
       source: 'boar_article',
     },
+    {
+      shortlink: '/qr/sp1',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'print',
+      source: 'submissions_poster_1',
+    },
   ],
 };
 
