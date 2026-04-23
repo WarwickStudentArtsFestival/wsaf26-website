@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import { Lexend } from 'next/font/google';
 import Footer from '@/app/components/footer/footer';
+import './globals.css';
 import React from 'react';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import Header from '@/app/components/header';
@@ -31,7 +32,7 @@ function resolveGoogleAnalyticsId(): string | null {
     if (!analyticsId) {
       return null;
     }
-    
+
     const isValidGaId = /^G-[A-Z0-9]+$/i.test(analyticsId);
 
     return isValidGaId ? analyticsId : null;
