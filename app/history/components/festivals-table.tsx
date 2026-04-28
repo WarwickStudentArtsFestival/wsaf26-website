@@ -6,7 +6,7 @@ const festivalList: {
 }[] = [
   {
     name: 'WSAF 2026',
-    dates: 'June 2026',
+    dates: '12-15 June 2026',
     events: '?',
   },
   {
