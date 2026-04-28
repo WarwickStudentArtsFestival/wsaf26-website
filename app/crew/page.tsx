@@ -6,7 +6,8 @@ import { FaCalendarPlus, FaDiscord } from 'react-icons/fa';
 import PageHeader from '@/app/components/page-header';
 import HighlightedHeading from '@/app/components/highlighted-heading';
 import RoleCard from '@/app/components/role-card';
-import PeopleInvolved from '../components/people-involved/people-involved';
+import OrganisersInvolved from '@/app/components/people-involved/organisers-involved';
+import VolunteersInvolved from '@/app/components/people-involved/volunteers-involved';
 import ExecInvolved from '../components/people-involved/exec-involved';
 import CrewFaq from '../(home)/components/faq/tabs/crew-faq';
 
@@ -179,7 +180,18 @@ export default function Team() {
           Our organisers manage everything from logistics to event coordination.
         </p>
 
-        <PeopleInvolved />
+        <OrganisersInvolved />
+      </section>
+
+      <section>
+        <h2 className="text-teal text-xl pt-2 sm:text-2xl font-semibold">
+          Volunteers
+        </h2>
+        <p className="mb-4 max-w-2xl mx-auto px-4">
+          Our volunteers help make WSAF a success every year.
+        </p>
+
+        <VolunteersInvolved />
       </section>
 
       <div className="max-w-7xl xl:mx-auto mb-8 mx-8">

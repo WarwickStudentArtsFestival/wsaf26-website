@@ -1,9 +1,8 @@
 import IdCard from './id-card';
-import JoinTeamImage from '@/assets/team/join-the-team.jpg';
-import teamConfig from '@config/team-config';
+import organisersConfig from '@/config/organisers-config';
 
 export default function PeopleInvolved({}) {
-  const sortedOrganisers = teamConfig.team.sort((a, b) =>
+  const sortedOrganisers = organisersConfig.team.sort((a, b) =>
     a.name.localeCompare(b.name),
   );
 
@@ -20,12 +19,6 @@ export default function PeopleInvolved({}) {
             image={person.image}
           />
         ))}
-        <IdCard
-          name="You?"
-          role="Volunteer"
-          image={JoinTeamImage}
-          emailDescription
-        />
       </div>
     </div>
   );

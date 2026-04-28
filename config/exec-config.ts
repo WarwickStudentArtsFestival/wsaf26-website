@@ -1,16 +1,16 @@
-import { TeamConfig } from '@config/types/team-config';
+import { TeamConfig } from '@/config/types/team-config';
 
-import AdamSocieties from '@/assets/team/adam-societies.jpg';
-import OllyMurphy from '@/assets/team/olly-murphy.jpg';
-import DaePomeroy from '@/assets/team/dae-pomeroy.jpg';
-import TrinBalkwill from '@/assets/team/trin-balkwill.jpg';
-import MaximusKaiusLeighton from '@/assets/team/maximus-kaius-leighton.jpg';
-import EchoVaughan from '@/assets/team/echo-vaughan.jpg';
-import WillowBrown from '@/assets/team/willow-brown.jpg';
-import AshKayembe from '@/assets/team/ash-kayembe.jpg';
-import LillianDove from '@/assets/team/lillian-dove.jpg';
-import EllieWilliams from '@/assets/team/ellie-williams.png';
-import TaraFahey from '@/assets/team/tara-fahey.png';
+import AdamSocieties from '@/assets/team/exec/adam-societies.jpg';
+import OllyMurphy from '@/assets/team/exec/olly-murphy.jpg';
+import DaePomeroy from '@/assets/team/exec/dae-pomeroy.jpg';
+import TrinBalkwill from '@/assets/team/exec/trin-balkwill.jpg';
+import MaximusKaiusLeighton from '@/assets/team/exec/maximus-kaius-leighton.jpg';
+import EchoVaughan from '@/assets/team/exec/echo-vaughan.jpg';
+import WillowBrown from '@/assets/team/exec/willow-brown.jpg';
+import AshKayembe from '@/assets/team/exec/ash-kayembe.jpg';
+import LillianDove from '@/assets/team/exec/lillian-dove.jpg';
+import EllieWilliams from '@/assets/team/exec/ellie-williams.png';
+import TaraFahey from '@/assets/team/exec/tara-fahey.png';
 
 const execConfig: TeamConfig = {
   team: [

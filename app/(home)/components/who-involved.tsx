@@ -2,7 +2,8 @@ import { FiArrowRight } from 'react-icons/fi';
 import HighlightedHeading from '@/app/components/highlighted-heading';
 import Link from 'next/link';
 import React from 'react';
-import PeopleInvolved from '@/app/components/people-involved/people-involved';
+import OrganisersInvolved from '@/app/components/people-involved/organisers-involved';
+import VolunteersInvolved from '@/app/components/people-involved/volunteers-involved';
 import ExecInvolved from '@/app/components/people-involved/exec-involved';
 import CrewGroupPicture from '@/assets/home/wsaf-crew-group-picture.jpg';
 import Image from 'next/image';
@@ -41,11 +42,13 @@ export default function WhoInvolved() {
       <h2 className="text-teal text-xl pt-2 sm:text-2xl font-semibold">
         Organisers
       </h2>
+      <br />
+      <OrganisersInvolved />
       <h2 className="text-teal text-xl pt-2 sm:text-2xl font-semibold">
         Volunteers
       </h2>
       <br />
-      <PeopleInvolved />
+      <VolunteersInvolved />
 
       <Link
         href="/crew"

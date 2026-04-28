@@ -35,8 +35,8 @@ const homepageConfig: HomepageConfig = {
   },
 
   crew: {
-    // buttonText: 'Join the WSAF 2025 Crew',
-    buttonText: 'WSAF 2025 Crew',
+    // buttonText: 'Join the WSAF 2026 Crew',
+    buttonText: 'WSAF 2026 Crew',
   },
 
   keyDates: [
