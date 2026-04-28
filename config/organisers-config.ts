@@ -2,6 +2,7 @@ import { TeamConfig } from '@/config/types/team-config';
 import JonathanOrd from '@/assets/team/organisers/jonathan-ord.png';
 import SeanScholand from '@/assets/team/organisers/sean-scholand.jpg';
 import DanaiMuyambo from '@/assets/team/organisers/danai-muyambo.jpg';
+import NaomiPandey from '@/assets/team/organisers/naomi-pandey.jpg';
 
 const organisersConfig: TeamConfig = {
   team: [
@@ -24,7 +25,15 @@ const organisersConfig: TeamConfig = {
       course: 'Data Science',
       year: '2nd Year',
       image: DanaiMuyambo
-    }
+    },
+
+    { name: 'Naomi Pandey',
+      roles: ['Marketing'],
+      course: 'English Literature and Creative Writing',
+      year: '3rd Year',
+      image: NaomiPandey
+    },
+
   ],
 };
 
