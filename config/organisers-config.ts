@@ -3,6 +3,7 @@ import JonathanOrd from '@/assets/team/organisers/jonathan-ord.png';
 import SeanScholand from '@/assets/team/organisers/sean-scholand.jpg';
 import DanaiMuyambo from '@/assets/team/organisers/danai-muyambo.jpg';
 import NaomiPandey from '@/assets/team/organisers/naomi-pandey.jpg';
+import EllieStocker from '@/assets/team/organisers/ellie-stocker.jpg';
 
 const organisersConfig: TeamConfig = {
   team: [
@@ -32,6 +33,13 @@ const organisersConfig: TeamConfig = {
       course: 'English Literature and Creative Writing',
       year: '3rd Year',
       image: NaomiPandey
+    },
+
+    { name: 'Ellie Stocker',
+      roles: ['Marketing Consultant'],
+      course: 'English and Theatre Studies',
+      year: 'Alumni',
+      image: EllieStocker
     },
 
   ],
