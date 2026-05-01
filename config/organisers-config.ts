@@ -4,6 +4,7 @@ import SeanScholand from '@/assets/team/organisers/sean-scholand.jpg';
 import DanaiMuyambo from '@/assets/team/organisers/danai-muyambo.jpg';
 import NaomiPandey from '@/assets/team/organisers/naomi-pandey.jpg';
 import EllieStocker from '@/assets/team/organisers/ellie-stocker.jpg';
+import StanSimmons from '@/assets/team/organisers/stan-simmons.jpg';
 
 const organisersConfig: TeamConfig = {
   team: [
@@ -40,6 +41,13 @@ const organisersConfig: TeamConfig = {
       course: 'English and Theatre Studies',
       year: 'Alumni',
       image: EllieStocker
+    },
+
+    { name: 'Stan Simmons',
+      roles: ['Tech'],
+      course: 'Mathematics',
+      year: '3rd Year',
+      image: StanSimmons
     },
 
   ],

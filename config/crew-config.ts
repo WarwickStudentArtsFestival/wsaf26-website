@@ -37,12 +37,6 @@ const crewConfig: CrewConfig = {
       image: VenueManager,
     },
     {
-      name: 'Operations',
-      description:
-        'The operations and logistics team ensures that the event runs smoothly and are on hand to resolve any issues that can crop up. This can range from transporting equipment between venues to sorting last-minute scheduling issues.',
-      image: Operations,
-    },
-    {
       name: 'Catering & WBar Team',
       description:
         'Our catering team ensures that all volunteers are well fed and hydrated throughout the day. New for 2025, WSAF will also be running an outdoor bar on Benefactors Place which will also be staffed by volunteers.',
