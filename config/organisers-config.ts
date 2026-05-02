@@ -5,6 +5,7 @@ import DanaiMuyambo from '@/assets/team/organisers/danai-muyambo.jpg';
 import NaomiPandey from '@/assets/team/organisers/naomi-pandey.jpg';
 import EllieStocker from '@/assets/team/organisers/ellie-stocker.jpg';
 import StanSimmons from '@/assets/team/organisers/stan-simmons.jpg';
+import CatHibbs from '@/assets/team/organisers/cat-hibbs.png';
 
 const organisersConfig: TeamConfig = {
   team: [
@@ -48,6 +49,12 @@ const organisersConfig: TeamConfig = {
       course: 'Mathematics',
       year: '3rd Year',
       image: StanSimmons
+    },
+    { name: 'Cat Hibbs',
+      roles: ['Dance Showcase'],
+      course: 'Civil Engineering',
+      year: '4th Year',
+      image: CatHibbs
     },
 
   ],
