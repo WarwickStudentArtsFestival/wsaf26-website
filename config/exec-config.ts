@@ -32,7 +32,7 @@ const execConfig: TeamConfig = {
       name: 'Adam Skrzymowski',
       roles: ['Co-President'],
       course: 'Societies VP',
-      year: '1st Year',
+      year: '1st Year \n(after 6 years as a student)',
       image: AdamSocieties,
     },
     {
