@@ -48,6 +48,22 @@ const qrRedirectsConfig: QrRedirectsConfig = {
       medium: 'digital',
       source: 'su_screen_1',
     },
+
+    {
+      shortlink: '/qr/poop',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'poop',
+    },
+
+    {
+      shortlink: '/qr/poop2',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'poop2',
+    },
   ],
 };
 
