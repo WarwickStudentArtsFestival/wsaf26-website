@@ -133,6 +133,14 @@ const qrRedirectsConfig: QrRedirectsConfig = {
       medium: 'digital',
       source: 'greg',
     },
+
+    {
+      shortlink: '/qr/vf1',
+      destination: 'https://forms.gle/h1DtB1pXmTjrxxFs6',
+      campaign: 'volunteers',
+      medium: 'digital',
+      source: 'flyer',
+    },
   ],
 };
 
