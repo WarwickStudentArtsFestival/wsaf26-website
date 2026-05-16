@@ -49,8 +49,8 @@ const homepageConfig: HomepageConfig = {
     },
     {
       name: 'Submissions Close',
-      date: 'Friday 8th May',
-      dateTime: '2026-05-08',
+      date: 'Friday 15th May',
+      dateTime: '2026-05-15',
       description:
         'Submission form closes and the schedule and logistics are finalised.',
       warwickWeek: 'Term 3, Week 2',
