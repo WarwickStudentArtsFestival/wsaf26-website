@@ -29,7 +29,7 @@ const mainConfig: MainConfig = {
   },
   submissions: {
     open: true,
-    closingDate: 'Friday Week 2 (8th May)',
+    closingDate: 'Friday Week 3 (15th May)',
     submitUrl: 'https://submit.wsaf.org.uk/2026/cfp',
   },
   crew: {
