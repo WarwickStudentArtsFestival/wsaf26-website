@@ -10,6 +10,7 @@ import AlexeiPlumridgeMilsom from '@assets/team/coreteam/alexei-plumridge-milsom
 import RayanaArjum from '@assets/team/coreteam/rayana-anjum.jpg'
 import VenusNg from '@assets/team/coreteam/venus-ng.jpg'
 import SiddharthGuruMurthy from '@assets/team/coreteam/sid-guru-murthy.jpg'
+import DallonCostello from '@assets/team/coreteam/dallon-costello.png'
 
 const corerolesConfig: TeamConfig = {
   team: [
@@ -122,7 +123,7 @@ const corerolesConfig: TeamConfig = {
       roles: ['Cinema VM'],
       course: 'Spanish, Italian, & Linguistics',
       year: '4th Year',
-      //image: DallonCostello
+      image: DallonCostello
     },
 
   ],
