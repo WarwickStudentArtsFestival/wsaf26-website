@@ -17,7 +17,7 @@ export default function SubmissionsFaq() {
       <div>
         <Question>I missed the deadline! Can I still submit a proposal?</Question>
         <Answer>
-          Yes you can! However we cannot guarantee that we will have space but will 
+          Yes! However we cannot guarantee that we will have space but will 
           try and slot you in if we can! Please note that no funding can be allocated
           for late submissions.
         </Answer>
