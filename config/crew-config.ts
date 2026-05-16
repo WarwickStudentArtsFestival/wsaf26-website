@@ -3,7 +3,6 @@ import Marketing from '@/assets/crew/marketing.jpg';
 import Stewards from '@/assets/crew/circle-team.jpg';
 import Tech from '@/assets/crew/colourful-stage.jpg';
 import VenueManager from '@/assets/crew/fab-terrace-drone.jpg';
-import Operations from '@/assets/crew/flight-cases.jpg';
 import WBar from '@/assets/crew/wbar.jpg';
 
 const crewConfig: CrewConfig = {

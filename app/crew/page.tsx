@@ -8,6 +8,7 @@ import HighlightedHeading from '@/app/components/highlighted-heading';
 import RoleCard from '@/app/components/role-card';
 import OrganisersInvolved from '@/app/components/people-involved/organisers-involved';
 import VolunteersInvolved from '@/app/components/people-involved/volunteers-involved';
+import CoreRolesInvolved from '@/app/components/people-involved/coreroles-involved'
 import ExecInvolved from '../components/people-involved/exec-involved';
 import CrewFaq from '../(home)/components/faq/tabs/crew-faq';
 
@@ -170,6 +171,17 @@ export default function Team() {
           WSAF.
         </p>
         <ExecInvolved/>
+      </section>
+
+      <section>
+        <h2 className="text-teal text-xl pt-2 sm:text-2xl font-semibold">
+          Core Team
+        </h2>
+        <p className="mb-4 max-w-2xl mx-auto px-4">
+          Our core team liase with performers and volunterers, head up departments, and run venues.
+        </p>
+
+        <CoreRolesInvolved />
       </section>
 
       <section>

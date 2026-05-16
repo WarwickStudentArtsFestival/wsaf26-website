@@ -16,7 +16,7 @@ const execConfig: TeamConfig = {
   team: [
     {
       name: 'Trin Balkwill',
-      roles: ['Head of Submissions'],
+      roles: ['Head of Submissions, Fab Terrace VM'],
       course: 'Cyber Security',
       year: '3rd Year',
       image: TrinBalkwill,
@@ -75,7 +75,7 @@ const execConfig: TeamConfig = {
 
     {
       name: 'Ash Kayembe',
-      roles: ['Secretary'],
+      roles: ['Secretary, Main Stage VTM'],
       course: 'Integrated Natural Sciences',
       year: '1st Year',
       image: AshKayembe,
@@ -83,7 +83,7 @@ const execConfig: TeamConfig = {
 
     {
       name: 'Willow Brown',
-      roles: ['Welfare and Equal Opportunities Officer'],
+      roles: ['Welfare and Equal Opportunities Officer, Bar Manager'],
       course: 'Cyber Security',
       year: '1st Year',
       image: WillowBrown,
