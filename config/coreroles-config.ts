@@ -11,6 +11,7 @@ import RayanaAnjum from '@assets/team/coreteam/rayana-anjum.jpg'
 import VenusNg from '@assets/team/coreteam/venus-ng.jpg'
 import SiddharthGuruMurthy from '@assets/team/coreteam/sid-guru-murthy.jpg'
 import DallonCostello from '@assets/team/coreteam/dallon-costello.png'
+import AlasdairKing from '@assets/team/coreteam/alasdair-king.png'
 
 const corerolesConfig: TeamConfig = {
   team: [
@@ -95,7 +96,7 @@ const corerolesConfig: TeamConfig = {
       roles: ['Main Stage VM'],
       course: 'History',
       year: '3rd Year',
-      //image: AlasdairKing
+      image: AlasdairKing
     },
 
     { name: 'Oliver Smith',
@@ -124,6 +125,13 @@ const corerolesConfig: TeamConfig = {
       course: 'Spanish, Italian, & Linguistics',
       year: '4th Year',
       image: DallonCostello
+    },
+
+    { name: 'Alex Morrison',
+      roles: ['Main Stage VM'],
+      course: 'History & Politics',
+      year: '3rd Year',
+      //image: AlexMorrison
     },
 
   ],
