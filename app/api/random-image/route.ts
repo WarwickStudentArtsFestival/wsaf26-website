@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   const dir = path.join(process.cwd(), 'public/wpaint-gallery');
-  const files = fs.readdirSync(dir).filter((file) => file.endsWith('.jpg'));
+  const files = fs.readdirSync(dir).filter((file) => file.endsWith('.png'));
 
   if (files.length === 0) {
     return NextResponse.json({ error: 'No images found' }, { status: 404 });

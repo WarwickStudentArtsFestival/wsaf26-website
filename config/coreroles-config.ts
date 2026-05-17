@@ -12,6 +12,7 @@ import VenusNg from '@assets/team/coreteam/venus-ng.jpg'
 import SiddharthGuruMurthy from '@assets/team/coreteam/sid-guru-murthy.jpg'
 import DallonCostello from '@assets/team/coreteam/dallon-costello.png'
 import AlasdairKing from '@assets/team/coreteam/alasdair-king.png'
+import MichalMatusz from '@assets/team/coreteam/michal-matusz.png'
 
 const corerolesConfig: TeamConfig = {
   team: [
@@ -54,7 +55,7 @@ const corerolesConfig: TeamConfig = {
       roles: ['Artist Liason'],
       course: 'Theatre & Performance',
       year: '3rd Year',
-      //image: MichalMatusz
+      image: MichalMatusz
     },
 
     { name: 'Kieran Collins',
