@@ -7,7 +7,7 @@ import KieranCollins from '@assets/team/coreteam/kieran-collins.webp'
 import NazneenNaveedSait from '@assets/team/coreteam/nazneen.webp'
 import LuluSmith from '@assets/team/coreteam/lulu-smith.jpg'
 import AlexeiPlumridgeMilsom from '@assets/team/coreteam/alexei-plumridge-milsom.webp'
-import RayanaArjum from '@assets/team/coreteam/rayana-anjum.jpg'
+import RayanaAnjum from '@assets/team/coreteam/rayana-anjum.jpg'
 import VenusNg from '@assets/team/coreteam/venus-ng.jpg'
 import SiddharthGuruMurthy from '@assets/team/coreteam/sid-guru-murthy.jpg'
 import DallonCostello from '@assets/team/coreteam/dallon-costello.png'
@@ -84,11 +84,11 @@ const corerolesConfig: TeamConfig = {
       image: VenusNg
     },
 
-    { name: 'Rayana Arjum',
+    { name: 'Rayana Anjum',
       roles: ['Theatre VTM'],
       course: 'Computer Science',
       year: '1st Year',
-      image: RayanaArjum
+      image: RayanaAnjum
     },
 
     { name: 'Alasdair King',
