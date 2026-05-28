@@ -5,6 +5,7 @@ import NaomiPandey from '@/assets/team/organisers/naomi-pandey.jpg';
 import EllieStocker from '@/assets/team/organisers/ellie-stocker.jpg';
 import CatHibbs from '@/assets/team/organisers/cat-hibbs.png';
 import EthanGraham from '@/assets/team/organisers/ethan-graham.jpg'
+import KashishRohit from '@/assets/team/organisers/kashish-rohit.png';
 
 const organisersConfig: TeamConfig = {
   team: [
@@ -48,6 +49,13 @@ const organisersConfig: TeamConfig = {
       course: 'Mechanical Engineering',
       year: ' Alumni',
       image: EthanGraham
+    },
+
+    { name: 'Kasish Rohit',
+      roles: ['Bar Supervisor'],
+      course: 'Computer Systems Engineering',
+      year: ' 1st Year',
+      image: KashishRohit
     },
 
   ],

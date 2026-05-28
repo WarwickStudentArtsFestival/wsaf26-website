@@ -13,6 +13,8 @@ import SiddharthGuruMurthy from '@assets/team/coreteam/sid-guru-murthy.jpg'
 import DallonCostello from '@assets/team/coreteam/dallon-costello.png'
 import AlasdairKing from '@assets/team/coreteam/alasdair-king.png'
 import MichalMatusz from '@assets/team/coreteam/michal-matusz.png'
+import RebeccaSmith from '@assets/team/coreteam/rebecca-smith.png'
+import OliverSmith from '@assets/team/coreteam/oliver-smith.png'
 
 const corerolesConfig: TeamConfig = {
   team: [
@@ -76,7 +78,7 @@ const corerolesConfig: TeamConfig = {
       roles: ['Theatre VM'],
       course: 'Theatre & Performance',
       year: '3rd Year',
-      //image: RebeccaSmith
+      image: RebeccaSmith
     },
 
     { name: 'Venus Ng',
@@ -104,7 +106,7 @@ const corerolesConfig: TeamConfig = {
       roles: ['Head of Streaming'],
       course: 'Computer Science',
       year: '4th Year',
-      //image: OliverSmith
+      image: OliverSmith
     },
 
     { name: 'Sod Guru Murthy',
