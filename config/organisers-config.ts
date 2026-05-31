@@ -51,7 +51,7 @@ const organisersConfig: TeamConfig = {
       image: EthanGraham
     },
 
-    { name: 'Kasish Rohit',
+    { name: 'Kashish Rohit',
       roles: ['Bar Supervisor'],
       course: 'Computer Systems Engineering',
       year: ' 1st Year',
