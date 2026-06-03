@@ -16,6 +16,11 @@ const navItems: NavItem[] = eventsConfig.enabled
   ? [
       { shortLabel: 'Events', href: '/events' },
       { shortLabel: 'Venues', href: '/venues' },
+      {
+        shortLabel: 'Perform',
+        longLabel: 'Perform or Exhibit',
+        href: '/perform',
+      },
     ]
   : [
       {

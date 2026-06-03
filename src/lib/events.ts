@@ -5,6 +5,7 @@ import {
 } from '@/lib/pretalx';
 import { fetchVenues, findVenueFromName, Venue } from '@/lib/venues';
 import { IconType } from 'react-icons';
+import { FaCircleQuestion } from 'react-icons/fa6';
 import eventsConfig from '@config/events-config';
 
 // WARNING - This is all exposed to the client, so makes sure not to include
@@ -324,7 +325,14 @@ export function getEventCategory(event: Event) {
     (category) => category.pretalxTrack === event.categoryPretalxTrack,
   );
   if (!category) {
-    throw new Error('Event category not found');
+    return {
+      pretalxTrack: event.categoryPretalxTrack,
+      slug: event.categoryPretalxTrack.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+      label: event.categoryPretalxTrack,
+      icon: FaCircleQuestion,
+      colour: '#6b7280',
+      filterBitFieldIndex: 0,
+    };
   }
 
   return category;

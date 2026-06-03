@@ -12,7 +12,7 @@ import {
 } from 'react-icons/fa';
 
 const eventsConfig: EventsConfig = {
-  enabled: false,
+  enabled: true,
 
   dates: {
     // The earliest and largest date time that can be selected

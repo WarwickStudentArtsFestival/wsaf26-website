@@ -1,6 +1,14 @@
 import { fetchPretalxSchedule, PretalxScheduleRoom } from '@/lib/pretalx';
 import { StaticImageData } from 'next/image';
 import venuesConfig from '@config/venues-config';
+import Placeholder from '@/assets/hero.jpg';
+
+function simpleSlugify(s: string) {
+  return s
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
 
 export type AdditionalVenueData = {
   imageAlt: string;
@@ -32,10 +40,20 @@ function constructVenueFromPretalxRoom(
 
   const additionalVenueData = venuesConfig.venues[room.guid];
   if (!additionalVenueData) {
-    console.error(
-      `No venue data found for room ID: ${room.guid} (${room.name})`,
-    );
-    return null;
+    // Fall back to a minimal venue entry so the app can render schedules
+    const fallback = {
+      mapUrl: '',
+      image: Placeholder,
+      imageAlt: room.name,
+      roomLocation: room.name,
+      slug: simpleSlugify(room.name || room.guid || 'venue'),
+      filterBitFieldIndex: 0,
+    };
+
+    return {
+      ...venue,
+      ...fallback,
+    };
   }
 
   return {
@@ -46,7 +64,26 @@ function constructVenueFromPretalxRoom(
 
 export async function fetchVenues(): Promise<Venue[]> {
   const schedule = await fetchPretalxSchedule();
-  const rooms = schedule.schedule.conference.rooms;
+  const rooms =
+    schedule.schedule.conference.rooms.length > 0
+      ? schedule.schedule.conference.rooms
+      : Object.keys(
+          schedule.schedule.conference.days.reduce<Record<string, true>>(
+            (acc, day) => {
+              Object.keys(day.rooms).forEach((roomName) => {
+                acc[roomName] = true;
+              });
+              return acc;
+            },
+            {},
+          ),
+        ).map((roomName) => ({
+          name: roomName,
+          guid: roomName,
+          description: roomName,
+          capacity: null,
+        }));
+
   return rooms.map(constructVenueFromPretalxRoom).filter((v) => v !== null);
 }
 

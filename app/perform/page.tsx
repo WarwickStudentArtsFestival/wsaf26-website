@@ -43,9 +43,12 @@ export default function Perform() {
           </p>
         ) : performConfig.showSubmissionLink ? (
           <p>
-            While event submissions are now closed, if you are still interested
-            in performing please contact us at{' '}
-            <a
+            Event submissions are now closed, but we are still accepting late entries, 
+            <b> particularly for the art gallery</b>.
+            <br />
+            Interested in getting involved? 
+            Reach out to us at{' '}
+             <a
               href={`https://www.instagram.com/${mainConfig.socials.instagram}/`}
               target="_blank"
               className="text-teal"
@@ -60,9 +63,11 @@ export default function Perform() {
             >
               submissions form
             </a>{' '}
-            and we&apos;ll try and fit you in. Please note that we cannot
-            guarantee an available slot or inclusion in any promotional or
-            physical material.
+            and we&apos;ll try and fit you in. 
+            <br />
+            <i>Please note that for late 
+            submissions, we cannot guarantee an available slot, inclusion 
+            in promotional materials, or funding.</i>
           </p>
         ) : (
           <p>
