@@ -15,7 +15,7 @@
   },
   "kv_namespaces": [],
   "vars": {
-    "PRETALX_BASE_URL": "https://submit.wsaf.org.uk"
+    "PRETALX_BASE_URL": "https://submit.wsaf.org.uk",
     "PRETALX_EVENT_SLUG": "2026"
   },
   "observability": {
