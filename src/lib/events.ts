@@ -161,23 +161,23 @@ function constructEventSessionFromPretalxEvent(
 
       artist: {
         name:
-          event.answers.find((answer) => answer.question === 8)?.answer || '',
+          event.answers.find((answer) => answer.question === 38)?.answer || '',
         description:
-          event.answers.find((answer) => answer.question === 12)?.answer || '',
+          event.answers.find((answer) => answer.question === 39)?.answer || '',
         website:
-          event.answers.find((answer) => answer.question === 14)?.answer || '',
+          event.answers.find((answer) => answer.question === 41)?.answer || '',
         instagramHandle:
-          event.answers.find((answer) => answer.question === 15)?.answer || '',
+          event.answers.find((answer) => answer.question === 42)?.answer || '',
 
         // It seems like this is returning e.g. file://Logo_.... which doesn't work
         // Will probably need to use pretalx API here
         image:
-          event.answers.find((answer) => answer.question === 13)?.answer || '',
+          event.answers.find((answer) => answer.question === 40)?.answer || '',
       },
 
-      ticketLink: event.answers.find((answer) => answer.question === 17)
+      ticketLink: event.answers.find((answer) => answer.question === 51)
         ?.answer,
-      contentWarnings: event.answers.find((answer) => answer.question === 18)
+      contentWarnings: event.answers.find((answer) => answer.question === 37)
         ?.answer,
     },
 
