@@ -49,7 +49,7 @@ export default function TimelineEventSessionCard({
               style={{
                 color: category.colour,
               }}
-              title="Ticket Required"
+              title="Bookings Available"
             />
           )}
         </div>
@@ -60,7 +60,7 @@ export default function TimelineEventSessionCard({
           )}
           {(eventSession.event.ticketLink ||
             eventSession.parent?.event.ticketLink) && (
-            <FaTicket className="text-teal" title="Ticket Required" />
+            <FaTicket className="text-teal" title="Bookings Available" />
           )}
         </div>
         <p className="text-sm font-semibold">{eventSession.event.name}</p>

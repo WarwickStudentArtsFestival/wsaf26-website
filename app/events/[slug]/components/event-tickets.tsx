@@ -28,11 +28,12 @@ export default function EventTickets({
           className="inline mr-1 mb-0.5"
           style={{ color: accentColour }}
         />
-        Tickets Required
+        Bookings Available
       </h2>
       <p className="text-sm text-black">
-        Due to capacity restrictions, this event requires a free ticket to
-        attend. Please ensure you have a book a valid ticket by clicking here.
+        Due to capacity restrictions, most seats are reserved for pre-booked tickets. 
+        These are avaible by clicking here. Don't worry if you haven't managed to get one, 
+        as walk-in spaces will be available too!
       </p>
     </Link>
   );
