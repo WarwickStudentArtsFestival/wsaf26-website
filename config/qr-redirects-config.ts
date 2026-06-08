@@ -134,18 +134,20 @@ const qrRedirectsConfig: QrRedirectsConfig = {
       source: 'greg',
     },
 
+    // JH 08/06/2026 switched from https://forms.gle/h1DtB1pXmTjrxxFs6
     {
       shortlink: '/qr/vf1',
-      destination: 'https://forms.gle/h1DtB1pXmTjrxxFs6',
+      destination: 'https://helfertool.wsaf.org.uk/wsaf-2026/',
       campaign: 'volunteers',
       medium: 'digital',
       source: 'flyer',
     },
 
     /* NEW VOLUNTEER FLYER 08/07/2026 - TO BE REPLACED WITH PUBLIC HELFERTOOL ONCE OPEN*/
+    // JH 08/06/2026 switched from https://wsaf.org.uk/crew
     {
       shortlink: '/qr/vf2',
-      destination: 'https://wsaf.org.uk/crew',
+      destination: 'https://helfertool.wsaf.org.uk/wsaf-2026/',
       campaign: 'volunteers',
       medium: 'digital',
       source: 'flyer2',
