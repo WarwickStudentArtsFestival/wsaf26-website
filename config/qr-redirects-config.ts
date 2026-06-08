@@ -141,6 +141,15 @@ const qrRedirectsConfig: QrRedirectsConfig = {
       medium: 'digital',
       source: 'flyer',
     },
+
+    /* NEW VOLUNTEER FLYER 08/07/2026 - TO BE REPLACED WITH PUBLIC HELFERTOOL ONCE OPEN*/
+    {
+      shortlink: '/qr/vf2',
+      destination: 'https://wsaf.org.uk/crew',
+      campaign: 'volunteers',
+      medium: 'digital',
+      source: 'flyer2',
+    },
   ],
 };
 
