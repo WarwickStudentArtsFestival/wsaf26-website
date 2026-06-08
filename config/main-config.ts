@@ -18,7 +18,7 @@ const mainConfig: MainConfig = {
       feedback: false,
       crewPage: false,
 
-      crewSignup: false,
+      crewSignup: true,
       submissionsPortal: true,
     },
   },
