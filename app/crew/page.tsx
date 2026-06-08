@@ -8,6 +8,7 @@ import HighlightedHeading from '@/app/components/highlighted-heading';
 import RoleCard from '@/app/components/role-card';
 import OrganisersInvolved from '@/app/components/people-involved/organisers-involved';
 import VolunteersInvolved from '@/app/components/people-involved/volunteers-involved';
+import CoreRolesInvolved from '@/app/components/people-involved/coreroles-involved'
 import ExecInvolved from '../components/people-involved/exec-involved';
 import CrewFaq from '../(home)/components/faq/tabs/crew-faq';
 
@@ -145,7 +146,7 @@ export default function Team() {
 
       <section className="my-4 max-w-8xl mx-auto">
         <HighlightedHeading text="Crew Roles" />
-        <div className="mt-2 grid w-full px-2 xl:px-16 sm:py-4 xs:grid-cols-2 sm:grid-cols-3 grid-cols-1 lg:grid-cols-6 gap-4">
+        <div className="mt-2 grid w-full px-2 xl:px-16 sm:py-4 xs:grid-cols-2 sm:grid-cols-3 grid-cols-1 lg:grid-cols-5 gap-4">
           {crewConfig.roles.map((role) => (
             <RoleCard
               key={role.name}
@@ -170,6 +171,17 @@ export default function Team() {
           WSAF.
         </p>
         <ExecInvolved/>
+      </section>
+
+      <section>
+        <h2 className="text-teal text-xl pt-2 sm:text-2xl font-semibold">
+          Core Team
+        </h2>
+        <p className="mb-4 max-w-2xl mx-auto px-4">
+          Our core team liase with performers and volunterers, head up departments, and run venues.
+        </p>
+
+        <CoreRolesInvolved />
       </section>
 
       <section>

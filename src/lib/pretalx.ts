@@ -1,4 +1,8 @@
 import { cache } from 'react';
+import fallbackSchedule from '../../public/wsaf_schedule.json';
+
+let cachedSchedulePromise: Promise<PretalxScheduleJson> | null = null;
+let loggedFallbackOnce = false;
 
 export type PretalxScheduleRoom = {
   name: string;
@@ -102,8 +106,22 @@ export const pretalxApiRequest = (path: string): Promise<Response> => {
   );
 };
 
-export const fetchPretalxSchedule = (): Promise<PretalxScheduleJson> => {
-  return pretalxHttpRequest<PretalxScheduleJson>(
-    `${process.env.PRETALX_EVENT_SLUG}/p/broadcast-tools/wsaf_schedule.json`,
-  );
+export const fetchPretalxSchedule = async (): Promise<PretalxScheduleJson> => {
+  if (!cachedSchedulePromise) {
+    cachedSchedulePromise = pretalxHttpRequest<PretalxScheduleJson>(
+      `${process.env.PRETALX_EVENT_SLUG}/p/broadcast-tools/wsaf_schedule.json`,
+    ).catch((err) => {
+      if (!loggedFallbackOnce) {
+        loggedFallbackOnce = true;
+        console.error(
+          'Pretalx fetch failed, falling back to local wsaf_schedule.json',
+          err,
+        );
+      }
+
+      return fallbackSchedule as unknown as PretalxScheduleJson;
+    });
+  }
+
+  return cachedSchedulePromise;
 };

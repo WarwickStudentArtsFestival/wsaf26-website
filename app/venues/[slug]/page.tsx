@@ -16,6 +16,21 @@ import { notFound } from 'next/navigation';
 
 export const revalidate = 3600; // Fetch new information every hour
 
+function getImageUrl(image: StaticImageData | string | undefined): string | undefined {
+  if (!image) return undefined;
+  if (typeof image === 'string') return image;
+
+  if ('src' in image && typeof image.src === 'string') {
+    return image.src;
+  }
+
+  if ('url' in image && typeof (image as { url?: unknown }).url === 'string') {
+    return (image as { url: string }).url;
+  }
+
+  return undefined;
+}
+
 export async function generateStaticParams() {
   if (!eventsConfig.enabled) return [];
 
@@ -45,12 +60,14 @@ export async function generateMetadata({
     }
 
     const eventSessions = await fetchEventSessionsInVenue(venue.name);
+    const imageUrl = getImageUrl(venue.image);
+
     return {
       title: venue.name,
       description: `View the ${eventSessions.length} events happening at ${venue.name} during the Warwick Student Arts Festival.`,
-      openGraph: venue.image
+      openGraph: imageUrl
         ? {
-            images: [(venue.image as StaticImageData).src],
+            images: [imageUrl],
           }
         : {},
     };
@@ -136,14 +153,15 @@ export default async function VenuePage({
                 </div>
 
                 {venue.mapUrl && (
-                  <Link
+                  <a
                     href={venue.mapUrl}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 text-sm text-purple-600 hover:underline"
                   >
                     <FiExternalLink />
                     View on campus map
-                  </Link>
+                  </a>
                 )}
               </div>
             )}

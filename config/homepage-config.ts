@@ -21,7 +21,7 @@ const homepageConfig: HomepageConfig = {
   },
 
   eventPreview: {
-    enabled: false,
+    enabled: true,
   },
 
   youtube: {

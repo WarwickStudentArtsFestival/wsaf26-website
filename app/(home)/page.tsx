@@ -26,7 +26,7 @@ export default function Home() {
       </section>
 
       <About />
-      <KeyDates />
+      {/* <KeyDates /> */}
 
       {homepageConfig.eventPreview.enabled && eventsConfig.enabled && (
         <EventPreview />

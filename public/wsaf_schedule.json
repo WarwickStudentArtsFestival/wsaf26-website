@@ -1,0 +1,2842 @@
+{
+  "$schema": "",
+  "generator": {
+    "name": "conversion-script",
+    "version": "1"
+  },
+  "schedule": {
+    "url": "",
+    "version": "converted",
+    "base_url": "",
+    "conference": {
+      "acronym": "WSAF",
+      "title": "WSAF converted schedule",
+      "start": "2026-06-15T11:00:00.000Z",
+      "end": "2026-06-12T19:25:00.000Z",
+      "daysCount": 5,
+      "rooms": [
+        {
+          "name": "Ramphal Theatre 2",
+          "guid": "Ramphal Theatre 2",
+          "description": "Ramphal Theatre 2",
+          "capacity": null
+        },
+        {
+          "name": "Main Stage",
+          "guid": "Main Stage",
+          "description": "Main Stage",
+          "capacity": null
+        },
+        {
+          "name": "FAB Terrace",
+          "guid": "FAB Terrace",
+          "description": "FAB Terrace",
+          "capacity": null
+        },
+        {
+          "name": "Unknown Room",
+          "guid": "Unknown Room",
+          "description": "Unknown Room",
+          "capacity": null
+        },
+        {
+          "name": "Ramphal Theatre 1",
+          "guid": "Ramphal Theatre 1",
+          "description": "Ramphal Theatre 1",
+          "capacity": null
+        },
+        {
+          "name": "The Graduate",
+          "guid": "The Graduate",
+          "description": "The Graduate",
+          "capacity": null
+        }
+      ],
+      "tracks": [],
+      "days": [
+        {
+          "index": 0,
+          "day_start": "2026-06-15T11:00:00.000Z",
+          "day_end": "2026-06-15T20:00:00.000Z",
+          "rooms": {
+            "Ramphal Theatre 2": [
+              {
+                "url": "",
+                "id": 0,
+                "code": "39LUQV",
+                "guid": "39LUQV",
+                "date": "2026-06-15T12:00:00+01:00",
+                "start": "2026-06-15T12:00:00+01:00",
+                "logo": null,
+                "duration": "01:30:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "39LUQV",
+                "title": "Musical Theatre Dance Workshop",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": "Come learn a dance from a new student-written musical!",
+                "description": "Nope :)",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 15,
+                    "answer": "@capacitance_wsaf"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 32,
+                "code": "HJHKLN",
+                "guid": "HJHKLN",
+                "date": "2026-06-15T17:15:00+01:00",
+                "start": "2026-06-15T17:15:00+01:00",
+                "logo": null,
+                "duration": "00:30:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "HJHKLN",
+                "title": "Dae",
+                "subtitle": "",
+                "track": "Mixed",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "dae is performing",
+                "do_not_record": false,
+                "answers": []
+              }
+            ],
+            "Main Stage": [
+              {
+                "url": "",
+                "id": 25,
+                "code": "GU3PDN",
+                "guid": "GU3PDN",
+                "date": "2026-06-15T21:00:00+01:00",
+                "start": "2026-06-15T21:00:00+01:00",
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "Main Stage",
+                "slug": "GU3PDN",
+                "title": "Closing \"Ceremony\"",
+                "subtitle": "",
+                "track": "Mixed",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "We end the festival",
+                "do_not_record": false,
+                "answers": []
+              },
+              {
+                "url": "",
+                "id": 30,
+                "code": "HGQJKE",
+                "guid": "HGQJKE",
+                "date": "2026-06-15T18:00:00+01:00",
+                "start": "2026-06-15T18:00:00+01:00",
+                "logo": "/media/2026/submissions/HGQJKE/image_e5NJrqd.webp",
+                "duration": "03:00:00",
+                "room": "Main Stage",
+                "slug": "HGQJKE",
+                "title": "Warwick Folk Society's Summer Ceilidh",
+                "subtitle": "",
+                "track": "Mixed",
+                "type": "",
+                "language": "",
+                "abstract": "Folk dance for all ages and all abilities, with music played by warwick folk society. There will be a caller to teach you the dances, so don't worry if you've never been before!",
+                "description": "its a ceilidh, we've done this twice before lol",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Warwick Folk Society and The Old Folks Home Ceilidh Band"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "we do folk music and dancing! most british isles, but with some sets from further afield. If you like playing casual music or would like to learn to morris dance, come along to our sessions on sun evening in the graduate or our morris practices on weds evenings around campus. we also do semi-regular folk culture events, like our termly ceilidhs and celebrations for samhain, may day etc"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-HGQJKE_F2EcrSt.jpg"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@warwickfolksoc"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 54,
+                "code": "NVUJ7V",
+                "guid": "NVUJ7V",
+                "date": "2026-06-15T17:00:00+01:00",
+                "start": "2026-06-15T17:00:00+01:00",
+                "logo": null,
+                "duration": "00:30:00",
+                "room": "Main Stage",
+                "slug": "NVUJ7V",
+                "title": "Myutation",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "Covering a variety of songs chosen by us!",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 15,
+                    "answer": "@5agatha5 , @rrrrrach3l"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 78,
+                "code": "XWLQPL",
+                "guid": "XWLQPL",
+                "date": "2026-06-15T16:10:00+01:00",
+                "start": "2026-06-15T16:10:00+01:00",
+                "logo": "/media/2026/submissions/XWLQPL/image_aKNe91R.webp",
+                "duration": "01:30:00",
+                "room": "Main Stage",
+                "slug": "XWLQPL",
+                "title": "Taylor Swift Medley",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "## **Taylor Swift Medley**\r\n\r\nA medley of Taylor Swift (+ surprise guest artists) songs from various eras sung and performed on acoustic guitar and piano by longtime Swifties Tyler S (initials also TS) and Vash Ravi!",
+                "description": "Songs will encompass a variety of eras, likely to range from albums like _folklore_ to _The Tortured Poets Department_ — so there’s something for everyone, from casual listeners to diehard Swifties. <3\r\n\r\n**Schedule:**\r\n- Tyler: solo set (guitar)\r\n- Vash: solo set (piano)\r\n- Dual set (Tyler + Vash)",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Tyler S. (T.S.) & Vash Ravi"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "My name is Tyler, and I was born in 2005! I’ve been a Swiftie for over a decade, loving her music from primary school all the way to university (and beyond). The Eras Tour is one of my fondest memories, and re-sparked my dream to be a singer and performer. While I’ve been singing and playing guitar for ~10 years now, there are few artists I find more therapuetic than Taylor Swift. We may have very little in common (other than our shared initials, T.S.), but we have our love for storytelling through music. \r\n\r\nI’m performing with my longtime friend, Vash, who always puts on Taylor Swift in the car for us to sing along to while we drive. Whether it’s at the music centre or one of our homes, we enjoy playing music together: she plays piano, while I sing and play guitar (basically, us combined = one Taylor Swift). You can often find us at the termly Taylor Swift club nights run by SwiftSoc, the only club I ever attend! \r\n\r\nI hope you enjoy our renditions of her songs!"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@dyk.im.vegan, @vash78"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "Some song lyrics reference trauma, toxic relationships and mental illness."
+                  }
+                ]
+              }
+            ],
+            "Ramphal Theatre 1": [
+              {
+                "url": "",
+                "id": 53,
+                "code": "NUARHK",
+                "guid": "NUARHK",
+                "date": "2026-06-15T16:30:00+01:00",
+                "start": "2026-06-15T16:30:00+01:00",
+                "logo": "/media/2026/submissions/NUARHK/image_wyMLMsp.webp",
+                "duration": "01:00:00",
+                "room": "Ramphal Theatre 1",
+                "slug": "NUARHK",
+                "title": "The Improv Musical",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": "Music Theatre Warwick's \"The Improv Musical\" is a fully-improvised musical where the show is in your hands! Our host leads the audiences through a “cheerocracy,” where the audience suggests a setting, title and two characters for our wonderful cast and live band to bring to life onstage. All scenes and songs in our show are fully improvised, and will bring laughter, fun and sometimes a little chaos to the stage for all to enjoy!  Unlike other Improv shows, our cast works not only with the audience, but also a live band to create a show that is full of joy, funky music, and leaves the audience wanting to come back and see what else they can do!",
+                "description": "The Improv Musical is a fully-improvised musical where the show is in our audience's hands! Our host leads the audiences through a “cheerocracy,” a democracy where the loudest cheers win, as the audience suggests a setting, title and two characters for our wonderful cast and live band to bring to life onstage throughout the hour of performance. All scenes and songs in our show are fully improvised, with our cast and band staying onstage for the whole show, ensuring that there is absolutely no conferring or plotting backstage! Half-way through our show, the audience regains power to cheer-off plot suggestions and song genres to see in the next scene and song. We are a show for all audiences that will bring laughter, fun and sometimes a little chaos to the stage for all to enjoy! We allow our audiences to take the show in whichever direction they choose, whether that be involving all the latest pop culture references, or a show set in Medieval England! Unlike other Improv shows, our cast works not only with the audience, but also a live band to create a show that is full of laughs, funky music, and leaving the audience wanting to come back and see what else they can do!",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Music Theatre Warwick"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "TBC"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@improv_musical"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "N/A"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "day_start": "2026-06-13T09:00:00.000Z",
+          "day_end": "2026-06-13T20:25:00.000Z",
+          "rooms": {
+            "Main Stage": [
+              {
+                "url": "",
+                "id": 1,
+                "code": "3YYKYW",
+                "guid": "3YYKYW",
+                "date": "2026-06-13T11:00:00+01:00",
+                "start": "2026-06-13T11:00:00+01:00",
+                "logo": null,
+                "duration": "00:20:00",
+                "room": "Main Stage",
+                "slug": "3YYKYW",
+                "title": "WSAF Sports Day",
+                "subtitle": "",
+                "track": "Mixed",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "Come and join WSAF at a fun sports event!",
+                "do_not_record": false,
+                "answers": []
+              },
+              {
+                "url": "",
+                "id": 8,
+                "code": "AGCKWW",
+                "guid": "AGCKWW",
+                "date": "2026-06-13T16:50:00+01:00",
+                "start": "2026-06-13T16:50:00+01:00",
+                "logo": null,
+                "duration": "00:05:00",
+                "room": "Main Stage",
+                "slug": "AGCKWW",
+                "title": "Indian Fusion Performance",
+                "subtitle": "",
+                "track": "Dance",
+                "type": "",
+                "language": "",
+                "abstract": "A short performance with elements of different Indian forms and belly dance, a piece blending styles with my individuality!! :)",
+                "description": "I am Afrin and I've been dancing for 17 years in different dance forms, predominantly kuthu(South Indian street), semi classical, Bollywood and bellydance. I engage with classical Indian music and dance forms and bring a bit of arabic influence with belly dance showcasing my dual identity as a South Indian who grew up in west Asia.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Afrin"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 36,
+                "code": "HYJVXP",
+                "guid": "HYJVXP",
+                "date": "2026-06-13T17:50:00+01:00",
+                "start": "2026-06-13T17:50:00+01:00",
+                "logo": null,
+                "duration": "00:30:00",
+                "room": "Main Stage",
+                "slug": "HYJVXP",
+                "title": "Jpop Idol Dance",
+                "subtitle": "",
+                "track": "Dance",
+                "type": "",
+                "language": "",
+                "abstract": "We are hoping to perform several Japanese pop culture dance covers.",
+                "description": "Hi,\r\n\r\nMy friend and I are Warwick students and we have recently formed a J-pop idol dance group called Sweet Tyrant. We mainly perform dance covers of Japanese pop culture songs, including anime songs, Vocaloid songs, and idol group songs.\r\n\r\nWe have previously performed at Chinese festival galas and several dance showcases, and we would love to bring an energetic J-pop/idol-style performance to WSAF. For this proposal, we are hoping to perform a short dance cover set featuring popular songs such as *At God’s Mercy* by Hatsune Miku and *Diamond Shout* by AKB48.\r\n\r\nExamples of our previous dance performances can be found on Instagram: @SweetTyrant_Official.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "SweetTyrant Idol Group"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "We are a student-led J-pop idol dance group based at the University of Warwick. We have previously performed at various student-led events and dance showcases at Warwick, and have built a small but growing audience on Chinese and international social media platforms. We hope to present an energetic and accessible dance performance that everyone can enjoy, and that audiences can even dance along with."
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-HYJVXP_iNltaPA.jpg"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "SweetTyrant_Official; Cookie@SweetTyrant; Nemori@SweetTyrant"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "N/A"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 39,
+                "code": "JE8ANA",
+                "guid": "JE8ANA",
+                "date": "2026-06-13T13:00:00+01:00",
+                "start": "2026-06-13T13:00:00+01:00",
+                "logo": null,
+                "duration": "00:30:00",
+                "room": "Main Stage",
+                "slug": "JE8ANA",
+                "title": "Opera Warwick performance",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "A few members of our society will perform music of their choice and there will be a mix of solos and small groups",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Opera Warwick"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 44,
+                "code": "KT93N7",
+                "guid": "KT93N7",
+                "date": "2026-06-13T15:00:00+01:00",
+                "start": "2026-06-13T15:00:00+01:00",
+                "logo": null,
+                "duration": "00:21:00",
+                "room": "Main Stage",
+                "slug": "KT93N7",
+                "title": "Pork Chop Express Cover Band",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "90's alt rock and grunge cover band",
+                "description": "We are a band that headlined Real Ale Festival on February 2026. We're 5 enthusiastic people which are passionate about music and give everything we have on stage. As for a setlist, depending on the time, we would like to cover Enter Sandman by Metallica, Take a Look Around by Limp Bizkit, Duality by Slipknot and a special cover dear to us all, which we want to be a surprise for the public.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Pork Chop Express"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-KT93N7_xbVPNs8.png"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 51,
+                "code": "NATD3S",
+                "guid": "NATD3S",
+                "date": "2026-06-13T16:55:00+01:00",
+                "start": "2026-06-13T16:55:00+01:00",
+                "logo": "/media/2026/submissions/NATD3S/image_MowQV0D.webp",
+                "duration": "00:07:00",
+                "room": "Main Stage",
+                "slug": "NATD3S",
+                "title": "WSAF Dance Showcase - Warwick Argentine Tango",
+                "subtitle": "",
+                "track": "Dance",
+                "type": "",
+                "language": "",
+                "abstract": "WSAF dance showcase featuring the different dance and artistic performance based societies and talents we have here at Warwick!",
+                "description": "Today, we’re performing a dance with performers who have been dancing for a term or two, as well as those who have been learning for over a year. We will introduce the very principle of tango: the social dancing dimension, commonly named ‘milonga’. Our performance will present a mix of both sensual tango and joyful milonga, to shed light on tango’s amazing versatility.\r\nAs well as this, we want to perform one of Tango's most iconic songs \"La Cumparsita\" an extremely energising traditional tango song and a common finale in any social dancing setting.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 12,
+                    "answer": "Tango is a close-knit, friendly society, aiming to spread the joys of Argentine Tango to whoever wishes to learn. There are lessons for beginners and intermediates alike, taught by a mixture of our exec team and external teachers. Whether you have been dancing for years, or have never moved to a rhythm before, our dancing family offers something for everyone!"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-NATD3S_zcawrft.png"
+                  },
+                  {
+                    "question": 14,
+                    "answer": "https://www.warwicksu.com/societies-sports/societies/argentinetango/"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@warwicktango"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 72,
+                "code": "WXXAP3",
+                "guid": "WXXAP3",
+                "date": "2026-06-13T17:07:00+01:00",
+                "start": "2026-06-13T17:07:00+01:00",
+                "logo": null,
+                "duration": "00:03:00",
+                "room": "Main Stage",
+                "slug": "WXXAP3",
+                "title": "The warwick chipettes",
+                "subtitle": "",
+                "track": "Dance",
+                "type": "",
+                "language": "",
+                "abstract": "Have you ever wanted to see the chipettes live? Now they take centre stage at WSAF",
+                "description": "We will be dancing to a mashup of the hit songs from the chipettes 'Three little birds' 'hot n cold' 'single ladies' and 'born this way'.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "The Warwick Chipettes"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "We slay"
+                  }
+                ]
+              }
+            ],
+            "Ramphal Theatre 2": [
+              {
+                "url": "",
+                "id": 4,
+                "code": "8ELSR8",
+                "guid": "8ELSR8",
+                "date": "2026-06-13T19:30:00+01:00",
+                "start": "2026-06-13T19:30:00+01:00",
+                "logo": "/media/2026/submissions/8ELSR8/inbound8435091338874260709_M6UQHMS.jpg",
+                "duration": "00:40:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "8ELSR8",
+                "title": "Joseph Westbury: Reality Reimagined",
+                "subtitle": "",
+                "track": "Mixed",
+                "type": "",
+                "language": "",
+                "abstract": "Reality Reimagined is a magic show unlike any other. Joseph uses a wide range of objects such as cards, rubiks cubes and even bottles to do the impossible. Joseph is an award winning magician and member of the magic circle, and is bound to leave you amazed.",
+                "description": "I can provide a set list of tricks but not sure how helpful that would be for this show",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Joseph Westbury"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "Joseph is an award winning magician and member of the Magic Circle."
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@joseph_w_9328"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 6,
+                "code": "8VBTA3",
+                "guid": "8VBTA3",
+                "date": "2026-06-13T12:30:00+01:00",
+                "start": "2026-06-13T12:30:00+01:00",
+                "logo": null,
+                "duration": "02:00:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "8VBTA3",
+                "title": "Decorative Rope Workshop",
+                "subtitle": "",
+                "track": "Workshop",
+                "type": "",
+                "language": "",
+                "abstract": "This workshop aims to teach a few foundations of rope bondage with a decorative twist, focusing on non-restrictive and aesthetically appealing rope. There will be the opportunity to learn how to tie decorative rope on yourself or with a friend, alongside rope-and-knot related arts and crafts.",
+                "description": "The workshop will begin with a detailed safety talk to ensure that everyone present keeps themselves safe during the workshop and afterwards. Exec (who will have at minimum one year of experience) are planning to teach a decorative and completely non-restrictive chest harness, and possibly another tie on the legs if time constraints allow. Students will be allowed to choose between tying themselves or tying with a friend, and it will be a completely casual, educational, non-intimate atmosphere. The arts and crafts side will be similar to macrame, and the intention is to make keychains or decorate water bottles (or similar) using colourful thread and knots.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Warwick Fetish Society"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "Warwick Fetish Society is an inclusive community promoting consent, sexual education, and destigmatisation of BDSM activities. We run regular educational talks, weekly socials, and more."
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-8VBTA3_UCUOvuU.png"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@warwickfetsoc"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "This event is for 18+ students only per society regulations. There will be non-explicit discussion of injury and severe injury (without images) in the safety talk."
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 13,
+                "code": "BWSGEJ",
+                "guid": "BWSGEJ",
+                "date": "2026-06-13T16:30:00+01:00",
+                "start": "2026-06-13T16:30:00+01:00",
+                "logo": "/media/2026/submissions/BWSGEJ/image_ctOlw5W.webp",
+                "duration": "01:00:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "BWSGEJ",
+                "title": "Vodka",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": "A girl attends a university house party. The drinks are flowing and she is flirting with a stranger, under the encouragement of her friends that want her to let loose and have fun. Soon the audience learns that this man that her friends have entrusted with her safety may not have good intentions.",
+                "description": "‘Vodka’ is the story of a girl (F), who is attending a university house party. The drinks are flowing, she is flirting with a stranger (M), under the encouragement of her friends that want her to let loose and have fun. Then the audience is faced with the harsh reality of spiking and we learn that this man that her friends have entrusted with F’s safety may not have good intentions. \r\n\r\nThe play explores how friends have a responsibility to protect each other, and what happens when this responsibility is neglected. It also explores the divide and interlinking between the masculine and feminine spheres in society. \r\n\r\nAt its core, ‘Vodka’ serves as a chilling reminder that these are real situations that happen to real people, with F simply serving as an archetype for anyone trying to navigate the world of drinking and dating.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 18,
+                    "answer": "Assault (explicit mention of rape), coercive behaviour, spiking, alcohol and drug use, brief moment of transphobia, audience participation"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 37,
+                "code": "J7KYKG",
+                "guid": "J7KYKG",
+                "date": "2026-06-13T18:00:00+01:00",
+                "start": "2026-06-13T18:00:00+01:00",
+                "logo": null,
+                "duration": "01:00:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "J7KYKG",
+                "title": "Warwick Comedy presents: another sketch show with even more sketches",
+                "subtitle": "",
+                "track": "Comedy",
+                "type": "",
+                "language": "",
+                "abstract": "Warwick comedy presents a series of comedic sketches about various relatable and/or completely ridiculous situations",
+                "description": "These sketches are gonna be taken to Edinburgh fringe, along with their performers. This will be a great chance to catch this if you can’t make it to Edinburgh. 10-12 sketches each about 5 minutes.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Warwick Comedy"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@comedywarwick"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 73,
+                "code": "X7FLFE",
+                "guid": "X7FLFE",
+                "date": "2026-06-13T15:00:00+01:00",
+                "start": "2026-06-13T15:00:00+01:00",
+                "logo": null,
+                "duration": "01:00:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "X7FLFE",
+                "title": "WASD: Charity Speedrunning Highlights",
+                "subtitle": "",
+                "track": "Film",
+                "type": "",
+                "language": "",
+                "abstract": "We would like to show off content from WASD - the UK's largest student-run speedrunning marathon, raising money for the charity SpecialEffect whilst playing all sorts of cool games and adding twists through donation incentives.",
+                "description": "-",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "UWCS - Warwick's Awesome Speedruns and Demos"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 14,
+                    "answer": "https://warwickspeed.run"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "warwick_speedrun"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 74,
+                "code": "XBKARS",
+                "guid": "XBKARS",
+                "date": "2026-06-13T20:30:00+01:00",
+                "start": "2026-06-13T20:30:00+01:00",
+                "logo": null,
+                "duration": "01:30:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "XBKARS",
+                "title": "Warwick Comedy presents: funny people (we promise)",
+                "subtitle": "",
+                "track": "Comedy",
+                "type": "",
+                "language": "",
+                "abstract": "Warwick comedy is proud to present: comedians! Shocking I know. We have wide varieties of comedic styles and performances, so there’s something for everyone!",
+                "description": "A series of comedic performances, 5-10 minutes each, with an MC in between to do crowd work and prep the audience for each performance",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Warwick Comedy"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@comedywarwick"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 82,
+                "code": "ZHPYVR",
+                "guid": "ZHPYVR",
+                "date": "2026-06-13T10:00:00+01:00",
+                "start": "2026-06-13T10:00:00+01:00",
+                "logo": null,
+                "duration": "02:00:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "ZHPYVR",
+                "title": "Beginner Knitting & Crochet Workshop",
+                "subtitle": "",
+                "track": "Workshop",
+                "type": "",
+                "language": "",
+                "abstract": "Learn to knit or crochet!",
+                "description": "A drop-in session aimed at teaching beginners how to knit and crochet. All materials you will need to learn are provided.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Warwick Knitting & Crochet Society"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-ZHPYVR_wJsckaq.png"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@warwickknitsoc"
+                  }
+                ]
+              }
+            ],
+            "FAB Terrace": [
+              {
+                "url": "",
+                "id": 16,
+                "code": "CHVAWA",
+                "guid": "CHVAWA",
+                "date": "2026-06-13T18:45:00+01:00",
+                "start": "2026-06-13T18:45:00+01:00",
+                "logo": "/media/2026/submissions/CHVAWA/image_Uh0taSR.webp",
+                "duration": "00:30:00",
+                "room": "FAB Terrace",
+                "slug": "CHVAWA",
+                "title": "ASHWIN KRD SVONO - LIVE JUNE 2026",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "Back from Sri Lanka, Ashwin Ranasinghe-de Silva returns with guitar, synth and reverb pedal to share original instrumental music. He studied chemistry with medicinal chemistry at Warwick and works on his invention/charity projects relating to medicine/climate and more.\r\n\r\nHis music project 'ASHWIN KRD SVONO' blends ambient, post-rock, soundtrack-fusion, tribal, indie, jazz fusion, electronic-ambient and many soundtrack-style influences. His music is often described as a “soundtrack for life” and explores universal themes.  \r\n\r\nHe released his first album at age 18 and has released many pieces since. As of 2026, his music has reached approximately 1 million plays across listeners in over 110 countries, with an online following of nearly 100,000.\r\n\r\nSome listeners describe the music as inspiring, existential and ethereal, while other pieces are more reflective, peaceful and nostalgic. \r\n\r\nHis music explores themes of journeying, hope, nostalgia, memory, peace, dreams and more.  The set will feature a range of original instrumental music. Hopefully the music can help the world in some way. \r\n\r\nFor a sense of what to expect, here is last year’s WSAF performance:\r\nhttps://youtu.be/ESIjybXkJkQ?si=ir3QL_MkHBHkp2dM",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "ASHWIN KRD SVONO"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-CHVAWA_LDBDoYq.jpg"
+                  },
+                  {
+                    "question": 14,
+                    "answer": "https://www.youtube.com/@svono_svono_music"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@ashwin_rds"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "no content warnings"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 34,
+                "code": "HJWPQR",
+                "guid": "HJWPQR",
+                "date": "2026-06-13T21:10:00+01:00",
+                "start": "2026-06-13T21:10:00+01:00",
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "FAB Terrace",
+                "slug": "HJWPQR",
+                "title": "Solo Singing",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "I will be singing amazing songs to fill the crowd with joy and energy . I want to be apart of creating a lively atmosphere.",
+                "description": "I want an opportunity to get on stage and sing to a crowd. I want people to feel passionate and inspired. I could sing many songs, I’m not yet decided on which is best. I could do Mariah Carey’s song called “make it happen” or “Hero” or “Fantasy”. I could be more sombre and theatrical and sing “god help the outcasts” or “Journey to the past”. I could even sing a French song or an Arabic song! But I know whichever one I choose to do, it’ll be amazing and so much fun!",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Kawtar Kheloug"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "_kawtarrx"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 43,
+                "code": "KT8XXC",
+                "guid": "KT8XXC",
+                "date": "2026-06-13T21:25:00+01:00",
+                "start": "2026-06-13T21:25:00+01:00",
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "FAB Terrace",
+                "slug": "KT8XXC",
+                "title": "Albie Acoustic Guitar",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "Me playing 4/5 covers on an acoustic guitar!",
+                "description": "Me playing 4/5 covers on an acoustic guitar! Thinking about songs by The Vaccines and Frank Turner, that speak to my taste and who I am",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Albie McAllister"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@albie_mcallister88"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 45,
+                "code": "KZSCJZ",
+                "guid": "KZSCJZ",
+                "date": "2026-06-13T19:10:00+01:00",
+                "start": "2026-06-13T19:10:00+01:00",
+                "logo": null,
+                "duration": "00:05:00",
+                "room": "FAB Terrace",
+                "slug": "KZSCJZ",
+                "title": "Burn from Hamilton (Vocal Solo)",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "I'll be singing Burn - my favourite song from the musical Hamilton.",
+                "description": "Burn from Lin Manuel Miranda's Hamilton",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Saira Patel"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 83,
+                "code": "ZPVUEV",
+                "guid": "ZPVUEV",
+                "date": "2026-06-13T20:30:00+01:00",
+                "start": "2026-06-13T20:30:00+01:00",
+                "logo": null,
+                "duration": "00:20:00",
+                "room": "FAB Terrace",
+                "slug": "ZPVUEV",
+                "title": "Sophie and Tara Singing",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "Hello! We are Tara and Sophie and we will be performing a compilation of our favourite songs, ranging from songs from film and television to even a K-pop song! We are just doing this for fun and would love will encourage any audience members wanted to sing along for certain numbers! :)",
+                "description": "We will be performing 4 songs, Fuyunohanashi from Given, Dreams by Fleetwood Mac, La Seine and I from Monster in Paris and Be My Baby by Wonder Girls!!",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Sophara"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@theredrandoms @_from_soph"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "No"
+                  }
+                ]
+              }
+            ],
+            "Ramphal Theatre 1": [
+              {
+                "url": "",
+                "id": 29,
+                "code": "HFWF8N",
+                "guid": "HFWF8N",
+                "date": "2026-06-13T18:30:00+01:00",
+                "start": "2026-06-13T18:30:00+01:00",
+                "logo": null,
+                "duration": "01:40:00",
+                "room": "Ramphal Theatre 1",
+                "slug": "HFWF8N",
+                "title": "You Don't Have To Say It Like That",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": "In the aftermath of a loss, a person, a sibling and a mother attempt to deal with a life marked by a sinister absence. The person, unable to confront the truth of their situation, retreats into a new memory recollection experiment and forms a connection with their mesmerically reserved doctor. As the experiment continues, reality begins to distort and a family may very quickly turn into strangers. You Don’t Have To Say It Like That is a play that explores memory as both a tangible and immaterial component of everyday life and questions how we choose to remember.",
+                "description": "No",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Independent Student Production"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "A Small Student Group"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "Not yet but will be set up"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "Content Warnings:  - References of Sexual Abuse  - Flashing lights  - Mental health distress and psychological trauma  - Grief, family conflict, and bereavement - Disorientation and sensory disturbance (including repetitive sound and imagery)"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 33,
+                "code": "HJP9GK",
+                "guid": "HJP9GK",
+                "date": "2026-06-13T13:15:00+01:00",
+                "start": "2026-06-13T13:15:00+01:00",
+                "logo": "/media/2026/submissions/HJP9GK/image_qaV5gKV.webp",
+                "duration": "00:30:00",
+                "room": "Ramphal Theatre 1",
+                "slug": "HJP9GK",
+                "title": "Fantastic Mr. Fox: The Summer Pantomime",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": "In Fantastic Mr. Fox the Summer Pantomime, we follow the fox family, as they're terrorised by three evil farmers. Will they find a way to survive? Will Mr. Fox get over his existential crisis? Will we get permission from WSAF to throw sweets at the audience? You can find out by coming along! Perfect if this is your first panto, or you've been going your whole life.",
+                "description": "In Fantastic Mr. Fox the Summer Pantomime, we follow the fox family, as they're terrorised by three evil farmers. Will they find a way to survive? Will Mr. Fox get over his existential crisis? Will we get permission from WSAF to throw sweets at the audience? You can find out by coming along! Perfect if this is your first panto, or you've been going your whole life.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Warwick Pantomime Society"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "Founded on the basis of inclusiveness, Warwick Pantomime Society invites anyone and everyone to join in and have a go! Whether you're a seasoned stage presence or have never set foot on one before, there's always a part for you. We put on a pantomime every term, so there are lots of chances to get involved!"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-HJP9GK_ichQ4En.jpg"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@warwickpantosoc"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 52,
+                "code": "NMWVF8",
+                "guid": "NMWVF8",
+                "date": "2026-06-13T11:30:00+01:00",
+                "start": "2026-06-13T11:30:00+01:00",
+                "logo": "/media/2026/submissions/NMWVF8/WhatsApp_Image_2026-03-27_at_20.12.59_MkSY6TW.jpeg",
+                "duration": "01:30:00",
+                "room": "Ramphal Theatre 1",
+                "slug": "NMWVF8",
+                "title": "Hit Rewind",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "Hit Rewind is a cabaret will be a joyful revival of numerous Musical Theatre songs, reimagined in a lively cabaret setting. Get Ready for a super enjoyable, high- energy, feel-good evening for everyone celebrating all things Musical Theatre!",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Hit Rewind"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "Hit Rewind is a cabaret will be a joyful revival of numerous Musical Theatre songs, reimagined in a lively cabaret setting. Get Ready for a super enjoyable, high- energy, feel-good evening for everyone celebrating all things Musical Theatre!"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/WhatsApp_Image_2026-03-27_at_20.12.59_K1Ug9VD.jpeg"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@hitrewind_cabaret"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "nope"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 59,
+                "code": "RKXVCC",
+                "guid": "RKXVCC",
+                "date": "2026-06-13T16:10:00+01:00",
+                "start": "2026-06-13T16:10:00+01:00",
+                "logo": "/media/2026/submissions/RKXVCC/image_to2OE1d.webp",
+                "duration": "02:00:00",
+                "room": "Ramphal Theatre 1",
+                "slug": "RKXVCC",
+                "title": "Mean Girls: On Wednesdays We Drink Purple",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": "Based on the 2000s hit film, our rendition of Mean Girls: On Wednesdays We Drink Purple puts a new spin on the beloved classic. We meet our lead character Cady Heron as she makes the transition from homeschooling in Coventry to being a fresher at the University of Warwick. As she tries to figure out the complicated social scene, she gets pulled into a popular clique known as “The Plastics”, led by the infamous Regina George. What starts as an attempt to fit in gradually turns into something more complicated as Cady navigates friendships, popularity, and her own sense of identity. Will it all be too much for Cady to deal with or will she rise above it all to find where she truly belongs…",
+                "description": "We will have two show times, each running at 90mins. These will be Saturday 16.10 and Sunday 11.45am.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Music Theatre Warwick"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "Our society combines dancing, singing and acting and works to produce high quality productions for people to enjoy!"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-RKXVCC_N5bTfz6.png"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@onwednesdayswedrinkpurple"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "· Body Image/ weight comments  · Foul language  · References to drugs  · Alcohol usage  · References to sex  · Kissing"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 60,
+                "code": "RUXZN7",
+                "guid": "RUXZN7",
+                "date": "2026-06-13T20:30:00+01:00",
+                "start": "2026-06-13T20:30:00+01:00",
+                "logo": "/media/2026/submissions/RUXZN7/image_RfsmSyD.webp",
+                "duration": "01:30:00",
+                "room": "Ramphal Theatre 1",
+                "slug": "RUXZN7",
+                "title": "The Ripper of London Town: A New Musical in Concert",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": "A KILLER new musical based on Jack the Ripper's murderous reign over Whitechapel!",
+                "description": "A showcase of the best 17 songs from the professionally produced musical by Knife Edge Studios and written by Ioan Rees, a student at the University of Warwick.\r\nOur setlist:\r\nSong 1 - Pretty Bonnet\r\nSong 2 - Body on the Street\r\nSong 3 - Read All About It\r\nSong 4 - Leather Apron\r\nSong 5 - Four Pence\r\nSong 6 - Vigilance\r\nSong 7 - Apron Apprehended\r\nSong 8 - Dear Boss\r\nSong 9 - Ten Bells\r\nSong 10 - Long Liz\r\nSong 11 - Flee\r\nSong 12 - Wrong Place Wrong Time\r\nSong 13 - Read All About It (Reprise)\r\nSong 14 - More Than A Victim\r\nSong 15 - From Hell\r\nSong 16 - Only a Violet\r\nSong 17 - JACK!",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Ioan Rees of Knife Edge Studios"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/Knife_Edge_Studios_Logo_Square_WXsYrUd.jpg"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@ripperthemusical"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "Includes themes of prostitution and violent crime. Blocking is minimal and will not be graphic."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "day_start": "2026-06-14T10:00:00.000Z",
+          "day_end": "2026-06-14T20:45:00.000Z",
+          "rooms": {
+            "FAB Terrace": [
+              {
+                "url": "",
+                "id": 2,
+                "code": "7VBNPS",
+                "guid": "7VBNPS",
+                "date": "2026-06-14T20:00:00+01:00",
+                "start": "2026-06-14T20:00:00+01:00",
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "FAB Terrace",
+                "slug": "7VBNPS",
+                "title": "Camilla : B-side x FTR sunset session",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "Camilla will be doing a combination of covers and originals.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Camilla"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 3,
+                "code": "8CBFSM",
+                "guid": "8CBFSM",
+                "date": "2026-06-14T20:25:00+01:00",
+                "start": "2026-06-14T20:25:00+01:00",
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "FAB Terrace",
+                "slug": "8CBFSM",
+                "title": "Zach and Finn : B-side x FTR sunset session",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "Zach and finn will be performing a selection of original songs",
+                "do_not_record": false,
+                "answers": []
+              },
+              {
+                "url": "",
+                "id": 22,
+                "code": "ERCLYU",
+                "guid": "ERCLYU",
+                "date": "2026-06-14T19:15:00+01:00",
+                "start": "2026-06-14T19:15:00+01:00",
+                "logo": null,
+                "duration": "00:10:00",
+                "room": "FAB Terrace",
+                "slug": "ERCLYU",
+                "title": "Maya  : B-side x FTR sunset session",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "Maya will be performing covers with the live band",
+                "do_not_record": false,
+                "answers": []
+              },
+              {
+                "url": "",
+                "id": 42,
+                "code": "KDFCDA",
+                "guid": "KDFCDA",
+                "date": "2026-06-14T19:00:00+01:00",
+                "start": "2026-06-14T19:00:00+01:00",
+                "logo": "/media/2026/submissions/KDFCDA/image_7crIV0o.webp",
+                "duration": "02:00:00",
+                "room": "FAB Terrace",
+                "slug": "KDFCDA",
+                "title": "B-side x Ftr Sunset Session",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "A live music event showcasing campus talent through original music and covers with a house band",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "B-side collective"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-KDFCDA_hILwxXh.png"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "https://www.instagram.com/bside_collective_warwick?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 66,
+                "code": "V8KKBJ",
+                "guid": "V8KKBJ",
+                "date": "2026-06-14T19:35:00+01:00",
+                "start": "2026-06-14T19:35:00+01:00",
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "FAB Terrace",
+                "slug": "V8KKBJ",
+                "title": "Kib : B-side x FTR sunset session",
+                "subtitle": "",
+                "track": "Mixed",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "Kib is a rapper/singer who will be blending original music and covers to tell a narrative of heartbreak and healing.",
+                "do_not_record": false,
+                "answers": []
+              }
+            ],
+            "Main Stage": [
+              {
+                "url": "",
+                "id": 5,
+                "code": "8UHGVT",
+                "guid": "8UHGVT",
+                "date": "2026-06-14T18:00:00+01:00",
+                "start": "2026-06-14T18:00:00+01:00",
+                "logo": null,
+                "duration": "00:30:00",
+                "room": "Main Stage",
+                "slug": "8UHGVT",
+                "title": "WickFest : Infodump",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "18:00 - 18:30 - Infodump",
+                "description": "18:00 - 18:30 - Infodump",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest: Infodump"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@infodump_band"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 10,
+                "code": "BFJ9TD",
+                "guid": "BFJ9TD",
+                "date": "2026-06-14T12:40:00+01:00",
+                "start": "2026-06-14T12:40:00+01:00",
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "Main Stage",
+                "slug": "BFJ9TD",
+                "title": "WickFest : Swamp Puppy",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "12:40-12:55  Swamp Puppy",
+                "description": "12:40-12:55  Swamp Puppy",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Swamp Puppy"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@elliott.bujac"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 14,
+                "code": "BZFMGA",
+                "guid": "BZFMGA",
+                "date": "2026-06-14T11:25:00+01:00",
+                "start": "2026-06-14T11:25:00+01:00",
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "Main Stage",
+                "slug": "BZFMGA",
+                "title": "WickFest : Andychrist",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "11:25-11:40 Andychrist",
+                "description": "11:25-11:40 Andychrist",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Andychrist"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 17,
+                "code": "CKLEMJ",
+                "guid": "CKLEMJ",
+                "date": "2026-06-14T15:00:00+01:00",
+                "start": "2026-06-14T15:00:00+01:00",
+                "logo": null,
+                "duration": "00:20:00",
+                "room": "Main Stage",
+                "slug": "CKLEMJ",
+                "title": "WickFest : Bloodrot",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "15:00-15:20  Bloodrot",
+                "description": "15:00-15:20  Bloodrot",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Bloodrot"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@bloodrotted.dm"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 20,
+                "code": "EC9UAT",
+                "guid": "EC9UAT",
+                "date": "2026-06-14T19:20:00+01:00",
+                "start": "2026-06-14T19:20:00+01:00",
+                "logo": null,
+                "duration": "00:30:00",
+                "room": "Main Stage",
+                "slug": "EC9UAT",
+                "title": "Wickfest : Wet Towel Flagellation",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "19:20-19:50  Wet Towel Flagellation",
+                "description": "19:20-19:50  Wet Towel Flagellation",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Wet Towel Flagellation"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@wettowelflagellation"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 26,
+                "code": "HAFTE8",
+                "guid": "HAFTE8",
+                "date": "2026-06-14T13:05:00+01:00",
+                "start": "2026-06-14T13:05:00+01:00",
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "Main Stage",
+                "slug": "HAFTE8",
+                "title": "WickFest : Lethe",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "13:05 - 13:20  Lethe",
+                "description": "13:05 - 13:20  Lethe",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Lethe"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@james_fromow24"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 28,
+                "code": "HE9FHB",
+                "guid": "HE9FHB",
+                "date": "2026-06-14T13:30:00+01:00",
+                "start": "2026-06-14T13:30:00+01:00",
+                "logo": null,
+                "duration": "00:20:00",
+                "room": "Main Stage",
+                "slug": "HE9FHB",
+                "title": "WickFest : HARDCASE",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "13:30-13:50  HARDCASE",
+                "description": "13:30-13:50  HARDCASE",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : HARDCASE"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 31,
+                "code": "HJBZGL",
+                "guid": "HJBZGL",
+                "date": "2026-06-14T11:00:00+01:00",
+                "start": "2026-06-14T11:00:00+01:00",
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "Main Stage",
+                "slug": "HJBZGL",
+                "title": "WickFest : NoEmber",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "11:00-11:15  NoEmber",
+                "description": "11:00-11:15  NoEmber",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : NoEmber"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@an1wde29"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 40,
+                "code": "JHWN3S",
+                "guid": "JHWN3S",
+                "date": "2026-06-14T16:20:00+01:00",
+                "start": "2026-06-14T16:20:00+01:00",
+                "logo": null,
+                "duration": "00:20:00",
+                "room": "Main Stage",
+                "slug": "JHWN3S",
+                "title": "WickFest : Dust To Dust",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "16:20-16:40  Dust To Dust",
+                "description": "16:20-16:40  Dust To Dust",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Dust To Dust"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@dusttodust_official"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 41,
+                "code": "KCGUCD",
+                "guid": "KCGUCD",
+                "date": "2026-06-14T17:10:00+01:00",
+                "start": "2026-06-14T17:10:00+01:00",
+                "logo": null,
+                "duration": "00:20:00",
+                "room": "Main Stage",
+                "slug": "KCGUCD",
+                "title": "WickFest : Sonora",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "17:10-17:30  Sonora",
+                "description": "17:10-17:30  Sonora",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Sonora"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@officialsonora"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 46,
+                "code": "LQHEDT",
+                "guid": "LQHEDT",
+                "date": "2026-06-14T12:15:00+01:00",
+                "start": "2026-06-14T12:15:00+01:00",
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "Main Stage",
+                "slug": "LQHEDT",
+                "title": "WickFest : Venesector",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "12:15-12:30  Venesector",
+                "description": "12:15-12:30  Venesector",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Venesector"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "Profanity"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 47,
+                "code": "LXH7VW",
+                "guid": "LXH7VW",
+                "date": "2026-06-14T15:55:00+01:00",
+                "start": "2026-06-14T15:55:00+01:00",
+                "logo": null,
+                "duration": "00:20:00",
+                "room": "Main Stage",
+                "slug": "LXH7VW",
+                "title": "WickFest : Et Al.",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "15:55 - 16:25  Et Al.",
+                "description": "15:55 - 16:25  Et Al.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Et Al."
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@et.al.theband"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 56,
+                "code": "QGABHG",
+                "guid": "QGABHG",
+                "date": "2026-06-14T11:50:00+01:00",
+                "start": "2026-06-14T11:50:00+01:00",
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "Main Stage",
+                "slug": "QGABHG",
+                "title": "WickFest : The Boys Want Cars",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "11:50-12:05  The Boys Want Cars",
+                "description": "11:50-12:05  The Boys Want Cars",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : The Boys Want Cars"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@theboyswantcars"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 58,
+                "code": "REKT3E",
+                "guid": "REKT3E",
+                "date": "2026-06-14T21:20:00+01:00",
+                "start": "2026-06-14T21:20:00+01:00",
+                "logo": null,
+                "duration": "00:40:00",
+                "room": "Main Stage",
+                "slug": "REKT3E",
+                "title": "WickFest: Ferrux",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "21:20-22:00  Ferrux",
+                "description": "21:20-22:00  Ferrux",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Ferrux"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-REKT3E_0G0cLzb.png"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@ferruxband"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 64,
+                "code": "TWTZZE",
+                "guid": "TWTZZE",
+                "date": "2026-06-14T15:30:00+01:00",
+                "start": "2026-06-14T15:30:00+01:00",
+                "logo": null,
+                "duration": "00:20:00",
+                "room": "Main Stage",
+                "slug": "TWTZZE",
+                "title": "WickFest : Spike and the Cacti",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "15:30-15:50  Spike and the Cacti",
+                "description": "15:30-15:50  Spike and the Cacti",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Spike and the Cacti"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@spikeandtheCacti"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 67,
+                "code": "VAPUGQ",
+                "guid": "VAPUGQ",
+                "date": "2026-06-14T14:30:00+01:00",
+                "start": "2026-06-14T14:30:00+01:00",
+                "logo": null,
+                "duration": "00:20:00",
+                "room": "Main Stage",
+                "slug": "VAPUGQ",
+                "title": "WickFest : Crack Bears",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "14:30-14:50  Crack Bears",
+                "description": "14:30-14:50  Crack Bears",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Crack Bears"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@crack_bears"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 68,
+                "code": "VFWDBC",
+                "guid": "VFWDBC",
+                "date": "2026-06-14T20:40:00+01:00",
+                "start": "2026-06-14T20:40:00+01:00",
+                "logo": null,
+                "duration": "00:30:00",
+                "room": "Main Stage",
+                "slug": "VFWDBC",
+                "title": "WickFest : Kintsugi",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "20:40-21:10  Kintsugi",
+                "description": "20:40-21:10  Kintsugi",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Kintsugi"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@kintsugi_band"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 70,
+                "code": "VSE8K3",
+                "guid": "VSE8K3",
+                "date": "2026-06-14T17:35:00+01:00",
+                "start": "2026-06-14T17:35:00+01:00",
+                "logo": null,
+                "duration": "00:20:00",
+                "room": "Main Stage",
+                "slug": "VSE8K3",
+                "title": "WickFest : Creme Fraiche",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "17:35-17:55  Creme Fraiche",
+                "description": "17:35-17:55  Creme Fraiche",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Creme Fraiche"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@cremefraichetheband"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 71,
+                "code": "W7TPHA",
+                "guid": "W7TPHA",
+                "date": "2026-06-14T14:00:00+01:00",
+                "start": "2026-06-14T14:00:00+01:00",
+                "logo": null,
+                "duration": "00:20:00",
+                "room": "Main Stage",
+                "slug": "W7TPHA",
+                "title": "WickFest : ASTRAEA",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "14:00-14:20  ASTRAEA",
+                "description": "14:00-14:20  ASTRAEA",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : ASTRAEA"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 77,
+                "code": "XHUTG3",
+                "guid": "XHUTG3",
+                "date": "2026-06-14T18:40:00+01:00",
+                "start": "2026-06-14T18:40:00+01:00",
+                "logo": null,
+                "duration": "00:30:00",
+                "room": "Main Stage",
+                "slug": "XHUTG3",
+                "title": "WickFest: Epitaph",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "18:40 - 19:10 - Epitaph",
+                "description": "18:40 - 19:10 - Epitaph",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest: Epitaph"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-XHUTG3_m8hX8Ro.jpeg"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@___epitaph_.__"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 81,
+                "code": "Z3UDGH",
+                "guid": "Z3UDGH",
+                "date": "2026-06-14T16:45:00+01:00",
+                "start": "2026-06-14T16:45:00+01:00",
+                "logo": null,
+                "duration": "00:20:00",
+                "room": "Main Stage",
+                "slug": "Z3UDGH",
+                "title": "WickFest : Slow Bus",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "16:45 - 17:05  Slow Bus",
+                "description": "16:45 - 17:05  Slow Bus",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Slow Bus"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@slowbus_band"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 84,
+                "code": "ZVALNG",
+                "guid": "ZVALNG",
+                "date": "2026-06-14T20:00:00+01:00",
+                "start": "2026-06-14T20:00:00+01:00",
+                "logo": null,
+                "duration": "00:30:00",
+                "room": "Main Stage",
+                "slug": "ZVALNG",
+                "title": "WickFest : Lurid",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "20:00 - 20:30 - Lurid",
+                "description": "20:00 - 20:30 - Lurid",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "WickFest : Lurid"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@luridband"
+                  }
+                ]
+              }
+            ],
+            "Ramphal Theatre 2": [
+              {
+                "url": "",
+                "id": 18,
+                "code": "CXKVMY",
+                "guid": "CXKVMY",
+                "date": "2026-06-14T12:00:00+01:00",
+                "start": "2026-06-14T12:00:00+01:00",
+                "logo": null,
+                "duration": "02:00:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "CXKVMY",
+                "title": "One Day Choir Workshop with Tom Hartley",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "A One-Day Choir workshop led by Tom Hartley of the Grammy Award-winning a cappella group 'The Swingles'.\r\nJoin us for a fun and interactive ensemble singing workshop to learn and practice an exciting arrangement - Open to all experience levels!",
+                "description": "This is a workshop with an external facilitator named Tom Hartley in collaboration with Warwick A Cappella Society. He is part of 'The Swingles' which is a Grammy Award-winning a cappella group and he will be delivering a workshop which focuses on ensemble unaccompanied singing ('one day choir'), with people of any experience level. Duration TBC (2hrs tbc when we have confirmed details).",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Warwick A Cappella Society"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "Warwick A Cappella Society is a society for performing, arranging and appreciating unaccompanied vocal music."
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/WACA_Logo_IOc7NXY.jpg"
+                  },
+                  {
+                    "question": 14,
+                    "answer": "https://www.warwicksu.com/societies-sports/societies/45864/"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@wacasociety"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 50,
+                "code": "MZASJL",
+                "guid": "MZASJL",
+                "date": "2026-06-14T21:45:00+01:00",
+                "start": "2026-06-14T21:45:00+01:00",
+                "logo": null,
+                "duration": "00:30:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "MZASJL",
+                "title": "The Alex Munshow",
+                "subtitle": "",
+                "track": "Comedy",
+                "type": "",
+                "language": "",
+                "abstract": "I am great at making myself laugh. Is the same true for other people? Let’s find out together.",
+                "description": "Comedy and perhaps musical comedy and nothing else except a bit of retrospection.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 15,
+                    "answer": "@alex_munro_"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "Likely swearing"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 55,
+                "code": "PS9RCN",
+                "guid": "PS9RCN",
+                "date": "2026-06-14T14:30:00+01:00",
+                "start": "2026-06-14T14:30:00+01:00",
+                "logo": null,
+                "duration": "01:00:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "PS9RCN",
+                "title": "Warwick A Cappella Beatbox Workshop",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "A fun and interactive beginner-friendly introduction to beatbox workshop where you can learn the basics of vocal percussion!",
+                "description": "This will be a beatbox workshop held by 2 of our society's beatboxers. They will be responsible for facilitating the workshop with other WACA (Warwick A Cappella) exec members present to participate and ensure the event runs smoothly. This is open to any level of experience from complete beginners to seasoned performers! 1hr.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Warwick A Cappella Society"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "Warwick A Cappella Society is a society for performing, arranging and appreciating unaccompanied vocal music."
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/WACA_Logo_Yn67E4t.jpg"
+                  },
+                  {
+                    "question": 14,
+                    "answer": "https://www.warwicksu.com/societies-sports/societies/45864/"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@wacasociety"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 57,
+                "code": "QVCCDX",
+                "guid": "QVCCDX",
+                "date": "2026-06-14T16:15:00+01:00",
+                "start": "2026-06-14T16:15:00+01:00",
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "QVCCDX",
+                "title": "Tech crew: unsolved",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": "Join us as we unravel the mysteries behind the ghouls that have haunted tech crew",
+                "description": "Bethan and I (Rebecca) will create something in under 2 weeks",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "The gals"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "Ghouls, probably swearing"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 75,
+                "code": "XBKVDL",
+                "guid": "XBKVDL",
+                "date": "2026-06-14T21:15:00+01:00",
+                "start": "2026-06-14T21:15:00+01:00",
+                "logo": "/media/2026/submissions/XBKVDL/image_ogqGOsY.webp",
+                "duration": "00:30:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "XBKVDL",
+                "title": "Will Lyall is Inconsistently Immoral",
+                "subtitle": "",
+                "track": "Comedy",
+                "type": "",
+                "language": "",
+                "abstract": "(Can I change this I find decision making hard)",
+                "description": "Will Lyall \r\nImprovisers solving problems\r\n\r\nComedy and Improv Show\r\n\r\nI think the plan is for Will to do 30 minutes of standup and then for the remaining period 30 minutes we will do some improv to solve the audiences problems",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Will Lyall and Friends"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "Whatthelyall"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 76,
+                "code": "XEBHHL",
+                "guid": "XEBHHL",
+                "date": "2026-06-14T16:45:00+01:00",
+                "start": "2026-06-14T16:45:00+01:00",
+                "logo": null,
+                "duration": "02:00:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "XEBHHL",
+                "title": "Equus",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "this is a two hour play (including interval) which although longer than a normal submission would be a great unusual piece of theatre good for the student arts festival. We have an enthusiastic team of people prepared to put on a full length play to the high standard which is present across Warwick theatre societies. we have a director and assistant director who adore this play and will no doubt create an incredible adaptation of the play. \r\nwe want to work in a self-sufficient way, creating our own advertising and organising the production in the way of any other show at the uni, however we are looking forward to engaging with the festival as a whole wanting to be embedded into the process and working well within the entire festival.\r\n\r\nour artistic intention for Equus is to explore its ambiguity and layered meanings, particularly the blurring of religion and sexuality, symbolised physically through movement and choreography. I want to use abstract staging and expressive puppetry to bring the horses to life and externalise Alan’s inner world, creating a sense of ritual and intensity. The production will embrace minimalism and symbolism to keep the focus on the psychological and emotional complexity, encouraging the audience to actively question and interpret rather than settle on a single explanation.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 12,
+                    "answer": "we are an independent production team, made up of students of various years and courses. we mainly work across single and joint honours theatre however also have some members from across the university."
+                  },
+                  {
+                    "question": 18,
+                    "answer": "animal cruelty, sexual content, violence, self-harm, mental health issues, drug use, language"
+                  }
+                ]
+              }
+            ],
+            "The Graduate": [
+              {
+                "url": "",
+                "id": 38,
+                "code": "J9TVYH",
+                "guid": "J9TVYH",
+                "date": "2026-06-14T20:00:00+01:00",
+                "start": "2026-06-14T20:00:00+01:00",
+                "logo": null,
+                "duration": "02:00:00",
+                "room": "The Graduate",
+                "slug": "J9TVYH",
+                "title": "Drinkcert",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": "Performers are randomly assigned a role from a musical and perform it spontaneously with the script projected on the wall.",
+                "description": "Members will sign up via a form and indicate whether they would like a lead or supporting role. Roles will then be randomly allocated and, on the day, performers will turn up and perform on the spot reading off the script projected on the wall. People will come to watch the chaotic musical performance.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "MTW"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "Drinkcert"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-J9TVYH_Z0v9OHx.png"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@musictheatrewarwick"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 49,
+                "code": "MXD3RE",
+                "guid": "MXD3RE",
+                "date": "2026-06-14T18:00:00+01:00",
+                "start": "2026-06-14T18:00:00+01:00",
+                "logo": null,
+                "duration": "02:00:00",
+                "room": "The Graduate",
+                "slug": "MXD3RE",
+                "title": "Folk Session",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "We will be playing folk music in the Graduate for our regular sunday session, if you would like to play some folk music come along! This is for musicians of all abilities and backgrounds, there will be sheet music (but you're not required to read it, folk's more about the spirit than keeping to the dots) and opportunities to join in singing some folk songs!",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Warwick Folk Society"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "see ceilidh submission"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": "gallery",
+          "day_start": "2026-05-31T18:39:34.962Z",
+          "day_end": "2026-05-31T18:39:34.962Z",
+          "rooms": {
+            "Unknown Room": [
+              {
+                "url": "",
+                "id": 7,
+                "code": "9BG8LL",
+                "guid": "9BG8LL",
+                "date": "",
+                "start": null,
+                "logo": "/media/2026/submissions/9BG8LL/image_yXWMDo5.webp",
+                "duration": "00:20:00",
+                "room": "Unknown Room",
+                "slug": "9BG8LL",
+                "title": "Childhood Memories",
+                "subtitle": "",
+                "track": "Visual Art (displayed)",
+                "type": "",
+                "language": "",
+                "abstract": "Shot over a period of two years in my hometown of Kingston, Jamaica, these photos explore the various moments spent with my, now, 3 year old cousin. The collection is populated by the meandering moments of childhood, and the infinite curiosity that lives within it, but more than anything, I wanted these images to capture memories taking place in the present.",
+                "description": "N/A",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Daksh Banerjee"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "photogrphy_daksh"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 9,
+                "code": "BCDCVN",
+                "guid": "BCDCVN",
+                "date": "",
+                "start": null,
+                "logo": "/media/2026/submissions/BCDCVN/image_GD7Jaf8.webp",
+                "duration": "00:20:00",
+                "room": "Unknown Room",
+                "slug": "BCDCVN",
+                "title": "Waves",
+                "subtitle": "",
+                "track": "Visual Art (displayed)",
+                "type": "",
+                "language": "",
+                "abstract": "Inspired by Japanese photographer, Masao Yamamoto's, intimate portraits of nature based on Buddhist philosophy; I wanted to capture my relationship with the ocean. I was particularly inspired by the Buddhist analogy of the wave to transcend birth and death. It is said that the wave ends and begins but the ocean doesn’t, if it were to realize itself as a wave it would be infected by anxiety and fear, it can end, it is finite but accepting that it is part of the ocean, it can transcend fear, birth and death.",
+                "description": "N/A",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Daksh Banerjee"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "photogrphy_daksh"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 62,
+                "code": "SRPXUN",
+                "guid": "SRPXUN",
+                "date": "",
+                "start": null,
+                "logo": null,
+                "duration": "00:15:00",
+                "room": "Unknown Room",
+                "slug": "SRPXUN",
+                "title": "Sam: B-side x FTR sunset session",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "A mix of originals and covers with band and solo",
+                "do_not_record": false,
+                "answers": []
+              },
+              {
+                "url": "",
+                "id": 63,
+                "code": "TPTUXT",
+                "guid": "TPTUXT",
+                "date": "",
+                "start": null,
+                "logo": "/media/2026/submissions/TPTUXT/image_Ox8pKN7.webp",
+                "duration": "00:30:00",
+                "room": "Unknown Room",
+                "slug": "TPTUXT",
+                "title": "Sri Lankan Traditional Art",
+                "subtitle": "",
+                "track": "Visual Art (displayed)",
+                "type": "",
+                "language": "",
+                "abstract": "**Sri Lankan Traditional Art**\r\nInspired by traditional temple drawings, these arts are given a modern twist, diverging from the traditional and cultural colour scheme, while preserving the flow of design.",
+                "description": "**Sri Lankan Traditional Art**\r\nInspired by traditional Sri Lankan temple drawings, these artworks reinterpret classical forms through a modern lens. While moving away from the conventional cultural colour palette, they preserve the graceful flow, rhythm, and intricate design language of the original designs.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Naveera Abhayawickrama"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-TPTUXT_TTuUO6Z.jpeg"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 80,
+                "code": "YCYM8N",
+                "guid": "YCYM8N",
+                "date": "",
+                "start": null,
+                "logo": "/media/2026/submissions/YCYM8N/image_gDULvbm.webp",
+                "duration": "00:01:00",
+                "room": "Unknown Room",
+                "slug": "YCYM8N",
+                "title": "The Bore",
+                "subtitle": "",
+                "track": "Visual Art (displayed)",
+                "type": "",
+                "language": "",
+                "abstract": "A satirical magazine focusing on Warwick, featuring comedic contributions from various student writers.",
+                "description": "A 32-page campus satire magazine in the style of The Onion, with several student contributors. \r\nI would also look at creating an Instagram account in tandem, where articles could be posted on social media, further promoting the magazine. I've attached a few mock-up pages that I created in Publisher to give you an idea of what it could look like. This project would involve around 15 student writers and collaborators, with me coordinating it. As of 25/04/25, I have at least twelve writers who've agreed to contribute, including the admins of The Leamington Post and the Warwick Onion.\r\n\r\nI've used a company called HelloPrint previously, who are very good. They printed a 50-edition run of a 32-page magazine for £62.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "William Moores"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/bore_logo_ZdSlH85.png"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "day_start": "2026-06-12T09:00:00.000Z",
+          "day_end": "2026-06-12T19:25:00.000Z",
+          "rooms": {
+            "Ramphal Theatre 2": [
+              {
+                "url": "",
+                "id": 11,
+                "code": "BKLUY3",
+                "guid": "BKLUY3",
+                "date": "2026-06-12T15:30:00+01:00",
+                "start": "2026-06-12T15:30:00+01:00",
+                "logo": null,
+                "duration": "00:40:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "BKLUY3",
+                "title": "Pushing Through the Limits of Human Sound",
+                "subtitle": "",
+                "track": "Workshop",
+                "type": "",
+                "language": "",
+                "abstract": "An experiment in the production of sound in a group setting. Participants will create an everchanging sound journey informed by their interactions with each other. These will not be words, but pure vibrations, sound outside of human limitations.",
+                "description": "A relaxed workshop with the sole purpose of experimenting with sound production as a group, and finding ways to connect to others solely through sound.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Zach Ealey"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 19,
+                "code": "DNWUE8",
+                "guid": "DNWUE8",
+                "date": "2026-06-12T19:15:00+01:00",
+                "start": "2026-06-12T19:15:00+01:00",
+                "logo": "/media/2026/submissions/DNWUE8/image_jqYIHvE.webp",
+                "duration": "00:26:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "DNWUE8",
+                "title": "Love Bites and ‘I Saw the TV Glow’ Inspired Music Video",
+                "subtitle": "",
+                "track": "Film",
+                "type": "",
+                "language": "",
+                "abstract": "Hi! We are a group of students who created these projects for the Warwick Film Festival. The film is a LGBTQ+ comedy inspired by early Y2K aesthetics surrounding a group\r\nof vampires who take to the world of online dating in order to find fresh victims. The music video is inspired by the queer film ‘I Saw the TV Glow’ and pays homage to the films central themes and aesthetic.",
+                "description": "The film is called ‘Love bites’ and the music video is called ‘anthems for a seventeen year old girl’. Both require audio to be screened. Preferably they would be screened as a double feature back to back but it doesn’t matter which order they are screened in.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@redrandomfilms"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "depictions of alcoholism, sexual innuendos, sudden changes in lighting"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 21,
+                "code": "ECLKCT",
+                "guid": "ECLKCT",
+                "date": "2026-06-12T16:45:00+01:00",
+                "start": "2026-06-12T16:45:00+01:00",
+                "logo": "/media/2026/submissions/ECLKCT/image_4Wadan3.webp",
+                "duration": "02:00:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "ECLKCT",
+                "title": "WITS' Improv Showcase and Workshop",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "We are Warwick Improvised Theatre Society and we meet twice a week to play improvised theatre games. We also have Improv shows in which our members will showcase their skills by acting out scenes based on audience prompts. The WITS improv showcase and workshop will give you a full improv show and the chance to try out some of the different improv games for yourself. The show and workshop is fully accessible to newcomers and open to all.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Warwick Improvised Theatre Society"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-ECLKCT_7QpfW2S.jpeg"
+                  },
+                  {
+                    "question": 14,
+                    "answer": "https://www.warwicksu.com/societies-sports/societies/wits/"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "https://www.instagram.com/warwickimprov/"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 23,
+                "code": "GCDYEF",
+                "guid": "GCDYEF",
+                "date": "2026-06-12T13:05:00+01:00",
+                "start": "2026-06-12T13:05:00+01:00",
+                "logo": null,
+                "duration": "00:07:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "GCDYEF",
+                "title": "Built Then Burnt (Short Film)",
+                "subtitle": "",
+                "track": "Film",
+                "type": "",
+                "language": "",
+                "abstract": "Fleeting, captured moments and compiled interviews of special friends of mine answering the question: \"What makes you feel the most free?\" (set to the song 'Built Then Burnt [Hurrah! Hurrah!]' by Silver Mt. Zion)",
+                "description": "Fleeting, captured moments and compiled interviews of special friends of mine answering the question: \"What makes you feel the most free?\" (set to the song 'Built Then Burnt [Hurrah! Hurrah!]' by Silver Mt. Zion) \r\n\r\nCould be classed a short film or a music video, depends on the spectator (I suppose)",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Josh Chinyama"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@ohmyjoshhhhhhh"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 24,
+                "code": "GJ9P7K",
+                "guid": "GJ9P7K",
+                "date": "2026-06-12T10:00:00+01:00",
+                "start": "2026-06-12T10:00:00+01:00",
+                "logo": null,
+                "duration": "03:00:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "GJ9P7K",
+                "title": "Game Jam Showcase",
+                "subtitle": "",
+                "track": "Mixed",
+                "type": "",
+                "language": "",
+                "abstract": "A showcase of the games submitted in our most recent in-house Game Jam! Come along and play the games our members created!",
+                "description": "Submissions displayed will be from the 2025 Term 1 WGD Game Jam",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Warwick Game Design"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "WGD is an open and friendly environment for everyone, from beginners looking to learn the essentials of game design, to seasoned developers. We teach both the theoretical and practical sides of creating a game. Our society is the perfect place to meet and talk with fellow aspiring game designers, share and get feedback on personal projects, and enhance your development skills!"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-GJ9P7K_m9vlh04.png"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@wgdsoc"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 27,
+                "code": "HCYZTS",
+                "guid": "HCYZTS",
+                "date": "2026-06-12T13:30:00+01:00",
+                "start": "2026-06-12T13:30:00+01:00",
+                "logo": null,
+                "duration": "01:00:00",
+                "room": "Ramphal Theatre 2",
+                "slug": "HCYZTS",
+                "title": "Dead Prepared",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": "Dead Prepared is a comedy two-hander that explores the theatrics, rituals, and emotional contradictions surrounding funeral directing. Created and performed by myself and Charlie Muskett as our dissertation project, the show centres on our alter egos (Eulogine and Wake) who are two deeply incompetent funeral directors attempting to guide the audience through the “perfect” send-off.",
+                "description": "At its core, the piece interrogates how grief is performed, processed, and often concealed. While the show is structurally comedic, it is grounded in lived experience. Drawing on personal loss, particularly the death of Maddie’s father, we believe this work perfectly reflects the strength of vulnerability. These moments interrupt the comedy to create a dynamic tension between laughter and mourning, encouraging audiences to reflect on their own relationship with grief.\r\n\r\nThematically, the project explores the performative nature of funerals and the discomfort society holds around discussing loss. We’ve designed this show for two performers, alongside our pianist, with a strong emphasis on physical storytelling, direct audience address and minimal yet impactful stage design. The use of a coffin - both as a comedic device and a symbolic object - anchors the visual language of the piece.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Burning Building Productions"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-HCYZTS_TR4Y0U6.png"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@deadprepared.edfringe"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "Discussions of Death and Grief"
+                  }
+                ]
+              }
+            ],
+            "Main Stage": [
+              {
+                "url": "",
+                "id": 12,
+                "code": "BQWMKA",
+                "guid": "BQWMKA",
+                "date": "2026-06-12T19:50:00+01:00",
+                "start": "2026-06-12T19:50:00+01:00",
+                "logo": null,
+                "duration": "00:08:00",
+                "room": "Main Stage",
+                "slug": "BQWMKA",
+                "title": "Kathak Solo",
+                "subtitle": "",
+                "track": "Dance",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "Not sure yet",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Aahan Paul"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 61,
+                "code": "RZEBGF",
+                "guid": "RZEBGF",
+                "date": "2026-06-12T18:30:00+01:00",
+                "start": "2026-06-12T18:30:00+01:00",
+                "logo": null,
+                "duration": "00:30:00",
+                "room": "Main Stage",
+                "slug": "RZEBGF",
+                "title": "Opening ceremony",
+                "subtitle": "",
+                "track": "Mixed",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "a thing",
+                "do_not_record": false,
+                "answers": []
+              },
+              {
+                "url": "",
+                "id": 65,
+                "code": "UH87VM",
+                "guid": "UH87VM",
+                "date": "2026-06-12T19:25:00+01:00",
+                "start": "2026-06-12T19:25:00+01:00",
+                "logo": null,
+                "duration": "00:20:00",
+                "room": "Main Stage",
+                "slug": "UH87VM",
+                "title": "Songs That Were Too Sad for Infodump",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "A solo set of original songs (and potentially a cover or two) for people who can't escape the crushing weight of it all",
+                "description": "i have a rough potential setlist, haven't figured out the order yet but here it is (can figure out a proper setlist + order closer to the time):\r\n- st patrick's day\r\n- the waves\r\n- untitled breakup song\r\n- i wish i learned to drive when i was 17\r\n- throwing stones\r\n- december (acoustic version)\r\n- the arsonist\r\n\r\npotential covers:\r\n- the predatory wasp of the palisades is out to get us! by sufjan stevens \r\n- my mind (now) by paris paloma\r\n- the hand by annabelle dinda\r\n\r\nall performed by me on electric guitar",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Theo"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-UH87VM_EEVxwbu.jpeg"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@infodump_band"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 79,
+                "code": "Y9BCPJ",
+                "guid": "Y9BCPJ",
+                "date": "2026-06-12T10:00:00+01:00",
+                "start": "2026-06-12T10:00:00+01:00",
+                "logo": null,
+                "duration": "08:00:00",
+                "room": "Main Stage",
+                "slug": "Y9BCPJ",
+                "title": "University of Warwick Wind Orchestra - Playathon",
+                "subtitle": "",
+                "track": "Music",
+                "type": "",
+                "language": "",
+                "abstract": "Made up of students and local community members, we are an unauditioned wind orchestra that plays a wide variety of music. We are performing in an **8-hour playathon** to raise money for charity, and would love your support!",
+                "description": "We are an unauditioned wind orchestra - _open to all_! Made up of students and local community members, we are student-conducted and meet weekly to rehearse a wide variety of music. Alongside our main band, we have four small groups catering to a range of instruments: Feeling Saxy (saxophone ensemble), Flute Choir, Liquorice Sticks (clarinet ensemble), and Duck Duck Goose (oboes, bassoons, and recorders). Today we are performing for 8 hours non-stop, to raise money for charity; we hope you enjoy!",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "University of Warwick Wind Orchestra"
+                  },
+                  {
+                    "question": 11,
+                    "answer": "Yes"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "We're always welcoming new members, whatever your level, so if you'd like to get involved, please come along! We rehearse every Monday at 6pm in Warwick Arts Centre and if you have any questions, don't hestitate to get in touch."
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/291974930_710406603327859_4506285037558418_lKzZ2Kg.png"
+                  },
+                  {
+                    "question": 14,
+                    "answer": "https://www.windorchestra.co.uk"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@warwickwindstagram"
+                  }
+                ]
+              }
+            ],
+            "Ramphal Theatre 1": [
+              {
+                "url": "",
+                "id": 15,
+                "code": "CESBHJ",
+                "guid": "CESBHJ",
+                "date": "2026-06-12T18:00:00+01:00",
+                "start": "2026-06-12T18:00:00+01:00",
+                "logo": null,
+                "duration": "01:59:00",
+                "room": "Ramphal Theatre 1",
+                "slug": "CESBHJ",
+                "title": "Miscast",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": "A show where members of Music Theatre Warwick society perform songs/dances from roles they wouldn't usually be cast or suited to in a musical.",
+                "description": "Members sign up to perform through an online form where they give us the link to the backing track required for their performance. Over the 2 hours, there are many performances (solos, duets and group performances) showcasing the talent of the members, specifically in roles they were hypothetically 'miscast' for.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "MTW"
+                  },
+                  {
+                    "question": 12,
+                    "answer": "Miscast"
+                  },
+                  {
+                    "question": 13,
+                    "answer": "/media/2026/question_uploads/q40-CESBHJ_m3NVmGz.png"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@musictheatrewarwick"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 35,
+                "code": "HXVJPC",
+                "guid": "HXVJPC",
+                "date": "2026-06-12T13:30:00+01:00",
+                "start": "2026-06-12T13:30:00+01:00",
+                "logo": null,
+                "duration": "02:00:00",
+                "room": "Ramphal Theatre 1",
+                "slug": "HXVJPC",
+                "title": "The Girl on Fire - A Hunger Games Musical",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "TBC",
+                "do_not_record": false,
+                "answers": []
+              },
+              {
+                "url": "",
+                "id": 48,
+                "code": "MKJ8LP",
+                "guid": "MKJ8LP",
+                "date": "2026-06-12T20:25:00+01:00",
+                "start": "2026-06-12T20:25:00+01:00",
+                "logo": null,
+                "duration": "01:20:00",
+                "room": "Ramphal Theatre 1",
+                "slug": "MKJ8LP",
+                "title": "Can you teach me how to breathe",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": null,
+                "description": "The play is an absurdist drama following four characters on a sinking submarine as they piece together how they got there, how they can (or can't) save themselves, and why the exhaustion and powerlessness they feel are nothing new.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 8,
+                    "answer": "Cognitohazard Theatre"
+                  },
+                  {
+                    "question": 15,
+                    "answer": "@breathe.fringe"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "Discussion of death, Loud noises, Flashing lights, Foul language"
+                  }
+                ]
+              },
+              {
+                "url": "",
+                "id": 69,
+                "code": "VKAB9Y",
+                "guid": "VKAB9Y",
+                "date": "2026-06-12T11:30:00+01:00",
+                "start": "2026-06-12T11:30:00+01:00",
+                "logo": "/media/2026/submissions/VKAB9Y/image_x6ddfS1.webp",
+                "duration": "01:30:00",
+                "room": "Ramphal Theatre 1",
+                "slug": "VKAB9Y",
+                "title": "No Dancing Today",
+                "subtitle": "",
+                "track": "Theatre",
+                "type": "",
+                "language": "",
+                "abstract": "It’s been 15 years since Simon graduated, and all he’s got to show for it is a divorce, an admin job and a crush that just won’t go away. The last thing he needs is a wedding…",
+                "description": "15 years after their graduation, a group of University friends reunite at a wedding to watch two of their own tie the knot. Among the guests is Simon; bitter, stagnant, recently divorced, and feeling that this wedding has come at the worst time. As the celebrations unfold, he is forced to navigate through the various successes of his former peers, and has to battle with the memories of old friendships and emotions. On a strange day where everything seems to be going wrong, Simon has to face his worst fears in order to confront the past he was never truly able to escape.",
+                "do_not_record": false,
+                "answers": [
+                  {
+                    "question": 15,
+                    "answer": "@nodancingtodaywsaf"
+                  },
+                  {
+                    "question": 18,
+                    "answer": "Foul language and strobe lighting"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

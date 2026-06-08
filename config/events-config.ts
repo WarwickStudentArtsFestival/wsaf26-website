@@ -12,12 +12,12 @@ import {
 } from 'react-icons/fa';
 
 const eventsConfig: EventsConfig = {
-  enabled: false,
+  enabled: true,
 
   dates: {
     // The earliest and largest date time that can be selected
-    startDateIso: '2025-06-13T09:00:00Z',
-    endDateIso: '2025-06-16T21:00:00Z',
+    startDateIso: '2026-06-12T09:00:00Z',
+    endDateIso: '2026-06-15T21:00:00Z',
 
     // Within the festival dates, the earliest and latest time that can be selected
     startHourUtc: 9, // 10am

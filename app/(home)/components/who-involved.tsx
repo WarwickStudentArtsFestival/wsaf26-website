@@ -5,7 +5,8 @@ import React from 'react';
 import OrganisersInvolved from '@/app/components/people-involved/organisers-involved';
 import VolunteersInvolved from '@/app/components/people-involved/volunteers-involved';
 import ExecInvolved from '@/app/components/people-involved/exec-involved';
-import CrewGroupPicture from '@/assets/home/wsaf-crew-group-picture.jpg';
+import CoreRolesInvolved from '@/app/components/people-involved/coreroles-involved';
+import CrewGroupPicture from '@assets/home/wsaf-crew-group-picture.jpg';
 import Image from 'next/image';
 import homepageConfig from '@config/homepage-config';
 
@@ -39,6 +40,11 @@ export default function WhoInvolved() {
       </h2>
       <br />
       <ExecInvolved/>
+      <h2 className="text-teal text-xl pt-2 sm:text-2xl font-semibold">
+        Core Team
+      </h2>
+      <br />
+      <CoreRolesInvolved/>
       <h2 className="text-teal text-xl pt-2 sm:text-2xl font-semibold">
         Organisers
       </h2>

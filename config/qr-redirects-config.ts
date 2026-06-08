@@ -33,12 +33,122 @@ const qrRedirectsConfig: QrRedirectsConfig = {
       source: 'big_screen_1',
     },
 
-       {
+    {
       shortlink: '/qr/bs2',
       destination: 'https://wsaf.org.uk/submit/',
       campaign: 'submissions',
       medium: 'digital',
       source: 'big_screen_2',
+    },
+
+    {
+      shortlink: '/qr/su1',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'su_screen_1',
+    },
+
+    {
+      shortlink: '/qr/poop',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'poop',
+    },
+    {
+      shortlink: '/qr/fih',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'fih',
+    },
+    {
+      shortlink: '/qr/frog',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'frog',
+    },
+    {
+      shortlink: '/qr/you',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'you',
+    },
+    {
+      shortlink: '/qr/pee',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'pee',
+    },
+    {
+      shortlink: '/qr/therapy',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'therapy',
+    },
+    {
+      shortlink: '/qr/badtherapy',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'badtherapy',
+    },
+    {
+      shortlink: '/qr/cat',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'cat',
+    },
+    {
+      shortlink: '/qr/john',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'john',
+    },
+    {
+      shortlink: '/qr/alex',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'alex',
+    },
+    {
+      shortlink: '/qr/steve',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'steve',
+    },
+    {
+      shortlink: '/qr/greg',
+      destination: 'https://wsaf.org.uk/submit/',
+      campaign: 'submissions',
+      medium: 'digital',
+      source: 'greg',
+    },
+
+    {
+      shortlink: '/qr/vf1',
+      destination: 'https://forms.gle/h1DtB1pXmTjrxxFs6',
+      campaign: 'volunteers',
+      medium: 'digital',
+      source: 'flyer',
+    },
+
+    /* NEW VOLUNTEER FLYER 08/07/2026 - TO BE REPLACED WITH PUBLIC HELFERTOOL ONCE OPEN*/
+    {
+      shortlink: '/qr/vf2',
+      destination: 'https://wsaf.org.uk/crew',
+      campaign: 'volunteers',
+      medium: 'digital',
+      source: 'flyer2',
     },
   ],
 };

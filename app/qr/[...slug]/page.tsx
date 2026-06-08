@@ -3,6 +3,7 @@ import PageHeader from '@/app/components/page-header';
 import HighlightedHeading from '@/app/components/highlighted-heading';
 import qrRedirectsConfig from '@config/qr-redirects-config';
 import React from 'react';
+import QrRedirectClient from './qr-redirect-client';
 
 export const dynamicParams = false;
 export const dynamic = 'force-static';
@@ -53,9 +54,9 @@ export default async function Redirect(props: {
     <main>
       <link rel="canonical" href={redirect.destination} />
       <meta property="og:url" content={redirect.destination} />
-      <meta http-equiv="refresh" content={`0; url=${redirect.destination}`} />
 
       <section className="mb-8 md:mb-16">
+        <QrRedirectClient destination={redirect.destination} />
         <PageHeader />
         <HighlightedHeading text="Please Wait" />
         <h1 className="text-teal text-2xl font-semibold mb-2">Redirecting</h1>

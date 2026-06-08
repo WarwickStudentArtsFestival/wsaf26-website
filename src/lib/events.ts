@@ -5,6 +5,7 @@ import {
 } from '@/lib/pretalx';
 import { fetchVenues, findVenueFromName, Venue } from '@/lib/venues';
 import { IconType } from 'react-icons';
+import { FaCircleQuestion } from 'react-icons/fa6';
 import eventsConfig from '@config/events-config';
 
 // WARNING - This is all exposed to the client, so makes sure not to include
@@ -160,23 +161,23 @@ function constructEventSessionFromPretalxEvent(
 
       artist: {
         name:
-          event.answers.find((answer) => answer.question === 8)?.answer || '',
+          event.answers.find((answer) => answer.question === 38)?.answer || '',
         description:
-          event.answers.find((answer) => answer.question === 12)?.answer || '',
+          event.answers.find((answer) => answer.question === 39)?.answer || '',
         website:
-          event.answers.find((answer) => answer.question === 14)?.answer || '',
+          event.answers.find((answer) => answer.question === 41)?.answer || '',
         instagramHandle:
-          event.answers.find((answer) => answer.question === 15)?.answer || '',
+          event.answers.find((answer) => answer.question === 42)?.answer || '',
 
         // It seems like this is returning e.g. file://Logo_.... which doesn't work
         // Will probably need to use pretalx API here
         image:
-          event.answers.find((answer) => answer.question === 13)?.answer || '',
+          event.answers.find((answer) => answer.question === 40)?.answer || '',
       },
 
-      ticketLink: event.answers.find((answer) => answer.question === 17)
+      ticketLink: event.answers.find((answer) => answer.question === 51)
         ?.answer,
-      contentWarnings: event.answers.find((answer) => answer.question === 18)
+      contentWarnings: event.answers.find((answer) => answer.question === 37)
         ?.answer,
     },
 
@@ -324,7 +325,14 @@ export function getEventCategory(event: Event) {
     (category) => category.pretalxTrack === event.categoryPretalxTrack,
   );
   if (!category) {
-    throw new Error('Event category not found');
+    return {
+      pretalxTrack: event.categoryPretalxTrack,
+      slug: event.categoryPretalxTrack.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+      label: event.categoryPretalxTrack,
+      icon: FaCircleQuestion,
+      colour: '#6b7280',
+      filterBitFieldIndex: 0,
+    };
   }
 
   return category;
