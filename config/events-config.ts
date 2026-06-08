@@ -16,12 +16,12 @@ const eventsConfig: EventsConfig = {
 
   dates: {
     // The earliest and largest date time that can be selected
-    startDateIso: '2026-06-12T09:00:00Z',
-    endDateIso: '2026-06-15T21:00:00Z',
+    startDateIso: '2026-06-12T08:00:00Z', // 9:00am 12th June 2026
+    endDateIso: '2026-06-15T22:00:00Z', // 11:00pm 15th June 2026
 
     // Within the festival dates, the earliest and latest time that can be selected
-    startHourUtc: 9, // 10am
-    endHourUtc: 21, // 10pm
+    startHourUtc: 8, // 9am
+    endHourUtc: 22, // 11pm
 
     // Minute interval for the time slider. Should be a factor of 60
     intervalMinutes: 15,
