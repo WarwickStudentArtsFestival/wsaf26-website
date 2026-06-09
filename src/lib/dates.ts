@@ -21,7 +21,7 @@ export const formatDate = (date: Date) => {
 };
 
 export const formatTime = (date: Date): string => {
-  const timestring date.toLocaleTimeString('en-GB', { 
+  const timestring = date.toLocaleTimeString('en-GB', { 
     hour: 'numeric', 
     minute: '2-digit', 
     hour12: true,
