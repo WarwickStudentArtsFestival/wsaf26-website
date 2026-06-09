@@ -20,7 +20,7 @@ import ReubenJames from '@assets/team/coreteam/Reuben_james.jpeg'
 const corerolesConfig: TeamConfig = {
   team: [
     { name: 'Danai Muyambo',
-      roles: ['Theatre VTM'],
+      roles: ['Theatres VTM'],
       course: 'Data Science',
       year: '2nd Year',
       image: DanaiMuyambo
@@ -76,28 +76,28 @@ const corerolesConfig: TeamConfig = {
     },
 
     { name: 'Rebecca Smith',
-      roles: ['Theatre VM'],
+      roles: ['Theatres VM'],
       course: 'Theatre & Performance',
       year: '3rd Year',
       image: RebeccaSmith
     },
 
     { name: 'Venus Ng',
-      roles: ['Theatre VTM'],
+      roles: ['Theatres VTM'],
       course: 'Mathematics',
       year: '1st Year',
       image: VenusNg
     },
 
     { name: 'Rayana Anjum',
-      roles: ['Theatre VTM'],
+      roles: ['Theatres VTM'],
       course: 'Computer Science',
       year: '1st Year',
       image: RayanaAnjum
     },
 
     { name: 'Alasdair King',
-      roles: ['Main Stage VM'],
+      roles: ['Wolf Stage VM'],
       course: 'History',
       year: '3rd Year',
       image: AlasdairKing
@@ -118,7 +118,7 @@ const corerolesConfig: TeamConfig = {
     },
 
     { name: 'Lulu Smith',
-      roles: ['Ramphal Cluster Manager'],
+      roles: ['Wolf Stage VM'],
       course: 'History',
       year: '2nd Year',
       image: LuluSmith
