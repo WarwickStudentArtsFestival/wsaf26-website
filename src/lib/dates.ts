@@ -21,16 +21,18 @@ export const formatDate = (date: Date) => {
 };
 
 export const formatTime = (date: Date): string => {
-  if (date.getHours() === 12 && date.getMinutes() === 0) {
-    return 'Midday';
-  }
-  
-  return date.toLocaleTimeString('en-GB', { 
+  const timestring date.toLocaleTimeString('en-GB', { 
     hour: 'numeric', 
     minute: '2-digit', 
     hour12: true,
     timeZone: 'Europe/London'
   }).toLowerCase(); // .toLowerCase() ensures 'am/pm' instead of 'AM/PM'
+
+  if (timestring === '12:00 pm') {
+    return 'Midday';
+  }
+
+  return timestring
 };
 
 export const formatDuration = (durationInMinutes: number): string => {
