@@ -34,7 +34,7 @@ const mainConfig: MainConfig = {
   },
   crew: {
     signupUrl: 'https://helfertool.wsaf.org.uk/wsaf-2026/',
-    signupUrl: 'https://discord.gg/TuFwJX4GKM',
+    // signupUrl: 'https://discord.gg/TuFwJX4GKM',
   },
   feedback: {
     homepage: false,
