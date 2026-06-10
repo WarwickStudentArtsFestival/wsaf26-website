@@ -16,6 +16,7 @@ import MichalMatusz from '@assets/team/coreteam/michal-matusz.png'
 import RebeccaSmith from '@assets/team/coreteam/rebecca-smith.png'
 import OliverSmith from '@assets/team/coreteam/oliver-smith.png'
 import ReubenJames from '@assets/team/coreteam/Reuben_james.jpeg'
+import MattAdcock from '@assets/team/coreteam/matt-adcock.jpg'
 
 const corerolesConfig: TeamConfig = {
   team: [
@@ -136,6 +137,13 @@ const corerolesConfig: TeamConfig = {
       course: 'Computer Science',
       year: '2nd Year',
       image: ReubenJames
+    },
+
+    { name: 'Matt Adcock',
+      roles: ['Duty First Aider', 'Truss'],
+      course: 'Computer Science & AI (Nottingham)',
+      year: '2nd Year',
+      image: MattAdcock
     },
 
     { name: 'Alex Morrison',
