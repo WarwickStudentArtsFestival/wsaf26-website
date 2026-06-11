@@ -1,6 +1,5 @@
-'use client';
+ 'use client';
 
-import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 
 const Gallery: React.FC = () => {
@@ -16,13 +15,10 @@ const Gallery: React.FC = () => {
   };
 
   useEffect(() => {
-    fetch('/api/gallery')
-      .then((res) => res.json())
-      .then((data) => {
-        const shuffledFiles = shuffleArray(data.files);
-        setImageFilenames(shuffledFiles);
-      })
-      .catch((err) => console.error('Failed to load images:', err));
+    // @ts-ignore
+    const modules = import.meta.glob('/src/assets/wpaint-gallery/*.{png,jpg,jpeg,webp,gif}', { eager: true, as: 'url' }) as Record<string, string>;
+    const urls = Object.values(modules || {});
+    setImageFilenames(shuffleArray(urls));
   }, []);
 
   return (
@@ -35,12 +31,10 @@ const Gallery: React.FC = () => {
             onClick={() => setSelected(index)}
           >
             <div className="relative w-full h-0 pb-[56.25%] rounded-md overflow-hidden shadow">
-              <Image
-                src={`/wpaint-gallery/${filename}`}
+              <img
+                src={filename}
                 alt={`Canvas ${index + 1}`}
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
           </div>
@@ -53,12 +47,10 @@ const Gallery: React.FC = () => {
           onClick={() => setSelected(null)}
         >
           <div className="relative w-[90%] max-w-4xl aspect-video">
-            <Image
-              src={`/wpaint-gallery/${imageFilenames[selected]}`}
+            <img
+              src={imageFilenames[selected]}
               alt={`Canvas ${selected + 1}`}
-              fill
-              className="object-contain rounded-md"
-              sizes="100vw"
+              className="absolute inset-0 w-full h-full object-contain rounded-md"
             />
           </div>
         </div>

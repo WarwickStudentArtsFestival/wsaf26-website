@@ -6,6 +6,8 @@ import EllieStocker from '@/assets/team/organisers/ellie-stocker.jpg';
 import CatHibbs from '@/assets/team/organisers/cat-hibbs.png';
 import EthanGraham from '@/assets/team/organisers/ethan-graham.jpg'
 import EdmundNg from '@/assets/team/organisers/edmund-ng.webp'
+import KashishRohit from '@/assets/team/organisers/kashish-rohit.png';
+import GeorgeParrett from '@/assets/team/organisers/george-parrett.jpg';
 
 const organisersConfig: TeamConfig = {
   team: [
@@ -56,7 +58,21 @@ const organisersConfig: TeamConfig = {
       course: 'PPE',
       year: '1st Year',
       image: EdmundNg
-    }
+    },
+
+    { name: 'George Parrett',
+      roles: ['Organiser','Stream'],
+      course: 'Film Studies',
+      year: '3rd Year',
+      image: GeorgeParrett
+    },
+    
+    { name: 'Kashish Rohit',
+      roles: ['Bar Supervisor'],
+      course: 'Computer Systems Engineering',
+      year: ' 1st Year',
+      image: KashishRohit
+    },
 
   ],
 };

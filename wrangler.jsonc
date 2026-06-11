@@ -14,7 +14,10 @@
     "binding": "IMAGES"
   },
   "kv_namespaces": [],
-
+  "vars": {
+    "PRETALX_BASE_URL": "https://submit.wsaf.org.uk",
+    "PRETALX_EVENT_SLUG": "2026"
+  },
   "observability": {
     "enabled": false,
     "head_sampling_rate": 1,

@@ -7,15 +7,21 @@ import KieranCollins from '@assets/team/coreteam/kieran-collins.webp'
 import NazneenNaveedSait from '@assets/team/coreteam/nazneen.webp'
 import LuluSmith from '@assets/team/coreteam/lulu-smith.jpg'
 import AlexeiPlumridgeMilsom from '@assets/team/coreteam/alexei-plumridge-milsom.webp'
-import RayanaArjum from '@assets/team/coreteam/rayana-anjum.jpg'
+import RayanaAnjum from '@assets/team/coreteam/rayana-anjum.jpg'
 import VenusNg from '@assets/team/coreteam/venus-ng.jpg'
 import SiddharthGuruMurthy from '@assets/team/coreteam/sid-guru-murthy.jpg'
 import DallonCostello from '@assets/team/coreteam/dallon-costello.png'
+import AlasdairKing from '@assets/team/coreteam/alasdair-king.png'
+import MichalMatusz from '@assets/team/coreteam/michal-matusz.png'
+import RebeccaSmith from '@assets/team/coreteam/rebecca-smith.png'
+import OliverSmith from '@assets/team/coreteam/oliver-smith.png'
+import ReubenJames from '@assets/team/coreteam/Reuben_james.jpeg'
+import MattAdcock from '@assets/team/coreteam/matt-adcock.jpg'
 
 const corerolesConfig: TeamConfig = {
   team: [
     { name: 'Danai Muyambo',
-      roles: ['Theatre VTM'],
+      roles: ['Theatres VTM'],
       course: 'Data Science',
       year: '2nd Year',
       image: DanaiMuyambo
@@ -53,7 +59,7 @@ const corerolesConfig: TeamConfig = {
       roles: ['Artist Liason'],
       course: 'Theatre & Performance',
       year: '3rd Year',
-      //image: MichalMatusz
+      image: MichalMatusz
     },
 
     { name: 'Kieran Collins',
@@ -71,38 +77,38 @@ const corerolesConfig: TeamConfig = {
     },
 
     { name: 'Rebecca Smith',
-      roles: ['Theatre VM'],
+      roles: ['Theatres VM'],
       course: 'Theatre & Performance',
       year: '3rd Year',
-      //image: RebeccaSmith
+      image: RebeccaSmith
     },
 
     { name: 'Venus Ng',
-      roles: ['Theatre VTM'],
+      roles: ['Theatres VTM'],
       course: 'Mathematics',
       year: '1st Year',
       image: VenusNg
     },
 
-    { name: 'Rayana Arjum',
-      roles: ['Theatre VTM'],
+    { name: 'Rayana Anjum',
+      roles: ['Theatres VTM'],
       course: 'Computer Science',
       year: '1st Year',
-      image: RayanaArjum
+      image: RayanaAnjum
     },
 
     { name: 'Alasdair King',
-      roles: ['Main Stage VM'],
+      roles: ['Wolf Stage VM'],
       course: 'History',
       year: '3rd Year',
-      //image: AlasdairKing
+      image: AlasdairKing
     },
 
     { name: 'Oliver Smith',
       roles: ['Head of Streaming'],
       course: 'Computer Science',
       year: '4th Year',
-      //image: OliverSmith
+      image: OliverSmith
     },
 
     { name: 'Sod Guru Murthy',
@@ -113,7 +119,7 @@ const corerolesConfig: TeamConfig = {
     },
 
     { name: 'Lulu Smith',
-      roles: ['Ramphal Cluster Manager'],
+      roles: ['Wolf Stage VM'],
       course: 'History',
       year: '2nd Year',
       image: LuluSmith
@@ -124,6 +130,27 @@ const corerolesConfig: TeamConfig = {
       course: 'Spanish, Italian, & Linguistics',
       year: '4th Year',
       image: DallonCostello
+    },
+
+    { name: 'Reuben James',
+      roles: ['Head of Photography'],
+      course: 'Computer Science',
+      year: '2nd Year',
+      image: ReubenJames
+    },
+
+    { name: 'Matt Adcock',
+      roles: ['Duty First Aider', 'Truss'],
+      course: 'Computer Science & AI (Nottingham)',
+      year: '2nd Year',
+      image: MattAdcock
+    },
+
+    { name: 'Alex Morrison',
+      roles: ['Main Stage VM'],
+      course: 'History & Politics',
+      year: '3rd Year',
+      //image: AlexMorrison
     },
 
   ],

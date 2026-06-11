@@ -16,7 +16,7 @@ const execConfig: TeamConfig = {
   team: [
     {
       name: 'Trin Balkwill',
-      roles: ['Head of Submissions, Fab Terrace VM'],
+      roles: ['Head of Submissions, FAB Terrace VM'],
       course: 'Cyber Security',
       year: '3rd Year',
       image: TrinBalkwill,

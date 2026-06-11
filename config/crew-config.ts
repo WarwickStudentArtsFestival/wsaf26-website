@@ -8,7 +8,7 @@ import WBar from '@/assets/crew/wbar.jpg';
 const crewConfig: CrewConfig = {
   // Whether to allow signing up directly (to the crew sign up URL in the main
   // config), or to direct to Discord instead
-  allowSignUps: false,
+  allowSignUps: true,
 
   roles: [
     {

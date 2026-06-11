@@ -14,22 +14,25 @@ export const formatDate = (date: Date) => {
 
   const ordinalDay = `${day}${getOrdinal(day)}`;
 
-  const weekday = date.toLocaleDateString([], { weekday: 'long' });
-  const month = date.toLocaleDateString([], { month: 'long' });
+  const weekday = date.toLocaleDateString([], { timeZone: 'Europe/London', weekday: 'long' });
+  const month = date.toLocaleDateString([], { timeZone: 'Europe/London', month: 'long' });
 
   return `${weekday} ${ordinalDay} ${month}`;
 };
 
 export const formatTime = (date: Date): string => {
-  if (date.getHours() === 12 && date.getMinutes() === 0) {
+  const timestring = date.toLocaleTimeString('en-GB', { 
+    hour: 'numeric', 
+    minute: '2-digit', 
+    hour12: true,
+    timeZone: 'Europe/London'
+  }).toLowerCase(); // .toLowerCase() ensures 'am/pm' instead of 'AM/PM'
+
+  if (timestring === '12:00 pm') {
     return 'Midday';
   }
-  const hours = date.getHours();
-  const minutes = date.getMinutes();
-  const amPm = hours >= 12 ? 'pm' : 'am';
-  const formattedHour = hours % 12 || 12;
-  const formattedMinute = minutes.toString().padStart(2, '0');
-  return `${formattedHour}:${formattedMinute} ${amPm}`;
+
+  return timestring
 };
 
 export const formatDuration = (durationInMinutes: number): string => {
@@ -104,6 +107,7 @@ function getDateTimeIntervals(): EventDateTimeIntervals {
         hour: 'numeric',
         hour12: true,
         minute: 'numeric',
+        timeZone: 'Europe/London',
       });
 
       const hour = currentDate.getUTCHours();
@@ -118,6 +122,7 @@ function getDateTimeIntervals(): EventDateTimeIntervals {
           label: currentDate.toLocaleString('en-gb', {
             hour: 'numeric',
             hour12: true,
+            timeZone: 'Europe/London'
           }),
           firstIndex: dateTimeIntervals.all.length,
           lastIndex: dateTimeIntervals.all.length,
@@ -134,7 +139,7 @@ function getDateTimeIntervals(): EventDateTimeIntervals {
         }
 
         currentDateTimeDay = {
-          label: currentDate.toLocaleString('en-gb', { weekday: 'short' }),
+          label: currentDate.toLocaleString('en-gb', { weekday: 'short', timeZone: 'Europe/London' }),
           firstIndex: dateTimeIntervals.all.length,
           lastIndex: dateTimeIntervals.all.length,
           hours: [],

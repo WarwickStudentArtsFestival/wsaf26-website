@@ -58,7 +58,7 @@ export async function generateMetadata(
       )
       .join('\n');
 
-    const previousImages = (await parent).openGraph?.images || [];
+    const previousImages = (await parent)?.openGraph?.images || [];
     return {
       title: `${event.name}${event.artist.name ? ` (${event.artist.name})` : ''}`,
       description: `${sessionDescription}\n\n${event.shortDescription || event.description}`,

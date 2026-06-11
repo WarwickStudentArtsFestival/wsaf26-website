@@ -70,7 +70,7 @@ export default function EventSessionCard({
                   color: category.colour,
                 }}
               >
-                <FaTicket /> Ticket Required
+                <FaTicket /> Bookings Available
               </span>
             )}
           </div>
