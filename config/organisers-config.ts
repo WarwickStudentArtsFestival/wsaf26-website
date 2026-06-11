@@ -5,6 +5,7 @@ import NaomiPandey from '@/assets/team/organisers/naomi-pandey.jpg';
 import EllieStocker from '@/assets/team/organisers/ellie-stocker.jpg';
 import CatHibbs from '@/assets/team/organisers/cat-hibbs.png';
 import EthanGraham from '@/assets/team/organisers/ethan-graham.jpg'
+import EdmundNg from '@/assets/team/organisers/edmund-ng.webp'
 
 const organisersConfig: TeamConfig = {
   team: [
@@ -49,6 +50,13 @@ const organisersConfig: TeamConfig = {
       year: ' Alumni',
       image: EthanGraham
     },
+
+    { name: 'Edmund Ng',
+      roles: ['Organiser','Stream'],
+      course: 'PPE',
+      year: '1st Year',
+      image: EdmundNg
+    }
 
   ],
 };
