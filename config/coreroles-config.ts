@@ -17,7 +17,7 @@ import RebeccaSmith from '@assets/team/coreteam/rebecca-smith.png'
 import OliverSmith from '@assets/team/coreteam/oliver-smith.png'
 import ReubenJames from '@assets/team/coreteam/Reuben_james.jpeg'
 import MattAdcock from '@assets/team/coreteam/matt-adcock.jpg'
-import RebeccaFulford from '@assets/team/coreteam/rebecca_fulford.jpg'
+import RebeccaFulford from '@assets/team/coreteam/rebecca_fulford.png'
 
 const corerolesConfig: TeamConfig = {
   team: [

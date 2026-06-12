@@ -20,7 +20,7 @@ export default function Home() {
     <main>
       <Hero />
 
-      <section className="mx-4 flex flex-col items-center mt-4 sm:mt-[-3rem] lg:mt-[-6rem] relative z-20">
+      <section className="mx-4 flex flex-col items-center mt-8 sm:mt-10 lg:mt-12 relative z-20">
         {homepageConfig.about.countdown.enabled && <HighlightCountdown />}
         {homepageConfig.about.callToAction.enabled && <CallToAction />}
       </section>

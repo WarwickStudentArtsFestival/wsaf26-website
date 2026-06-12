@@ -2,12 +2,12 @@ import { HomepageConfig } from '@config/types/homepage-config';
 
 const homepageConfig: HomepageConfig = {
   hero: {
-    youtubeVideoId: '5_doeGYlb-U',
+    youtubeVideoId: 'kQYMPdNvYCo',
   },
 
   about: {
     countdown: {
-      enabled: true,
+      enabled: false,
       title: 'Countdown',
       subtitle: 'WSAF Begins Friday Week 7 (12th June)',
       countdownDateIso: '2026-06-12T09:00Z', // 10am BST on Friday 12th June
@@ -25,7 +25,7 @@ const homepageConfig: HomepageConfig = {
   },
 
   youtube: {
-    enabled: false,
+    enabled: true,
     heading: 'Livestream',
     // title: 'Watch or Recap Online',
     title: 'Watch Online',

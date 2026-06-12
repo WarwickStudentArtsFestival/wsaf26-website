@@ -5,6 +5,8 @@ import mainConfig from '@config/main-config';
 import homepageConfig from '@config/homepage-config';
 
 export default function Hero() {
+  const trailerUrl = `https://www.youtube.com/watch?v=${homepageConfig.hero.youtubeVideoId}`;
+
   return (
     <section className="relative overflow-hidden min-h-[50vh] text-white">
       <div className="relative z-10">
@@ -37,14 +39,15 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* <iframe
+        <iframe
           className="mx-auto w-full h-auto aspect-video border-yellow border-8 sm:w-[32rem] sm:h-[18.4rem] bg-yellow"
-          src={`https://www.youtube.com/embed/${homepageConfig.hero.youtubeVideoId}?autoplay=1&mute=1&loop=1&modestbranding=1&rel=0`}
-          title="WSAF Trailer"
+          src="https://www.youtube.com/embed/kQYMPdNvYCo?feature=oembed"
+          title="Warwick Student Arts Festival 2026 Trailer"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
-        ></iframe> */}
+        ></iframe>
       </div>
 
       <div className="absolute top-0 bottom-32 w-full border-b-yellow border-b-8 z-0">

@@ -2,12 +2,14 @@ import LastYearGallery from '@/app/history/components/last-year-gallery';
 import mainConfig from '@config/main-config';
 
 export default function Media() {
+  const trailerUrl = 'https://www.youtube.com/watch?v=kQYMPdNvYCo';
+
   return (
     <div className="mb-8 mx-2">
       <p className="mb-2">
         We have a{' '}
         <a
-          href="https://youtu.be/5_doeGYlb-U"
+          href={trailerUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="text-teal"
@@ -19,8 +21,9 @@ export default function Media() {
 
       <iframe
         className="mx-auto h-auto aspect-video w-full max-w-128"
-        src="https://www.youtube.com/embed/5_doeGYlb-U?modestbranding=1&rel=0"
-        title="WSAF Trailer"
+        src="https://www.youtube.com/embed/kQYMPdNvYCo?feature=oembed"
+        title="Warwick Student Arts Festival 2026 Trailer"
+        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
