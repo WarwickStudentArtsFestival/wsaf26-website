@@ -2,7 +2,7 @@ import { TeamConfig } from '@/config/types/team-config';
 import IzzyMarzolini from '@assets/team/volunteers/izzy-marzolini.png';
 import EmrysMachnicki from '@assets/team/volunteers/emrys-machnicki.png';
 import JoshHeng from '@assets/team/volunteers/josh-heng.png';
-//import ClairevanHeel from '@assets/team/volunteers/claire-van-heel.png';
+import ClairevanHeel from '@assets/team/volunteers/claire-van-heel.png';
 
 const volunteersConfig: TeamConfig = {
   team: [
@@ -31,7 +31,7 @@ const volunteersConfig: TeamConfig = {
       roles: ['Bar Staff', 'Steward', 'First Aider'],
       course: 'Mathematics and Statistics',
       year: '3rd Year',
-      //image: ClairevanHeel
+      image: ClairevanHeel
     },
   ],
 };
