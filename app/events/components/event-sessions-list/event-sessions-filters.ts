@@ -105,8 +105,8 @@ function getSelectedFiltersFromUrlParams(
   const dropInOnlyParam = searchParams.get('dropInOnly');
   const selectedEvent = searchParams.get('event');
 
-  let dateFrom = dateFromParam && parseInt(dateFromParam);
-  if (dateFrom === null || dateFrom === '' || isNaN(dateFrom))
+  let dateFrom = dateFromParam ? parseInt(dateFromParam) : null;
+  if (dateFrom === null || isNaN(dateFrom))
     dateFrom = getCurrentDateInterval();
   else {
     dateFrom = Math.max(

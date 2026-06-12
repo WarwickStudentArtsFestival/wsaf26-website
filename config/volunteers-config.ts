@@ -28,7 +28,7 @@ const volunteersConfig: TeamConfig = {
     },
 
     { name: 'Claire van Heel',
-      roles: ['Bar Staff', 'Steward'],
+      roles: ['Bar Staff', 'Steward', 'First Aider'],
       course: 'Mathematics and Statistics',
       year: '3rd Year',
       //image: ClairevanHeel
