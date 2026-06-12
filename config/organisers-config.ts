@@ -54,14 +54,14 @@ const organisersConfig: TeamConfig = {
     },
 
     { name: 'Edmund Ng',
-      roles: ['Organiser','Stream'],
+      roles: ['Stream'],
       course: 'PPE',
       year: '1st Year',
       image: EdmundNg
     },
 
     { name: 'George Parrett',
-      roles: ['Organiser','Stream'],
+      roles: ['Stream'],
       course: 'Film Studies',
       year: '3rd Year',
       image: GeorgeParrett

@@ -17,6 +17,7 @@ import RebeccaSmith from '@assets/team/coreteam/rebecca-smith.png'
 import OliverSmith from '@assets/team/coreteam/oliver-smith.png'
 import ReubenJames from '@assets/team/coreteam/Reuben_james.jpeg'
 import MattAdcock from '@assets/team/coreteam/matt-adcock.jpg'
+import RebeccaFulford from '@assets/team/coreteam/rebecca_fulford.jpg'
 
 const corerolesConfig: TeamConfig = {
   team: [
@@ -39,6 +40,13 @@ const corerolesConfig: TeamConfig = {
       course: 'Cyber Security',
       year: '3rd Year',
       image: AbiLowrie
+    },
+
+    { name: 'Rebecca Fulford',
+      roles: ['Head of Catering'],
+      course: 'GSD',
+      year: '3rd Year',
+      image: RebeccaFulford
     },
 
     { name: 'Nazneen Naveed Sait',
@@ -147,7 +155,7 @@ const corerolesConfig: TeamConfig = {
     },
 
     { name: 'Alex Morrison',
-      roles: ['Main Stage VM'],
+      roles: ['Main Stage VM'], //assistant
       course: 'History & Politics',
       year: '3rd Year',
       //image: AlexMorrison
