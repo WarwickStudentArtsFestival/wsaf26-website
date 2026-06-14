@@ -29,7 +29,7 @@ const eventsConfig: EventsConfig = {
 
   timeline: {
     // Whether to grey out past times in the timeline view
-    greyPastTimes: false,
+    greyPastTimes: true,
   },
 
   // Minimum minutes gap required to show a parent event between two children events
@@ -38,7 +38,7 @@ const eventsConfig: EventsConfig = {
   defaultFilters: {
     // Whether to filter future events based on the current time by default.
     // Should be enabled during WSAF and disabled afterwards.
-    filterByCurrentTime: false,
+    filterByCurrentTime: true,
 
     // list or timeline
     view: 'list',
