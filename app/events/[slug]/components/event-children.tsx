@@ -31,12 +31,14 @@ export default function EventChildren({ event }: { event: EventWithSessions }) {
                   hour: 'numeric',
                   hour12: true,
                   minute: '2-digit',
+                  timeZone: 'Europe/London',
                 })}{' '}
                 -{' '}
                 {new Date(childSession.end).toLocaleTimeString('en-GB', {
                   hour: 'numeric',
                   hour12: true,
                   minute: '2-digit',
+                  timeZone: 'Europe/London',
                 })}
               </span>
             </li>
