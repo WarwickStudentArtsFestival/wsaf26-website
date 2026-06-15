@@ -16,19 +16,40 @@ export default async function EventPreview() {
     return <ErrorMessage msg="w-please-set-the-api-token" />;
   }
 
+  const today = new Date();
+
+  // Filter the sessions to only include those happening today
+  const todaysSessions = eventSessions.filter((session) => {
+    if (!session.start) return false;
+
+    const sessionDate = new Date(session.start); 
+    
+    return (
+      sessionDate.getDate() === today.getDate() &&
+      sessionDate.getMonth() === today.getMonth() &&
+      sessionDate.getFullYear() === today.getFullYear()
+    );
+  });
+
+  // Decide which sessions to show: Today's, or ALL if today is empty
+  const displaySessions = todaysSessions.length > 0 ? todaysSessions : eventSessions;
+  
+  // Dynamically update the heading text
+  const headingText = todaysSessions.length > 0 ? "Today's Event Preview" : "Event Preview";
+
   return (
     <main className="w-full overflow-hidden">
       <section className="bg-teal text-white pt-8">
         <HighlightedHeading text="What's on at WSAF?" />
         <h2 className="text-white text-2xl font-semibold pb-4">
-          Event Preview
+          {headingText}
         </h2>
       </section>
 
       <div className="bg-teal pb-8 overflow-hidden">
         <AutoScrollContainer>
           <div className="flex gap-4 px-4 py-2">
-            {eventSessions
+            {displaySessions
               .sort(() => Math.random() - 0.5) // shuffle events
               .map((eventSession, index) => (
                 <div

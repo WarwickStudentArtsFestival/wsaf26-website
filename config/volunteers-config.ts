@@ -8,6 +8,7 @@ import AliaMeek from '@assets/team/volunteers/alia-meek.png';
 import MakkaPakka from '@assets/team/volunteers/makka-pakka.png';
 import Sorrel from '@assets/team/volunteers/sorrel.png';
 import SurenZarei from '@assets/team/volunteers/suren-zarei.webp';
+import EmilyKrickhan from '@assets/team/volunteers/emily-krickhan.png';
 
 const volunteersConfig: TeamConfig = {
   team: [
@@ -68,10 +69,17 @@ const volunteersConfig: TeamConfig = {
     },
 
     { name: 'Suren Zarei',
-      roles: ['Bar Staff'],
+      roles: ['Bar Staff', 'Photography'],
       course: 'Integrated Natural Sciences',
       year: '1st Year',
       image: SurenZarei
+    },
+
+    { name: 'Emily Krickhan',
+      roles: ['Steward'],
+      course: 'Mechanical Engineering',
+      year: '1st Year',
+      image: EmilyKrickhan
     },
 
     // { name: '',
