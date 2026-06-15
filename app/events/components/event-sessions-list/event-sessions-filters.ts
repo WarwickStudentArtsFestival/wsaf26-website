@@ -55,9 +55,9 @@ const getCurrentDateInterval = () => {
   else return interval;
 };
 
-const defaultFilters: SelectedFilters = {
+const getDefaultFilters = (defaultSortByTime = false): SelectedFilters => ({
   view: eventsConfig.defaultFilters.view,
-  sort: eventsConfig.defaultFilters.sort,
+  sort: defaultSortByTime ? 'time' : eventsConfig.defaultFilters.sort,
   search: null,
   category: null,
   venue: null,
@@ -65,7 +65,7 @@ const defaultFilters: SelectedFilters = {
   dateFrom: getCurrentDateInterval(),
   dateTo: eventDateTimeIntervals.all.length - 1,
   dropInOnly: false,
-};
+});
 
 function getFilterOptionsFromBitField(
   bitFieldString: string | null,
@@ -212,7 +212,11 @@ export default function useEventSessionsFilters(
     // If the URL search params are the same as the selected filters, do nothing
     if (selectedFiltersUrlParams === searchParams.toString()) return;
 
-    const newFilters = getSelectedFiltersFromUrlParams(searchParams, context);
+    const newFilters = getSelectedFiltersFromUrlParams(
+      searchParams,
+      context,
+      defaultSortByTime,
+    );
     setSelectedFilters(newFilters);
 
     // We only want to update this from the searchParams, not if selectedFilters change
@@ -427,7 +431,7 @@ export default function useEventSessionsFilters(
   };
 
   const resetFilters = () => {
-    setSelectedFilters(defaultFilters);
+    setSelectedFilters(getDefaultFilters(defaultSortByTime));
     updateUrlFromFilters();
   };
 

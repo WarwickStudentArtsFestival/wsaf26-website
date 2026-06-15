@@ -3,6 +3,11 @@ import IzzyMarzolini from '@assets/team/volunteers/izzy-marzolini.png';
 import EmrysMachnicki from '@assets/team/volunteers/emrys-machnicki.png';
 import JoshHeng from '@assets/team/volunteers/josh-heng.png';
 import ClairevanHeel from '@assets/team/volunteers/claire-van-heel.png';
+import JoelCoulson from '@assets/team/volunteers/joel-coulson.png';
+import AliaMeek from '@assets/team/volunteers/alia-meek.png';
+import MakkaPakka from '@assets/team/volunteers/makka-pakka.png';
+import Sorrel from '@assets/team/volunteers/sorrel.png';
+import SurenZarei from '@assets/team/volunteers/suren-zarei.webp';
 
 const volunteersConfig: TeamConfig = {
   team: [
@@ -33,6 +38,49 @@ const volunteersConfig: TeamConfig = {
       year: '3rd Year',
       image: ClairevanHeel
     },
+
+    { name: 'Joel Coulson',
+      roles: ['Stream (senior)'],
+      course: 'Adulting',
+      year: 'Boomer',
+      image: JoelCoulson
+    },
+
+    { name: 'Alia Meek',
+      roles: ['Bar Staff'],
+      course: 'Computer Systems Engineering',
+      year: 'Alumni',
+      image: AliaMeek
+    },
+
+    { name: 'Makka Pakka',
+      roles: ['Makka Pakka'],
+      course: 'Makka',
+      year: 'Pakka',
+      image: MakkaPakka
+    },
+
+    { name: 'Sorrel',
+      roles: ['Welfare Bunny'],
+      course: 'Bunny Studies',
+      year: 'Pre school',
+      image: Sorrel
+    },
+
+    { name: 'Suren Zarei',
+      roles: ['Bar Staff'],
+      course: 'Integrated Natural Sciences',
+      year: '1st Year',
+      image: SurenZarei
+    },
+
+    // { name: '',
+    //   roles: [''],
+    //   course: '',
+    //   year: '',
+    //   image: 
+    // },
+    
   ],
 };
 

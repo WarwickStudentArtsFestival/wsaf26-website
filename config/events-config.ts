@@ -9,6 +9,7 @@ import {
   FaPersonBooth,
   FaTheaterMasks,
   FaWalking,
+  FaRandom,
 } from 'react-icons/fa';
 
 const eventsConfig: EventsConfig = {
@@ -29,7 +30,7 @@ const eventsConfig: EventsConfig = {
 
   timeline: {
     // Whether to grey out past times in the timeline view
-    greyPastTimes: false,
+    greyPastTimes: true,
   },
 
   // Minimum minutes gap required to show a parent event between two children events
@@ -38,7 +39,7 @@ const eventsConfig: EventsConfig = {
   defaultFilters: {
     // Whether to filter future events based on the current time by default.
     // Should be enabled during WSAF and disabled afterwards.
-    filterByCurrentTime: false,
+    filterByCurrentTime: true,
 
     // list or timeline
     view: 'list',
@@ -143,7 +144,7 @@ const eventsConfig: EventsConfig = {
         slug: 'film',
         label: 'Film',
         icon: FaFilm,
-        colour: '#64748b', // slate-500
+        colour: '#3bad3b', // slate-500
         filterBitFieldIndex: 9,
       },
       {
@@ -152,6 +153,15 @@ const eventsConfig: EventsConfig = {
         label: 'Spoken Word',
         icon: FaMicrophoneAlt,
         colour: '#ec4899', // pink-500
+        filterBitFieldIndex: 10,
+      },
+
+      {
+        pretalxTrack: 'Mixed',
+        slug: 'mixed',
+        label: 'Mixed',
+        icon: FaRandom,
+        colour: '#dcb04a', // yellow
         filterBitFieldIndex: 10,
       },
     ],
