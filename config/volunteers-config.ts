@@ -9,6 +9,7 @@ import MakkaPakka from '@assets/team/volunteers/makka-pakka.png';
 import Sorrel from '@assets/team/volunteers/sorrel.png';
 import SurenZarei from '@assets/team/volunteers/suren-zarei.webp';
 import EmilyKrickhan from '@assets/team/volunteers/emily-krickhan.png';
+import JosephLawler from '@assets/team/volunteers/joseph-lawler.png';
 
 const volunteersConfig: TeamConfig = {
   team: [
@@ -81,6 +82,14 @@ const volunteersConfig: TeamConfig = {
       year: '1st Year',
       image: EmilyKrickhan
     },
+
+    { name: 'Joseph Lawler',
+      roles: ['Bar Staff', 'Steward'],
+      course: 'Discrete Mathematics',
+      year: '1st Year',
+      image: JosephLawler
+    },
+    
 
     // { name: '',
     //   roles: [''],
