@@ -11,7 +11,7 @@ import SurenZarei from '@assets/team/volunteers/suren-zarei.webp';
 import EmilyKrickhan from '@assets/team/volunteers/emily-krickhan.png';
 import JosephLawler from '@assets/team/volunteers/joseph-lawler.png';
 import AlfieGiffen from '@assets/team/volunteers/alfie-giffen.png';
-import ArchishaBiswas from '@assets/team/volunteers/archisha-biswas.png';
+import ArchishaBiswas from '@assets/team/volunteers/archi-biswas.png';
 import KevinJia from '@assets/team/volunteers/kevin-jia.png';
 import SamuelRatford from '@assets/team/volunteers/samuel-ratford.png';
 
