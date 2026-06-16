@@ -137,6 +137,8 @@ const volunteersConfig: TeamConfig = {
       year: '2nd Year',
       image: AmeliaS
 
+    }
+
     // { name: '',
     //   roles: [''],
     //   course: '',
