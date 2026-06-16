@@ -10,6 +10,10 @@ import Sorrel from '@assets/team/volunteers/sorrel.png';
 import SurenZarei from '@assets/team/volunteers/suren-zarei.webp';
 import EmilyKrickhan from '@assets/team/volunteers/emily-krickhan.png';
 import JosephLawler from '@assets/team/volunteers/joseph-lawler.png';
+import AlfieGiffen from '@assets/team/volunteers/alfie-giffen.png';
+import ArchishaBiswas from '@assets/team/volunteers/archisha-biswas.png';
+import KevinJia from '@assets/team/volunteers/kevin-jia.png';
+import SamuelRatford from '@assets/team/volunteers/samuel-ratford.png';
 
 const volunteersConfig: TeamConfig = {
   team: [
@@ -89,7 +93,34 @@ const volunteersConfig: TeamConfig = {
       year: '1st Year',
       image: JosephLawler
     },
-    
+
+    { name: 'Alfie Giffen',
+      roles: ['Strean'],
+      course: 'Mathematics',
+      year: '2nd Year',
+      image: AlfieGiffen
+    },
+
+    { name: 'Kevin Jia',
+      roles: ['Bar Staff', 'Photography'],
+      course: 'Mathematics',
+      year: '2nd Year',
+      image: KevinJia
+    },
+
+    { name: 'Archisha Biswas',
+      roles: ['Stream'],
+      course: 'Discrete Mathematics',
+      year: '1st Year',
+      image: ArchishaBiswas
+    },
+
+    { name: 'Samuel Ratford',
+      roles: ['Bar Staff', 'Steward'],
+      course: 'Physics',
+      year: '3rd Year',
+      image: SamuelRatford
+    },
 
     // { name: '',
     //   roles: [''],
