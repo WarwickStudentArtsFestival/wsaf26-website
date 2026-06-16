@@ -3,7 +3,7 @@ import IzzyMarzolini from '@assets/team/volunteers/izzy-marzolini.png';
 import EmrysMachnicki from '@assets/team/volunteers/emrys-machnicki.png';
 import JoshHeng from '@assets/team/volunteers/josh-heng.png';
 import ClairevanHeel from '@assets/team/volunteers/claire-van-heel.png';
-import JoelCoulson from '@assets/team/volunteers/joel-coulson.png';
+import JoelCoulon from '@assets/team/volunteers/joel-coulson.png';
 import AliaMeek from '@assets/team/volunteers/alia-meek.png';
 import MakkaPakka from '@assets/team/volunteers/makka-pakka.png';
 import Sorrel from '@assets/team/volunteers/sorrel.png';
@@ -14,6 +14,8 @@ import AlfieGiffen from '@assets/team/volunteers/alfie-giffen.png';
 import ArchishaBiswas from '@assets/team/volunteers/archi-biswas.png';
 import KevinJia from '@assets/team/volunteers/kevin-jia.png';
 import SamuelRatford from '@assets/team/volunteers/samuel-ratford.png';
+import AlejandroDonnaiJessop from '@assets/team/volunteers/alejandro-donnai-jessop.png';
+import AmeliaS from '@assets/team/volunteers/amelia-s.png';
 
 const volunteersConfig: TeamConfig = {
   team: [
@@ -45,11 +47,11 @@ const volunteersConfig: TeamConfig = {
       image: ClairevanHeel
     },
 
-    { name: 'Joel Coulson',
+    { name: 'Joel Coulon',
       roles: ['Stream (senior)'],
       course: 'Adulting',
       year: 'Boomer',
-      image: JoelCoulson
+      image: JoelCoulon
     },
 
     { name: 'Alia Meek',
@@ -95,7 +97,7 @@ const volunteersConfig: TeamConfig = {
     },
 
     { name: 'Alfie Giffen',
-      roles: ['Strean'],
+      roles: ['Stream'],
       course: 'Mathematics',
       year: '2nd Year',
       image: AlfieGiffen
@@ -121,6 +123,19 @@ const volunteersConfig: TeamConfig = {
       year: '3rd Year',
       image: SamuelRatford
     },
+
+    { name: 'Alejandro Donnai Jessop',
+      roles: ['Stream', 'Tech', 'Steward'],
+      course: 'Liberal Arts with Philosophy',
+      year: '1st Year',
+      image: AlejandroDonnaiJessop
+    },
+
+    { name: 'Amelia S',
+      roles: ['Steward', 'Bar Staff'],
+      course: 'Psychology with Education Studies',
+      year: '2nd Year',
+      image: AmeliaS
 
     // { name: '',
     //   roles: [''],
