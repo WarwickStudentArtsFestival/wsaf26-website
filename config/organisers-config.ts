@@ -4,7 +4,6 @@ import SeanScholand from '@/assets/team/organisers/sean-scholand.jpg';
 import NaomiPandey from '@/assets/team/organisers/naomi-pandey.jpg';
 import EllieStocker from '@/assets/team/organisers/ellie-stocker.jpg';
 import CatHibbs from '@/assets/team/organisers/cat-hibbs.png';
-import EthanGraham from '@/assets/team/organisers/ethan-graham.jpg'
 import EdmundNg from '@/assets/team/organisers/edmund-ng.webp'
 import KashishRohit from '@/assets/team/organisers/kashish-rohit.png';
 import GeorgeParrett from '@/assets/team/organisers/george-parrett.jpg';
@@ -44,13 +43,6 @@ const organisersConfig: TeamConfig = {
       course: 'Civil Engineering',
       year: '4th Year',
       image: CatHibbs
-    },
-
-    { name: 'Ethan Graham',
-      roles: ['Bar Supervisor'],
-      course: 'Mechanical Engineering',
-      year: ' Alumni',
-      image: EthanGraham
     },
 
     { name: 'Edmund Ng',

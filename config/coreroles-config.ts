@@ -18,6 +18,7 @@ import OliverSmith from '@assets/team/coreteam/oliver-smith.png'
 import ReubenJames from '@assets/team/coreteam/Reuben_james.jpeg'
 import MattAdcock from '@assets/team/coreteam/matt-adcock.jpg'
 import RebeccaFulford from '@assets/team/coreteam/rebecca_fulford.png'
+import EthanGraham from '@assets/team/coreteam/ethan-graham.jpg'
 
 const corerolesConfig: TeamConfig = {
   team: [
@@ -29,21 +30,21 @@ const corerolesConfig: TeamConfig = {
     },
 
     { name: 'Stan Simmons',
-      roles: ['FAB Terrace VTM'],
+      roles: ['FAB Terrace VTM', 'Technical Supervisor'],
       course: 'Mathematics',
       year: '3rd Year',
       image: StanSimmons
     },
 
     { name: 'Abi Lowrie',
-      roles: ['Head of Catering'],
+      roles: ['Head of Catering', 'Bar Supervisor', 'Volunteers Assistant'],
       course: 'Cyber Security',
       year: '3rd Year',
       image: AbiLowrie
     },
 
     { name: 'Rebecca Fulford',
-      roles: ['Head of Catering'],
+      roles: ['Head of Catering', 'Deputy Head of Welfare', 'Volunteers Assistant'],
       course: 'GSD',
       year: '3rd Year',
       image: RebeccaFulford
@@ -57,14 +58,14 @@ const corerolesConfig: TeamConfig = {
     },
 
     { name: 'Alexei Plumridge Milsom',
-      roles: ['Gallery VM, Head of Photography'],
+      roles: ['Gallery VM', 'Head of Photography', 'Assistant Welfare', 'Assistant Logistics Coordinator'],
       course: 'English Literature & Theatre',
       year: '2nd Year',
       image: AlexeiPlumridgeMilsom
     },
 
     { name: 'Michal Matusz',
-      roles: ['Artist Liason'],
+      roles: ['Artist & Music Liason', 'Welfare Officer', 'Logistics Coordinator', 'Deputy Head of Welfare', 'Deputy Volunteers Coordinator'],
       course: 'Theatre & Performance',
       year: '3rd Year',
       image: MichalMatusz
@@ -78,7 +79,7 @@ const corerolesConfig: TeamConfig = {
     },
 
     { name: 'Caleb Tan',
-      roles: ['Theatre VM'],
+      roles: ['Theatres VM'],
       course: 'History & Politics',
       year: '2nd Year',
       image: CalebTan 
@@ -106,7 +107,7 @@ const corerolesConfig: TeamConfig = {
     },
 
     { name: 'Alasdair King',
-      roles: ['Wolf Stage VM'],
+      roles: ['Head Venue Manager'],
       course: 'History',
       year: '3rd Year',
       image: AlasdairKing
@@ -120,21 +121,21 @@ const corerolesConfig: TeamConfig = {
     },
 
     { name: 'Sod Guru Murthy',
-      roles: ['Main Stage VTM'],
+      roles: ['Wolf Stage VTM'],
       course: 'Mathematics',
       year: '2nd Year',
       image: SiddharthGuruMurthy
     },
 
     { name: 'Lulu Smith',
-      roles: ['Wolf Stage VM'],
+      roles: ['Head Venue Manager'],
       course: 'History',
       year: '2nd Year',
       image: LuluSmith
     },
 
     { name: 'Dallon Costello',
-      roles: ['Cinema VM'],
+      roles: ['Cinema VM', 'Bar Supervisor'],
       course: 'Spanish, Italian, & Linguistics',
       year: '4th Year',
       image: DallonCostello
@@ -154,8 +155,15 @@ const corerolesConfig: TeamConfig = {
       image: MattAdcock
     },
 
+        { name: 'Ethan Graham',
+      roles: ['Bar Manager'],
+      course: 'Mechanical Engineering',
+      year: ' Alumni',
+      image: EthanGraham
+    },
+
     { name: 'Alex Morrison',
-      roles: ['Main Stage VM'], //assistant
+      roles: ['Wolf Stage VM'], //assistant
       course: 'History & Politics',
       year: '3rd Year',
       //image: AlexMorrison

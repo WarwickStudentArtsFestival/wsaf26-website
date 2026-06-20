@@ -3,7 +3,7 @@ import IzzyMarzolini from '@assets/team/volunteers/izzy-marzolini.png';
 import EmrysMachnicki from '@assets/team/volunteers/emrys-machnicki.png';
 import JoshHeng from '@assets/team/volunteers/josh-heng.png';
 import ClairevanHeel from '@assets/team/volunteers/claire-van-heel.png';
-import JoelCoulon from '@assets/team/volunteers/joel-coulson.png';
+import JoelCoulon from '@assets/team/volunteers/joel-coulon.png';
 import AliaMeek from '@assets/team/volunteers/alia-meek.png';
 import MakkaPakka from '@assets/team/volunteers/makka-pakka.png';
 import Sorrel from '@assets/team/volunteers/sorrel.png';

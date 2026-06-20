@@ -75,7 +75,7 @@ const execConfig: TeamConfig = {
 
     {
       name: 'Ash Kayembe',
-      roles: ['Secretary, Main Stage VTM'],
+      roles: ['Secretary', 'Wolf Stage VTM'],
       course: 'Integrated Natural Sciences',
       year: '1st Year',
       image: AshKayembe,
@@ -83,7 +83,7 @@ const execConfig: TeamConfig = {
 
     {
       name: 'Willow Brown',
-      roles: ['Welfare and Equal Opportunities Officer, Bar Manager'],
+      roles: ['Welfare and Equal Opportunities Officer', 'Marketing'],
       course: 'Cyber Security',
       year: '1st Year',
       image: WillowBrown,
@@ -91,7 +91,7 @@ const execConfig: TeamConfig = {
     
     {
       name: 'Ellie Williams',
-      roles: ['Volunteer Coordinator'],
+      roles: ['Volunteer Coordinator', 'Head of Welfare', 'Logistics Coordinator'],
       course: 'Maths and Physics',
       year: '4th Year',
       image: EllieWilliams,
