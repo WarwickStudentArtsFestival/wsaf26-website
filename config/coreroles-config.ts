@@ -120,7 +120,7 @@ const corerolesConfig: TeamConfig = {
       image: OliverSmith
     },
 
-    { name: 'Sod Guru Murthy',
+    { name: 'Sid Guru Murthy',
       roles: ['Wolf Stage VTM'],
       course: 'Mathematics',
       year: '2nd Year',
